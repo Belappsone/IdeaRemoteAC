@@ -51,7 +51,7 @@ struct HomeView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 20)
                     
-                    Text("Connect")
+                    Text("Connect".localizable)
                         .foregroundStyle(.white)
                 }
                 .padding(.horizontal)
@@ -92,7 +92,7 @@ struct HomeView: View {
                                     .font(.system(size: 67, weight: .bold))
                                     .padding(.top, -10)
                                 
-                                Text("Celsius")
+                                Text("Celsius".localizable)
                                     .font(.system(size: 15, weight: .semibold))
                                     .foregroundStyle(.labelsSecondary.opacity(0.6))
                                     .padding(.top, -34)
@@ -152,7 +152,7 @@ struct HomeView: View {
     
     func fanSpeed() -> some View {
         VStack(spacing: 8) {
-            Text("Fan Speed")
+            Text("Fan Speed".localizable)
                 .foregroundStyle(.labelsSecondary.opacity(0.3))
                 .font(.system(size: 20, weight: .semibold))
             
@@ -176,7 +176,7 @@ struct HomeView: View {
     
     func otherView() -> some View {
         VStack(spacing: 8) {
-            Text("Other")
+            Text("Other".localizable)
                 .foregroundStyle(.labelsSecondary.opacity(0.3))
                 .font(.system(size: 20, weight: .semibold))
                 .padding(.bottom, 8)

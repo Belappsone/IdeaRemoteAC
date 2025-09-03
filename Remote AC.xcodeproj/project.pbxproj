@@ -36,11 +36,27 @@
 		A958D5522E6638800069F3E5 /* SimpleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5512E6638800069F3E5 /* SimpleViewModel.swift */; };
 		A958D5542E6639910069F3E5 /* CheckBoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5532E6639910069F3E5 /* CheckBoxViewModel.swift */; };
 		A958D5572E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5562E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift */; };
+		A958D55A2E66AEBF0069F3E5 /* AdaptyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5592E66AEBF0069F3E5 /* AdaptyManager.swift */; };
+		A958D55F2E66AF420069F3E5 /* AdaptyPaywallKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D55E2E66AF420069F3E5 /* AdaptyPaywallKeys.swift */; };
+		A958D5612E66B01F0069F3E5 /* AdaptyPaywallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5602E66B01F0069F3E5 /* AdaptyPaywallModel.swift */; };
+		A958D5632E66B0250069F3E5 /* AdaptyReviewPaywalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5622E66B0250069F3E5 /* AdaptyReviewPaywalls.swift */; };
+		A958D5652E66B0F70069F3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5642E66B0F70069F3E5 /* AppDelegate.swift */; };
+		A958D5682E66B1190069F3E5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5672E66B1190069F3E5 /* NotificationManager.swift */; };
+		A958D56B2E66B13B0069F3E5 /* AttManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D56A2E66B13B0069F3E5 /* AttManager.swift */; };
+		A958D56E2E66B1790069F3E5 /* SkarbSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A958D56D2E66B1790069F3E5 /* SkarbSDK */; };
+		A958D5722E66B21C0069F3E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A958D5702E66B21C0069F3E5 /* Localizable.strings */; };
+		A958D5752E66B3630069F3E5 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5742E66B3630069F3E5 /* CommentView.swift */; };
+		A958D5792E66BBA90069F3E5 /* MainPriceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D5782E66BBA90069F3E5 /* MainPriceItemView.swift */; };
+		A958D57D2E66C0AD0069F3E5 /* AppCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958D57C2E66C0AD0069F3E5 /* AppCache.swift */; };
 		A95B45942E59E30F0086E21A /* OtherButtonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B45932E59E30F0086E21A /* OtherButtonItemView.swift */; };
 		A95B45972E59E32A0086E21A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B45962E59E32A0086E21A /* HomeModel.swift */; };
 		A95B459A2E5A01E70086E21A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B45992E5A01E70086E21A /* HomeViewModel.swift */; };
 		A95B459C2E5A022A0086E21A /* FanSpeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */; };
 		A95B459E2E5A04AE0086E21A /* TemperatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */; };
+		A97868042E6759E900BBA0F4 /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = A97868032E6759E900BBA0F4 /* Adapty */; };
+		A97868072E681C4300BBA0F4 /* AdMobInterstitialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97868062E681C4300BBA0F4 /* AdMobInterstitialManager.swift */; };
+		A97868092E681C5100BBA0F4 /* AdMobOpenAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97868082E681C5100BBA0F4 /* AdMobOpenAppManager.swift */; };
+		A978680C2E681C7E00BBA0F4 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A978680B2E681C7E00BBA0F4 /* GoogleMobileAds */; };
 		A986529E2E560C0600A061DE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986529D2E560C0600A061DE /* SplashView.swift */; };
 		A98652A12E560C2B00A061DE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98652A02E560C2B00A061DE /* OnboardingView.swift */; };
 		A98652A52E560CA100A061DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98652A42E560CA100A061DE /* SettingsView.swift */; };
@@ -100,11 +116,27 @@
 		A958D5512E6638800069F3E5 /* SimpleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewModel.swift; sourceTree = "<group>"; };
 		A958D5532E6639910069F3E5 /* CheckBoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxViewModel.swift; sourceTree = "<group>"; };
 		A958D5562E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOfferBannerViewModel.swift; sourceTree = "<group>"; };
+		A958D5592E66AEBF0069F3E5 /* AdaptyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyManager.swift; sourceTree = "<group>"; };
+		A958D55E2E66AF420069F3E5 /* AdaptyPaywallKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyPaywallKeys.swift; sourceTree = "<group>"; };
+		A958D5602E66B01F0069F3E5 /* AdaptyPaywallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyPaywallModel.swift; sourceTree = "<group>"; };
+		A958D5622E66B0250069F3E5 /* AdaptyReviewPaywalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyReviewPaywalls.swift; sourceTree = "<group>"; };
+		A958D5642E66B0F70069F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A958D5672E66B1190069F3E5 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A958D56A2E66B13B0069F3E5 /* AttManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttManager.swift; sourceTree = "<group>"; };
+		A958D5712E66B21C0069F3E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A958D5742E66B3630069F3E5 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		A958D5762E66B66A0069F3E5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A958D5782E66BBA90069F3E5 /* MainPriceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPriceItemView.swift; sourceTree = "<group>"; };
+		A958D57A2E66BFF10069F3E5 /* Remote AC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remote AC.entitlements"; sourceTree = "<group>"; };
+		A958D57C2E66C0AD0069F3E5 /* AppCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCache.swift; sourceTree = "<group>"; };
+		A958D5852E6743F20069F3E5 /* StoreKit.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKit.storekit; sourceTree = "<group>"; };
 		A95B45932E59E30F0086E21A /* OtherButtonItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonItemView.swift; sourceTree = "<group>"; };
 		A95B45962E59E32A0086E21A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		A95B45992E5A01E70086E21A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSpeedItemView.swift; sourceTree = "<group>"; };
 		A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureItemView.swift; sourceTree = "<group>"; };
+		A97868062E681C4300BBA0F4 /* AdMobInterstitialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobInterstitialManager.swift; sourceTree = "<group>"; };
+		A97868082E681C5100BBA0F4 /* AdMobOpenAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobOpenAppManager.swift; sourceTree = "<group>"; };
 		A986529D2E560C0600A061DE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		A98652A02E560C2B00A061DE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A98652A42E560CA100A061DE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -142,7 +174,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A978680C2E681C7E00BBA0F4 /* GoogleMobileAds in Frameworks */,
 				A958D5222E6432520069F3E5 /* PopupView in Frameworks */,
+				A958D56E2E66B1790069F3E5 /* SkarbSDK in Frameworks */,
+				A97868042E6759E900BBA0F4 /* Adapty in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +263,6 @@
 		A958D50B2E620F9B0069F3E5 /* SimpleComment */ = {
 			isa = PBXGroup;
 			children = (
-				A958D50E2E620FAD0069F3E5 /* Model */,
 				A958D50D2E620FA80069F3E5 /* ViewModel */,
 				A958D50C2E620FA20069F3E5 /* View */,
 			);
@@ -249,13 +283,6 @@
 				A958D5382E6496770069F3E5 /* SimpleCommentViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		A958D50E2E620FAD0069F3E5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		A958D5112E62DAE10069F3E5 /* Main */ = {
@@ -365,6 +392,7 @@
 		A958D54B2E66354B0069F3E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A958D5772E66BBA50069F3E5 /* Views */,
 				A958D5172E62DB220069F3E5 /* MainView.swift */,
 			);
 			path = View;
@@ -385,6 +413,66 @@
 				A958D5562E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift */,
 			);
 			path = SettingsOfferBanner;
+			sourceTree = "<group>";
+		};
+		A958D5582E66AEB10069F3E5 /* AdaptyManager */ = {
+			isa = PBXGroup;
+			children = (
+				A958D5592E66AEBF0069F3E5 /* AdaptyManager.swift */,
+				A958D55E2E66AF420069F3E5 /* AdaptyPaywallKeys.swift */,
+				A958D5602E66B01F0069F3E5 /* AdaptyPaywallModel.swift */,
+				A958D5622E66B0250069F3E5 /* AdaptyReviewPaywalls.swift */,
+				A958D5852E6743F20069F3E5 /* StoreKit.storekit */,
+			);
+			path = AdaptyManager;
+			sourceTree = "<group>";
+		};
+		A958D5662E66B1160069F3E5 /* NotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				A958D5672E66B1190069F3E5 /* NotificationManager.swift */,
+			);
+			path = NotificationManager;
+			sourceTree = "<group>";
+		};
+		A958D5692E66B1360069F3E5 /* AttManager */ = {
+			isa = PBXGroup;
+			children = (
+				A958D56A2E66B13B0069F3E5 /* AttManager.swift */,
+			);
+			path = AttManager;
+			sourceTree = "<group>";
+		};
+		A958D56F2E66B2120069F3E5 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A958D5702E66B21C0069F3E5 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		A958D5732E66B35E0069F3E5 /* CommentView */ = {
+			isa = PBXGroup;
+			children = (
+				A958D5742E66B3630069F3E5 /* CommentView.swift */,
+			);
+			path = CommentView;
+			sourceTree = "<group>";
+		};
+		A958D5772E66BBA50069F3E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A958D5782E66BBA90069F3E5 /* MainPriceItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A958D57B2E66C0A50069F3E5 /* AppCache */ = {
+			isa = PBXGroup;
+			children = (
+				A958D57C2E66C0AD0069F3E5 /* AppCache.swift */,
+			);
+			path = AppCache;
 			sourceTree = "<group>";
 		};
 		A95B45922E59E2FE0086E21A /* Views */ = {
@@ -412,6 +500,15 @@
 				A95B45992E5A01E70086E21A /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A97868052E681C3900BBA0F4 /* AdPart */ = {
+			isa = PBXGroup;
+			children = (
+				A97868062E681C4300BBA0F4 /* AdMobInterstitialManager.swift */,
+				A97868082E681C5100BBA0F4 /* AdMobOpenAppManager.swift */,
+			);
+			path = AdPart;
 			sourceTree = "<group>";
 		};
 		A986529C2E560BFB00A061DE /* Splash */ = {
@@ -528,6 +625,7 @@
 		A98652C82E58BB2000A061DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A958D5732E66B35E0069F3E5 /* CommentView */,
 				A98652C92E58BB2B00A061DE /* Pages */,
 			);
 			path = Views;
@@ -606,6 +704,7 @@
 		A989F43A2E4BCF660015C072 /* Remote AC */ = {
 			isa = PBXGroup;
 			children = (
+				A958D57A2E66BFF10069F3E5 /* Remote AC.entitlements */,
 				A989F45D2E520AE00015C072 /* Remote-AC-Info.plist */,
 				A989F43E2E4BD0180015C072 /* App */,
 				A989F43F2E4BD0350015C072 /* Managers */,
@@ -622,6 +721,7 @@
 				A989F4392E4BCF660015C072 /* Remote_ACApp.swift */,
 				A958D5322E6493180069F3E5 /* AppView.swift */,
 				A958D5342E6493280069F3E5 /* AppRouter.swift */,
+				A958D5642E66B0F70069F3E5 /* AppDelegate.swift */,
 				A958D53A2E6496DE0069F3E5 /* AppConfig.swift */,
 			);
 			path = App;
@@ -630,6 +730,11 @@
 		A989F43F2E4BD0350015C072 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A97868052E681C3900BBA0F4 /* AdPart */,
+				A958D57B2E66C0A50069F3E5 /* AppCache */,
+				A958D5692E66B1360069F3E5 /* AttManager */,
+				A958D5662E66B1160069F3E5 /* NotificationManager */,
+				A958D5582E66AEB10069F3E5 /* AdaptyManager */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -660,6 +765,7 @@
 		A989F4442E4BD0930015C072 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A958D56F2E66B2120069F3E5 /* Localizable */,
 				A98652AD2E56108700A061DE /* Font */,
 				A989F4372E4BCF660015C072 /* Assets.xcassets */,
 			);
@@ -708,6 +814,9 @@
 			name = "Remote AC";
 			packageProductDependencies = (
 				A958D5212E6432520069F3E5 /* PopupView */,
+				A958D56D2E66B1790069F3E5 /* SkarbSDK */,
+				A97868032E6759E900BBA0F4 /* Adapty */,
+				A978680B2E681C7E00BBA0F4 /* GoogleMobileAds */,
 			);
 			productName = "Remote AC";
 			productReference = A989F4292E4BCF400015C072 /* Remote AC.app */;
@@ -734,11 +843,15 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = A989F4202E4BCF400015C072;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				A958D5202E6432520069F3E5 /* XCRemoteSwiftPackageReference "PopupView" */,
+				A958D56C2E66B1790069F3E5 /* XCRemoteSwiftPackageReference "SkarbSDK-iOS" */,
+				A97868022E6759E900BBA0F4 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */,
+				A978680A2E681C7E00BBA0F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A989F42A2E4BCF400015C072 /* Products */;
@@ -755,6 +868,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A958D5722E66B21C0069F3E5 /* Localizable.strings in Resources */,
 				A98652B02E5610E000A061DE /* SF-Pro.ttf in Resources */,
 				A989F43B2E4BCF660015C072 /* Assets.xcassets in Resources */,
 				A98652D32E58D2AF00A061DE /* SF-Pro-Display-Bold.otf in Resources */,
@@ -774,6 +888,7 @@
 				A958D54A2E662EFE0069F3E5 /* OfferViewModel.swift in Sources */,
 				A989F4432E4BD0650015C072 /* HomeView.swift in Sources */,
 				A958D5572E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift in Sources */,
+				A958D5632E66B0250069F3E5 /* AdaptyReviewPaywalls.swift in Sources */,
 				A958D5312E64927D0069F3E5 /* SearchModel.swift in Sources */,
 				A958D5332E6493180069F3E5 /* AppView.swift in Sources */,
 				A958D5102E620FB90069F3E5 /* SimpleCommentView.swift in Sources */,
@@ -783,12 +898,16 @@
 				A98652CB2E58BB3900A061DE /* OnboardingWelcomePage.swift in Sources */,
 				A958D5272E6436280069F3E5 /* InstructionView.swift in Sources */,
 				A958D5472E662ED80069F3E5 /* OfferModel.swift in Sources */,
+				A958D56B2E66B13B0069F3E5 /* AttManager.swift in Sources */,
 				A958D4B62E5F837B0069F3E5 /* ButtonTemperatureView.swift in Sources */,
 				A958D5252E6436130069F3E5 /* InstructionItemView.swift in Sources */,
 				A958D5502E6636A40069F3E5 /* SwitcherViewModel.swift in Sources */,
 				A98652A82E560CBD00A061DE /* OfferView.swift in Sources */,
 				A958D54E2E6635560069F3E5 /* MainViewModel.swift in Sources */,
+				A958D55F2E66AF420069F3E5 /* AdaptyPaywallKeys.swift in Sources */,
 				A98652C52E58BAA600A061DE /* SnowflakeLoader.swift in Sources */,
+				A97868072E681C4300BBA0F4 /* AdMobInterstitialManager.swift in Sources */,
+				A958D5652E66B0F70069F3E5 /* AppDelegate.swift in Sources */,
 				A98652AC2E56107300A061DE /* Font+Extension.swift in Sources */,
 				A98652A52E560CA100A061DE /* SettingsView.swift in Sources */,
 				A958D5392E6496770069F3E5 /* SimpleCommentViewModel.swift in Sources */,
@@ -797,13 +916,18 @@
 				A98652D52E58D4B500A061DE /* Blur.swift in Sources */,
 				A95B459A2E5A01E70086E21A /* HomeViewModel.swift in Sources */,
 				A98652DB2E59ACC200A061DE /* SettingsItemView.swift in Sources */,
+				A958D5612E66B01F0069F3E5 /* AdaptyPaywallModel.swift in Sources */,
 				A958D52E2E6492670069F3E5 /* SearchItemView.swift in Sources */,
 				A958D5022E620A830069F3E5 /* CheckBoxView.swift in Sources */,
 				A95B45942E59E30F0086E21A /* OtherButtonItemView.swift in Sources */,
+				A958D57D2E66C0AD0069F3E5 /* AppCache.swift in Sources */,
 				A98652B62E5614CC00A061DE /* OfferTimeView.swift in Sources */,
 				A989F4492E4BD1B30015C072 /* View+Extension.swift in Sources */,
+				A958D5792E66BBA90069F3E5 /* MainPriceItemView.swift in Sources */,
 				A958D5072E620F2F0069F3E5 /* CheckBoxModel.swift in Sources */,
 				A958D50A2E620F780069F3E5 /* CheckBoxItemView.swift in Sources */,
+				A958D5682E66B1190069F3E5 /* NotificationManager.swift in Sources */,
+				A97868092E681C5100BBA0F4 /* AdMobOpenAppManager.swift in Sources */,
 				A98652B82E56EA5000A061DE /* OfferTrialView.swift in Sources */,
 				A958D5182E62DB220069F3E5 /* MainView.swift in Sources */,
 				A958D5292E6436AE0069F3E5 /* ErrorsSheetView.swift in Sources */,
@@ -816,6 +940,7 @@
 				A98652D12E58BD0D00A061DE /* OnboardingUserReviewPage.swift in Sources */,
 				A989F4472E4BD12E0015C072 /* ButtonImage.swift in Sources */,
 				A98652D72E58D5C000A061DE /* ContainerInfoView.swift in Sources */,
+				A958D5752E66B3630069F3E5 /* CommentView.swift in Sources */,
 				A95B459E2E5A04AE0086E21A /* TemperatureItemView.swift in Sources */,
 				A986529E2E560C0600A061DE /* SplashView.swift in Sources */,
 				A958D51F2E6359350069F3E5 /* SearchView.swift in Sources */,
@@ -825,11 +950,24 @@
 				A98652AA2E560EAF00A061DE /* InfoView.swift in Sources */,
 				A958D5542E6639910069F3E5 /* CheckBoxViewModel.swift in Sources */,
 				A98652A12E560C2B00A061DE /* OnboardingView.swift in Sources */,
+				A958D55A2E66AEBF0069F3E5 /* AdaptyManager.swift in Sources */,
 				A98652E32E59B72D00A061DE /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A958D5702E66B21C0069F3E5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958D5712E66B21C0069F3E5 /* en */,
+				A958D5762E66B66A0069F3E5 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A989F4322E4BCF410015C072 /* Debug */ = {
@@ -837,6 +975,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -901,6 +1040,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -959,9 +1099,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Remote AC/Remote AC.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9T9DS6TVPS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Remote-AC-Info.plist";
@@ -976,8 +1117,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Remote-AC";
+				PRODUCT_BUNDLE_IDENTIFIER = idea.remoteac.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -992,9 +1134,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Remote AC/Remote AC.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9T9DS6TVPS;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Remote-AC-Info.plist";
@@ -1009,8 +1152,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Remote-AC";
+				PRODUCT_BUNDLE_IDENTIFIER = idea.remoteac.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1051,6 +1195,30 @@
 				minimumVersion = 4.1.11;
 			};
 		};
+		A958D56C2E66B1790069F3E5 /* XCRemoteSwiftPackageReference "SkarbSDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bitlica/SkarbSDK-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.25;
+			};
+		};
+		A97868022E6759E900BBA0F4 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adaptyteam/AdaptySDK-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		A978680A2E681C7E00BBA0F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1058,6 +1226,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A958D5202E6432520069F3E5 /* XCRemoteSwiftPackageReference "PopupView" */;
 			productName = PopupView;
+		};
+		A958D56D2E66B1790069F3E5 /* SkarbSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A958D56C2E66B1790069F3E5 /* XCRemoteSwiftPackageReference "SkarbSDK-iOS" */;
+			productName = SkarbSDK;
+		};
+		A97868032E6759E900BBA0F4 /* Adapty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97868022E6759E900BBA0F4 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */;
+			productName = Adapty;
+		};
+		A978680B2E681C7E00BBA0F4 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A978680A2E681C7E00BBA0F4 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

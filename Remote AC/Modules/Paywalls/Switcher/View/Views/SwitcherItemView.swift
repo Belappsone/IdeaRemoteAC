@@ -10,14 +10,23 @@ struct SwitcherItemView: View {
             .frame(height: 54)
             .overlay {
                 HStack {
-                    Text("3 days free trial")
+                    Text("Three days free trial".localizable)
                         .foregroundStyle(.black)
                         .font(.system(size: 17, weight: .semibold))
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.5)
                     
-                    Toggle(isOn: $isOn) {}
+                    Spacer()
+                    
+                    Toggle(isOn: $isOn) { }
                     .tint(.colorBlue)
+                    .frame(width: 50)
                 }
                 .padding(.horizontal)
             }
     }
+}
+
+#Preview {
+    SwitcherItemView(isOn: .constant(true))
 }

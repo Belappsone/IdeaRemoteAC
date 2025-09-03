@@ -24,7 +24,7 @@ struct SearchView: View {
                     }
                 }
                 .overlay {
-                    Text("Affordable air conditioners")
+                    Text("Affordable air conditioners".localizable)
                         .foregroundStyle(.black)
                         .font(.system(size: 17, weight: .semibold))
                         .minimumScaleFactor(0.5)
@@ -35,7 +35,7 @@ struct SearchView: View {
                 if !viewModel.showLoading {
                     if viewModel.selectedItem != nil {
                         ScrollView {
-                            Text("Connected")
+                            Text("Connected".localizable)
                                 .font(.system(size: 15, weight: .semibold))
                                 .foregroundStyle(.labelsSecondary.opacity(0.3))
                                 .multilineTextAlignment(.center)
@@ -43,7 +43,7 @@ struct SearchView: View {
                             
                             SearchItemView(item: viewModel.selectedItem ?? .init(name: "Wrong")) {}
                             
-                            Text("Found devices")
+                            Text("Found devices".localizable)
                                 .font(.system(size: 15, weight: .semibold))
                                 .foregroundStyle(.labelsSecondary.opacity(0.3))
                                 .multilineTextAlignment(.center)
@@ -81,7 +81,7 @@ struct SearchView: View {
                     
                     Spacer()
                     
-                    GradientButton(text: "Repeat search", size: 50) {
+                    GradientButton(text: "Repeat search".localizable, size: 50) {
                         viewModel.showLoading = true
                     }
                     .padding(.horizontal)
@@ -100,7 +100,7 @@ struct SearchView: View {
                         .foregroundStyle(.black)
                         .font(.system(size: 28, weight: .bold))
                     
-                    Text("Device Search...")
+                    Text("Device Search...".localizable)
                         .foregroundStyle(.labelsSecondary.opacity(0.6))
                         .font(.system(size: 17, weight: .regular))
                         .padding(.top, -8)

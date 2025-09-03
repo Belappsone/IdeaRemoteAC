@@ -28,19 +28,19 @@ struct ErrorsSheetView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 56, height: 56)
                 
-                Text(model.title)
+                Text(model.title.localizable)
                     .foregroundStyle(.black)
                     .font(.system(size: 20, weight: .semibold))
                     .multilineTextAlignment(.center)
                     .padding(.top, 12)
                 
-                Text(model.description)
+                Text(model.description.localizable)
                     .foregroundStyle(.labelsSecondary.opacity(0.6))
                     .font(.system(size: 17, weight: .regular))
                     .multilineTextAlignment(.center)
                     .padding(.top, 4)
                 
-                GradientButton(text: "Retry", size: 50) {
+                GradientButton(text: "Retry".localizable, size: 50) {
                     
                 }
                 .padding(.top)

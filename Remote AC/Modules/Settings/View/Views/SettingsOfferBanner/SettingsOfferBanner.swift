@@ -42,18 +42,18 @@ struct SettingsOfferBanner: View {
                             .padding(.top, 10)
                         }
                         
-                        Text(state == .trial ? "3 FREE Days" : "50% OFF")
+                        Text(state == .trial ? "3 FREE Days".localizable : "50% OFF".localizable)
                             .foregroundStyle(
                                 LinearGradient(colors: [.gradientPink, .gradientYellow], startPoint: .leading, endPoint: .trailing)
                             )
                             .font(.system(size: 36, weight: .bold))
                         
-                        Text("limited offer!")
+                        Text("limited offer!".localizable)
                             .foregroundStyle(.black)
                             .font(.system(size: 17, weight: .semibold))
                             .padding(.bottom)
                         
-                        GradientButton(text: "Try it now!", size: 50) {
+                        GradientButton(text: "Try it now!".localizable, size: 50) {
                             action()
                         }
                         .padding(.horizontal)
@@ -68,7 +68,7 @@ struct SettingsOfferBanner: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 114, height: 114)
                         
-                        Text("Premium activated!")
+                        Text("Premium activated!".localizable)
                             .foregroundStyle(
                                 LinearGradient(colors: [.gradientPink, .gradientYellow], startPoint: .leading, endPoint: .trailing)
                             )
@@ -77,7 +77,7 @@ struct SettingsOfferBanner: View {
                         HStack {
                             Spacer()
                             
-                            Text("Thank you for your trust!")
+                            Text("Thank you for your trust!".localizable)
                                 .foregroundStyle(.black)
                                 .font(.system(size: 13, weight: .regular))
                                 .italic()

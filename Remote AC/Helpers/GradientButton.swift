@@ -3,6 +3,7 @@ import SwiftUI
 struct GradientButton: View {
     
     var text: String
+    var sizeFont: CGFloat = 17
     var size: CGFloat
     var action: () -> Void
     
@@ -18,7 +19,7 @@ struct GradientButton: View {
                 .overlay {
                     Text(text)
                         .foregroundStyle(.white)
-                        .font(.system(size: 17, weight: .semibold))
+                        .font(.system(size: sizeFont, weight: .semibold))
                 }
         }
         .frame(height: size)

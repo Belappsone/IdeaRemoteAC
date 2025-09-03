@@ -25,7 +25,7 @@ struct ContainerInfoView: View {
                 .padding(.horizontal)
                 .padding(.top, 1)
             
-            GradientButton(text: "Continue", size: 50) {
+            GradientButton(text: "Continue".localizable, size: 50) {
                 buttonAction()
             }
             .padding(.horizontal)

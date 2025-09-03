@@ -8,8 +8,32 @@ struct AppView: View {
         NavigationStack(path: $router.path) {
             SplashView()
                 .onAppear() {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                        router.showOnboarding()
+                    Task {
+                        let openAppManager = AdMobOpenAppManager.shared
+                        
+                        await AdaptyManager.shared.configure()
+                        await AdaptyManager.shared.checkSubscription()
+                        await openAppManager.configure()
+                        
+                        if AppCache.showOffer && !AdaptyManager.isSubscribeAdaptyActive {
+                            AppCache.showOffer = false
+                            router.showOffer(type: .push)
+                        } else if AppCache.countLaunch == 1 {
+                            router.showOnboarding()
+                        } else {
+                            if AdaptyManager.isSubscribeAdaptyActive {
+                                router.showMain()
+                            } else {
+                                if openAppManager.isReady {
+                                    AdMobOpenAppManager.shared.completionResult = {
+                                        router.showPaywall(type: .onboarding)
+                                    }
+                                    AdMobOpenAppManager.shared.showOpenApp()
+                                } else {
+                                    router.showPaywall(type: .onboarding)
+                                }
+                            }
+                        }
                     }
                 }
                 .navigationDestination(for: Screen.self) { item in
@@ -22,6 +46,29 @@ struct AppView: View {
                         OfferView(viewModel: .init(showType: type))
                     case .settings:
                         SettingsView()
+                    case .paywall(let type):
+                        switch AdaptyPlacment.mainPlacementIs {
+                        case .simplecomment:
+                            SimpleCommentView(viewModel: .init(showType: type))
+                                .frame(width: UIScreen.main.bounds.width)
+                                .id(4)
+                        case .checkbox:
+                            CheckBoxView(viewModel: .init(showType: type))
+                                .frame(width: UIScreen.main.bounds.width)
+                                .id(4)
+                        case .simple:
+                            SimpleView(viewModel: .init(showType: type))
+                                .frame(width: UIScreen.main.bounds.width)
+                                .id(4)
+                        case .switcher:
+                            SwitcherView(viewModel: .init(showType: type))
+                                .frame(width: UIScreen.main.bounds.width)
+                                .id(4)
+                        default:
+                            MainView(viewModel: .init(showType: type))
+                                .frame(width: UIScreen.main.bounds.width)
+                                .id(4)
+                        }
                     default: SplashView()
                     }
                 }

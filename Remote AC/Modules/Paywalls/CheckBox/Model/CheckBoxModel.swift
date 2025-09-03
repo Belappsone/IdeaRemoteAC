@@ -6,7 +6,7 @@ enum CheckBoxType {
     case energy
     case updates
     case freeDays
-    case premium
+    case premium(price: String)
     
     var icon: String {
         switch self {
@@ -28,34 +28,34 @@ enum CheckBoxType {
     var title: String {
         switch self {
         case .interface:
-            return "Intuitive interface"
+            return "Intuitive interface".localizable
         case .remote:
-            return "Remote control"
+            return "Remote control".localizable
         case .energy:
-            return "Energy efficiency"
+            return "Energy efficiency".localizable
         case .updates:
-            return "Updates and improvements"
+            return "Updates and improvements".localizable
         case .freeDays:
-            return "Three days free"
+            return "Three days free".localizable
         case .premium:
-            return "Premium Comfort"
+            return "Premium Comfort".localizable
         }
     }
     
     var description: String {
         switch self {
         case .interface:
-            return "Control your AC in just 2 taps - simple as texting!"
+            return "Control your AC in just 2 taps - simple as texting!".localizable
         case .remote:
-            return "Adjust temperature from anywhere."
+            return "Adjust temperature from anywhere.".localizable
         case .energy:
-            return "Smart energy savings"
+            return "Smart energy savings".localizable
         case .updates:
-            return "We make the app better every 2 weeks"
+            return "We make the app better every 2 weeks".localizable
         case .freeDays:
-            return "Try all premium features risk-free"
-        case .premium:
-            return "Only $4.99/week. Cancel anytime."
+            return "Try all premium features risk-free".localizable
+        case .premium(let price):
+            return "Only %price%/%period%. Cancel anytime.".localizable.replacingOccurrences(of: "%price%/%period%", with: price)
         }
     }
 }

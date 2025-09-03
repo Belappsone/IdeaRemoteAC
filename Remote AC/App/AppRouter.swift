@@ -23,6 +23,10 @@ final class AppRouter: ObservableObject {
         path.append(.settings)
     }
     
+    func showPaywall(type: PaywallShow) {
+        path.append(.paywall(type: type))
+    }
+    
     func pop() {
         path.removeLast()
     }
@@ -34,4 +38,10 @@ enum Screen: Hashable {
     case home
     case offer(type: OfferType)
     case settings
+    case paywall(type: PaywallShow)
+}
+
+enum PaywallShow {
+    case paywall
+    case onboarding
 }

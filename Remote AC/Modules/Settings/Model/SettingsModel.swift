@@ -9,13 +9,13 @@ enum SettingsModel {
     var title: String {
         switch self {
         case .contact:
-           return "Contact Us"
+            return "Contact Us".localizable
         case .privacy:
-            return "Privacy Policy"
+            return "Privacy Policy".localizable
         case .terms:
-            return "Terms of Use"
+            return "Terms of Use".localizable
         case .restore:
-            return "Restore Purchase"
+            return "Restore Purchase".localizable
         }
     }
     

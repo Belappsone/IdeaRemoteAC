@@ -14,7 +14,7 @@ struct OnboardingCompatibilityPage: View {
             VStack {
                 Spacer()
                 
-                ContainerInfoView(title: "UNIVERSAL\nCOMPATIBILITY", subtitle: "Works with 100%\nof AC brands", infoViewAlpha: 0, buttonAction: action, restoreAction: {})
+                ContainerInfoView(title: "UNIVERSAL\nCOMPATIBILITY".localizable, subtitle: "Works with 100%\nof AC brands".localizable, infoViewAlpha: 0, buttonAction: action, restoreAction: {})
                     .padding(.horizontal)
                     .padding(.bottom, 1)
             }

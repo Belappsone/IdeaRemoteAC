@@ -1,0 +1,139 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Special offer for you! Best price! Only right now!";
+
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+"Yearly" = "Yearly";
+"Daily" = "Daily";
+
+"week" = "week";
+"month" = "month";
+"year" = "year";
+"day" = "day";
+
+"Special Offer!🎁" = "Special Offer!🎁";
+"Would you like to receive a special condition?" = "Would you like to receive a special condition?";
+"Get" = "Get";
+"Cancel" = "Cancel";
+
+"Terms" = "Terms";
+"Restore" = "Restore";
+"Privacy" = "Privacy";
+
+"WELCOME\nTO REMOTE AC" = "WELCOME\nTO REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Control your air conditioner\neffortlessly from your smartphone";
+"Continue" = "Continue";
+
+"YOUR FEEDBACK\nMATTERS" = "YOUR FEEDBACK\nMATTERS";
+"Help us improve\nRemote AC for you" = "Help us improve\nRemote AC for you";
+
+"UNIVERSAL\nCOMPATIBILITY" = "UNIVERSAL\nCOMPATIBILITY";
+"Works with 100%\nof AC brands" = "Works with 100%\nof AC brands";
+
+"USER\nREVIEWS" = "USER\nREVIEWS";
+"See what people love\nabout RemoteAC" = "See what people love\nabout RemoteAC";
+
+"Life-changing!" = "Life-changing!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "I got my comfort back in just one week. Now I control my AC without even getting up from the couch!";
+
+"Coolness on demand!" = "Coolness on demand!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "From the first use, I felt the difference. Perfect temperature anywhere in my home!";
+
+"Cool" = "Cool";
+"Heat" = "Heat";
+
+"Eco" = "Eco";
+"Swing" = "Swing";
+"Timer" = "Timer";
+
+"Low" = "Low";
+"Mid" = "Mid";
+"High" = "High";
+
+"Contact Us" = "Contact Us";
+"Privacy Policy" = "Privacy Policy";
+"Terms of Use" = "Terms of Use";
+"Restore Purchase" = "Restore Purchase";
+
+"3 FREE Days" = "3 FREE Days";
+"50% OFF" = "50% OFF";
+"limited offer!" = "limited offer!";
+"Try it now!" = "Try it now!";
+
+"Premium activated!" = "Premium activated!";
+"Thank you for your trust!" = "Thank you for your trust!";
+
+"Other" = "Other";
+"Settings" = "Settings";
+"Connect" = "Connect";
+"Celsius" = "Celsius";
+"Fan Speed" = "Fan Speed";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Turn on the air conditioner";
+"Switch your AC to standby mode using the remote or panel." = "Switch your AC to standby mode using the remote or panel.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Enable Wi-Fi on the AC";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Select your phone’s Wi-Fi";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "On the AC, choose the same Wi-Fi network your phone is connected to.";
+"🔍 4. Connect via the app" = "🔍 4. Connect via the app";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Open the app, tap “Add device”, and follow the steps to connect your AC.";
+
+"Affordable air conditioners" = "Affordable air conditioners";
+"Connected" = "Connected";
+"Found devices" = "Found devices";
+"Repeat search" = "Repeat search";
+"Device Search..." = "Device Search...";
+
+"Retry" = "Retry";
+"We couldn’t find any compatible devices." = "We couldn’t find any compatible devices.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Make sure your AC is powered on and connected to the same Wi-Fi network as your phone.";
+"Couldn’t connect to the device" = "Couldn’t connect to the device";
+"Check your Wi-Fi signal and try again." = "Check your Wi-Fi signal and try again.";
+"No Wi-Fi connection found." = "No Wi-Fi connection found.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Please connect your phone to a Wi-Fi network before continuing.";
+"Can’t connect to the network." = "Can’t connect to the network.";
+"Double-check your Wi-Fi password and try again." = "Double-check your Wi-Fi password and try again.";
+"The device is currently offline." = "The device is currently offline.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Make sure it’s plugged in and connected to Wi-Fi.";
+"Permissions needed." = "Permissions needed.";
+"Allow location and local network access in Settings to find devices nearby." = "Allow location and local network access in Settings to find devices nearby.";
+"Something went wrong." = "Something went wrong.";
+"Please try again later or check your internet connection." = "Please try again later or check your internet connection.";
+"You're offline." = "You're offline.";
+"Please connect to the internet and try again." = "Please connect to the internet and try again.";
+
+"SMART\nCLIMATE CONTROL" = "SMART\nCLIMATE CONTROL";
+"Start using the app with no limits or" = "Start using the app with no limits or";
+"use limited version." = "use limited version.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3-days free and then %price%/%period%. Automatic renewal.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Automatic renewal.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "AC REMOTE\n WITH NO\n LIMITATIONS";
+
+"Cancel anytime with no charges." = "Cancel anytime with no charges.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "AC REMOTE\nWITH NO LIMITATIONS";
+
+"Intuitive interface" = "Intuitive interface";
+"Remote control" = "Remote control";
+"Energy efficiency" = "Energy efficiency";
+"Updates and improvements" = "Updates and improvements";
+"Three days free" = "Three days free";
+"Premium Comfort" = "Premium Comfort";
+"Control your AC in just 2 taps - simple as texting!" = "Control your AC in just 2 taps - simple as texting!";
+"Adjust temperature from anywhere." = "Adjust temperature from anywhere.";
+"Smart energy savings" = "Smart energy savings";
+"We make the app better every 2 weeks" = "We make the app better every 2 weeks";
+"Try all premium features risk-free" = "Try all premium features risk-free";
+"Only %price%/%period%. Cancel anytime." = "Only %price%/%period%. Cancel anytime.";
+"Three days free trial" = "Three days free trial";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "AC REMOTE\nWITH NO\nLIMITATIONS";
+"Most popular" = "Most popular";
+

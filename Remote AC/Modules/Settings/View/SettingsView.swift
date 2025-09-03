@@ -19,7 +19,7 @@ struct SettingsView: View {
                     Spacer()
                 }
                 .overlay {
-                    Text("Settings")
+                    Text("Settings".localizable)
                         .font(.system(size: 17, weight: .semibold))
                         .foregroundStyle(.black)
                     
@@ -36,7 +36,7 @@ struct SettingsView: View {
                             
                 ScrollView {
                     HStack {
-                        Text("Other")
+                        Text("Other".localizable)
                             .foregroundStyle(.labelsSecondary.opacity(0.6))
                             .font(.system(size: 15, weight: .regular))
                         

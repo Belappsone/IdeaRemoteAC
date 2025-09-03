@@ -22,15 +22,15 @@ struct OtherButtonItemView: View {
                 .overlay {
                     switch type {
                     case .eco:
-                        Text("Eco")
+                        Text("Eco".localizable)
                             .foregroundStyle(.green)
                             .font(.system(size: 17, weight: .semibold))
                     case .swing:
-                        Text("Swing")
+                        Text("Swing".localizable)
                             .foregroundStyle(.black)
                             .font(.system(size: 17, weight: .semibold))
                     case .timer:
-                        Text("Timer")
+                        Text("Timer".localizable)
                             .foregroundStyle(.black)
                             .font(.system(size: 17, weight: .semibold))
                     }

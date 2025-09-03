@@ -14,11 +14,11 @@ enum FanSpeedItemType {
     var title: String {
         switch self {
         case .low:
-            return "Low"
+            return "Low".localizable
         case .medium:
-            return "Mid"
+            return "Mid".localizable
         case .high:
-            return "High"
+            return "High".localizable
         }
     }
 }
@@ -30,9 +30,9 @@ enum TemperatureItemType {
     var title: String {
         switch self {
         case .cool:
-            return "Cool"
+            return "Cool".localizable
         case .heat:
-            return "Heat"
+            return "Heat".localizable
         }
     }
     

@@ -15,8 +15,8 @@ struct OnboardingWelcomePage: View {
                 Spacer()
                 
                 ContainerInfoView(
-                    title: "WELCOME\nTO REMOTE AC",
-                    subtitle: "Control your air conditioner\neffortlessly from your smartphone",
+                    title: "WELCOME\nTO REMOTE AC".localizable,
+                    subtitle: "Control your air conditioner\neffortlessly from your smartphone".localizable,
                     infoViewAlpha: 0,
                     buttonAction: action, restoreAction: {})
                 .padding(.horizontal)

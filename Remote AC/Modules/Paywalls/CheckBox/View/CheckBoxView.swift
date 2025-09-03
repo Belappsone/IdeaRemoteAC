@@ -3,7 +3,7 @@ import SwiftUI
 struct CheckBoxView: View {
     
     @EnvironmentObject var router: AppRouter
-    @ObservedObject private var viewModel = CheckBoxViewModel()
+    @ObservedObject var viewModel: CheckBoxViewModel
     
     var body: some View {
         ZStack {
@@ -16,7 +16,7 @@ struct CheckBoxView: View {
                 Spacer()
                 
                 VStack {
-                     Text("AC REMOTE\nWITH NO LIMITATIONS")
+                    Text("AC REMOTE\nWITH NO LIMITATIONS".localizable)
                         .foregroundStyle(.black)
                         .font(.system(size: 28, weight: .bold))
                         .multilineTextAlignment(.center)
@@ -29,27 +29,52 @@ struct CheckBoxView: View {
                         .padding(.top, -4)
                         .padding(.bottom)
                         .onTapGesture {
-                            closePaywall()
+                            closePaywallWithAds()
                         }
                     
                     VStack(spacing: 6) {
-                        CheckBoxItemView(item: .interface)
-                        CheckBoxItemView(item: .remote)
-                        CheckBoxItemView(item: .energy)
-                        CheckBoxItemView(item: .updates)
-                        CheckBoxItemView(item: .freeDays)
-                        CheckBoxItemView(item: .premium)
+                        CheckBoxItemView(item: .interface, alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
+                        CheckBoxItemView(item: .remote, alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
+                        CheckBoxItemView(item: .energy, alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
+                        CheckBoxItemView(item: .updates, alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
+                        if viewModel.productIsTrial {
+                            CheckBoxItemView(item: .freeDays, alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
+                        }
+                        CheckBoxItemView(item: .premium(price: viewModel.priceText), alpha: viewModel.checkBoxAlpha, titleSize: viewModel.checkBoxTitleSize, subtitleSize: viewModel.checkBoxSubTitleSize)
                     }
                     .padding(.bottom)
                     
-                    GradientButton(text: "Continue", size: 50) {
+                    GradientButton(text: viewModel.continueText, sizeFont: viewModel.continueSize, size: 50) {
+                        viewModel.showLoading = true
                         
+                        Task {
+                            let result = await AdaptyManager.shared.purchases(product: viewModel.product[0])
+                            viewModel.showLoading = false
+                            
+                            if result == .success {
+                                closePaywall()
+                            } else {
+                                if viewModel.showOffer {
+                                    viewModel.showCancelOffer = true
+                                }
+                            }
+                            
+                        }
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
                     
-                    InfoView(alpha: 1) {
+                    InfoView(alpha: viewModel.termPrivacyAlpha) {
+                        viewModel.showLoading = true
                         
+                        Task {
+                            let result = await AdaptyManager.shared.restore()
+                            viewModel.showLoading = false
+                            
+                            if result == .success {
+                                closePaywall()
+                            }
+                        }
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
@@ -71,22 +96,45 @@ struct CheckBoxView: View {
     }
     
     private func useLimitedText() -> some View {
-        Text("Start using the app with no limits or" + " ")
-            .font(.system(size: 17, weight: .semibold))
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
+        Text("Start using the app with no limits or".localizable + " ")
+            .font(.system(size: viewModel.limitedSize, weight: .semibold))
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.limitedAlpha))
         
-        + Text("use limited version.")
-            .font(.system(size: 17, weight: .semibold))
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
+        + Text("use limited version.".localizable)
+            .font(.system(size: viewModel.limitedSize, weight: .semibold))
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.limitedAlpha))
             .underline()
+    }
+    
+    private func closePaywallWithAds() {
+        haptic()
+        if viewModel.showAds {
+            AdMobInterstitialManager.shared.showInterstitial {
+                if viewModel.showType == .onboarding {
+                    router.showMain()
+                } else {
+                    router.pop()
+                }
+            }
+        } else {
+            if viewModel.showType == .onboarding {
+                router.showMain()
+            } else {
+                router.pop()
+            }
+        }
     }
     
     private func closePaywall() {
         haptic()
-        router.showMain()
+        if viewModel.showType == .onboarding {
+            router.showMain()
+        } else {
+            router.pop()
+        }
     }
 }
 
 #Preview {
-    CheckBoxView()
+    CheckBoxView(viewModel: .init(showType: .paywall))
 }

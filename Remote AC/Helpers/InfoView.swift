@@ -15,7 +15,7 @@ struct InfoView: View {
                     UIApplication.shared.open(url, options: [:], completionHandler: { _ in })
                 }
             } label: {
-                Text("Terms")
+                Text("Terms".localizable)
                     .foregroundStyle(.black)
                     .font(.system(size: 13, weight: .regular))
                     .opacity(alpha)
@@ -27,7 +27,7 @@ struct InfoView: View {
                 haptic()
                 didTapRestore()
             } label: {
-                Text("Restore")
+                Text("Restore".localizable)
                     .foregroundStyle(.black)
                     .font(.system(size: 13, weight: .regular))
                     .opacity(alpha)
@@ -41,7 +41,7 @@ struct InfoView: View {
                     UIApplication.shared.open(url, options: [:], completionHandler: { _ in })
                 }
             } label: {
-                Text("Privacy")
+                Text("Privacy".localizable)
                     .foregroundStyle(.black)
                     .font(.system(size: 13, weight: .regular))
                     .opacity(alpha)

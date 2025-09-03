@@ -41,32 +41,29 @@ struct OnboardingView: View {
                     .frame(width: UIScreen.main.bounds.width)
                     .id(3)
                     
-            
-                    SimpleCommentView()
-                        .frame(width: UIScreen.main.bounds.width)
-                        .id(4)
-//                    switch AdaptyPlacment.mainPlacementIs {
-//                    case .main:
-//                        ToggleView(viewModel: .init(type: .onboarding))
-//                            .frame(width: UIScreen.main.bounds.width)
-//                            .id(4)
-//                    case .simplecomment:
-//                        CommentPaywallView(viewModel: .init(type: .onboarding))
-//                            .frame(width: UIScreen.main.bounds.width)
-//                            .id(4)
-//                    case .checkbox:
-//                        CheckboxView(viewModel: .init(type: .onboarding))
-//                            .frame(width: UIScreen.main.bounds.width)
-//                            .id(4)
-//                    case .switcher:
-//                        SwitcherView(viewModel: .init(type: .onboarding))
-//                            .frame(width: UIScreen.main.bounds.width)
-//                            .id(4)
-//                    default:
-//                        MainPaywallView(viewModel: .init(type: .onboarding))
-//                            .frame(width: UIScreen.main.bounds.width)
-//                            .id(4)
-//                    }
+                    
+                    switch AdaptyPlacment.mainPlacementIs {
+                    case .simplecomment:
+                        SimpleCommentView(viewModel: .init(showType: .onboarding))
+                            .frame(width: UIScreen.main.bounds.width)
+                            .id(4)
+                    case .checkbox:
+                        CheckBoxView(viewModel: .init(showType: .onboarding))
+                            .frame(width: UIScreen.main.bounds.width)
+                            .id(4)
+                    case .simple:
+                        SimpleView(viewModel: .init(showType: .onboarding))
+                            .frame(width: UIScreen.main.bounds.width)
+                            .id(4)
+                    case .switcher:
+                        SwitcherView(viewModel: .init(showType: .onboarding))
+                            .frame(width: UIScreen.main.bounds.width)
+                            .id(4)
+                    default:
+                        MainView(viewModel: .init(showType: .onboarding))
+                            .frame(width: UIScreen.main.bounds.width)
+                            .id(4)
+                    }
                 }
                 
             }
@@ -75,12 +72,10 @@ struct OnboardingView: View {
                     proxy.scrollTo(newValue, anchor: .center)
                 }
                 if newValue == 1 {
-//                    DispatchQueue.main.async {
-//                        let showRequest: Bool = AdaptyManager.getGlobalRemoteSettings(key: .showRequestReview)
-//                        if showRequest {
-//                            requestReview()
-//                        }
-//                    }
+                    let showRequest: Bool = AdaptyManager.getGlobalRemoteSettings(key: .showRequestReview)
+                    if showRequest {
+                        requestReview()
+                    }
                 }
             }
         }

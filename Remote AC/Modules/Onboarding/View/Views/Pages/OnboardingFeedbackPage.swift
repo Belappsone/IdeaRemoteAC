@@ -15,7 +15,7 @@ struct OnboardingFeedbackPage: View {
             VStack {
                 Spacer()
                 
-                ContainerInfoView(title: "YOUR FEEDBACK\nMATTERS", subtitle: "Help us improve\nRemote AC for you", infoViewAlpha: 0, buttonAction: action, restoreAction: {})
+                ContainerInfoView(title: "YOUR FEEDBACK\nMATTERS".localizable, subtitle: "Help us improve\nRemote AC for you".localizable, infoViewAlpha: 0, buttonAction: action, restoreAction: {})
                     .padding(.horizontal)
                     .padding(.bottom, 1)
             }

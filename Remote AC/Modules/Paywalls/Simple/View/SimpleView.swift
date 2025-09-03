@@ -3,7 +3,7 @@ import SwiftUI
 struct SimpleView: View {
     
     @EnvironmentObject var router: AppRouter
-    @ObservedObject private var viewModel = SimpleViewModel()
+    @ObservedObject var viewModel: SimpleViewModel
     
     var body: some View {
         ZStack {
@@ -17,7 +17,7 @@ struct SimpleView: View {
                                 
                 VStack {
                     
-                    Text("AC REMOTE\n WITH NO\n LIMITATIONS")
+                    Text("AC REMOTE\n WITH NO\n LIMITATIONS".localizable)
                         .multilineTextAlignment(.center)
                         .font(.system(size: 32, weight: .bold))
                         .foregroundStyle(.black)
@@ -29,15 +29,36 @@ struct SimpleView: View {
                         .padding(.top, -8)
                         .padding(.bottom)
                         .padding(.horizontal)
+                        .onTapGesture {
+                            closePaywallWithAds()
+                        }
                     
-                    GradientButton(text: "Start 3-Day Free Trial", size: 50) {
-                        
+                    GradientButton(text: viewModel.continueText, sizeFont: viewModel.continueSize, size: 50) {
+                        viewModel.showLoading = true
+                        Task {
+                            let result = await AdaptyManager.shared.purchases(product: viewModel.product[0])
+                            viewModel.showLoading = false
+                            if result == .success {
+                                closePaywall()
+                            } else {
+                                if viewModel.showOffer {
+                                    viewModel.showCancelOffer = true
+                                }
+                            }
+                        }
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
                     
-                    InfoView(alpha: 1) {
-                        
+                    InfoView(alpha: viewModel.termPrivacyAlpha) {
+                        viewModel.showLoading = true
+                        Task {
+                            let result = await AdaptyManager.shared.restore()
+                            viewModel.showLoading = false
+                            if result == .success {
+                                closePaywall()
+                            }
+                        }
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
@@ -59,21 +80,49 @@ struct SimpleView: View {
     }
     
     private func setupPrice() -> some View {
-        Text("Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then $2.99/week app or" + " ")
-            .font(.system(size: 13, weight: .semibold))
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
+        Text(viewModel.priceText + " ")
+            .font(.system(size: viewModel.priceSize, weight: .semibold))
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.priceAlpha))
         
-        + Text("use limited version.")
-            .font(.system(size: 13, weight: .semibold))
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
+        + Text("use limited version.".localizable)
+            .font(.system(size: viewModel.priceSize, weight: .semibold))
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.priceAlpha))
             .underline()
         
-        + Text("\nCancel anytime with no charges.")
-            .font(.system(size: 13, weight: .semibold))
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
+        + Text("\n" + "Cancel anytime with no charges.".localizable)
+            .font(.system(size: viewModel.priceSize, weight: .semibold))
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.priceAlpha))
+    }
+    
+    private func closePaywallWithAds() {
+        haptic()
+        if viewModel.showAds {
+            AdMobInterstitialManager.shared.showInterstitial {
+                if viewModel.showType == .onboarding {
+                    router.showMain()
+                } else {
+                    router.pop()
+                }
+            }
+        } else {
+            if viewModel.showType == .onboarding {
+                router.showMain()
+            } else {
+                router.pop()
+            }
+        }
+    }
+    
+    private func closePaywall() {
+        haptic()
+        if viewModel.showType == .onboarding {
+            router.showMain()
+        } else {
+            router.pop()
+        }
     }
 }
 
 #Preview {
-    SimpleView()
+    SimpleView(viewModel: .init(showType: .paywall))
 }

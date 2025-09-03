@@ -3,7 +3,7 @@ import SwiftUI
 struct MainView: View {
     
     @EnvironmentObject var router: AppRouter
-    @ObservedObject private var viewModel = MainViewModel()
+    @ObservedObject var viewModel: MainViewModel
     
     var body: some View {
         ZStack {
@@ -15,7 +15,7 @@ struct MainView: View {
                 Spacer()
                 
                 VStack {
-                    Text("AC REMOTE\nWITH NO\nLIMITATIONS")
+                    Text("AC REMOTE\nWITH NO\nLIMITATIONS".localizable)
                         .foregroundStyle(.black)
                         .font(.system(size: 32, weight: .bold))
                         .multilineTextAlignment(.center)
@@ -27,15 +27,16 @@ struct MainView: View {
                         .multilineTextAlignment(.center)
                         .onTapGesture {
                             haptic()
+                            closePaywallWithAds()
                         }
                         .padding(.top, -8)
                     
                     VStack(spacing: 4) {
-                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 0, isPopular: true) {
+                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 0, isPopular: true, product: viewModel.product[0]) {
                             viewModel.selectedProduct = 0
                         }
                         
-                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 1, isPopular: false) {
+                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 1, isPopular: false, product: viewModel.product[1]) {
                             viewModel.selectedProduct = 1
                         }
                     }
@@ -43,19 +44,34 @@ struct MainView: View {
                     .padding(.top, 13)
                     .padding(.bottom)
                     
-                    GradientButton(text: "Start 3-Day Free Trial", size: 50) {
+                    GradientButton(text: viewModel.continueText, sizeFont: viewModel.continueSize, size: 50) {
                         viewModel.showLoading = true
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                        Task {
+                            let result = await AdaptyManager.shared.purchases(product: viewModel.product[viewModel.selectedProduct])
                             viewModel.showLoading = false
-                            viewModel.showCancelOffer = true
+                            
+                            if result == .success {
+                                closePaywall()
+                            } else {
+                                if viewModel.showOffer {
+                                    viewModel.showCancelOffer = true
+                                }
+                            }
                         }
                          
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
                     
-                    InfoView(alpha: 1) {
+                    InfoView(alpha: viewModel.termPrivacyAlpha) {
                         viewModel.showLoading = true
+                        Task {
+                            let result = await AdaptyManager.shared.restore()
+                            viewModel.showLoading = false
+                            if result == .success {
+                                closePaywall()
+                            }
+                        }
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
@@ -80,78 +96,47 @@ struct MainView: View {
     }
     
     func useLimiteText() -> some View {
-        Text("Start using the app with no limits or" + " ")
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
-            .font(.system(size: 17, weight: .semibold))
+        Text("Start using the app with no limits or".localizable + " ")
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.limitedAlpha))
+            .font(.system(size: viewModel.limitedSize, weight: .semibold))
         
         +
         
-        Text("use limited version.")
-            .foregroundStyle(.labelsSecondary.opacity(0.6))
-            .font(.system(size: 17, weight: .semibold))
+        Text("use limited version.".localizable)
+            .foregroundStyle(.labelsSecondary.opacity(viewModel.limitedAlpha))
+            .font(.system(size: viewModel.limitedSize, weight: .semibold))
             .underline()
     }
     
-    func closePaywall() {
-        
+    private func closePaywallWithAds() {
+        haptic()
+        if viewModel.showAds {
+            AdMobInterstitialManager.shared.showInterstitial {
+                if viewModel.showType == .onboarding {
+                    router.showMain()
+                } else {
+                    router.pop()
+                }
+            }
+        } else {
+            if viewModel.showType == .onboarding {
+                router.showMain()
+            } else {
+                router.pop()
+            }
+        }
+    }
+    
+    private func closePaywall() {
+        haptic()
+        if viewModel.showType == .onboarding {
+            router.showMain()
+        } else {
+            router.pop()
+        }
     }
 }
 
 #Preview {
-    MainView()
-}
-
-struct MainPriceItemView: View {
-    
-    @Binding var selectedProduct: Int
-    var id: Int
-    var isPopular: Bool
-    var action: () -> Void
-    
-    var body: some View {
-        ZStack {
-            if isPopular {
-                VStack {
-                    
-                    Text("Most popular")
-                        .foregroundStyle(.white)
-                        .font(.system(size: 12, weight: .regular))
-                        .padding(.vertical, 4)
-                        .padding(.horizontal,8)
-                        .background(Color.colorBlue)
-                        .clipShape(Capsule())
-                }
-                .padding(.bottom, 50)
-            }
-            
-            Button {
-                haptic()
-                action()
-            } label: {
-                RoundedRectangle(cornerRadius: 16)
-                    .stroke(selectedProduct == id ? .colorBlue.opacity(0.4) : .fillsQuaternary.opacity(0.12), lineWidth: 1.5)
-                    .frame(height: 56)
-                    .overlay {
-                        HStack {
-                            Image(selectedProduct == id ? .circleBlueIcon : .circleEmptyIcon)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 24, height: 24)
-                            
-                            Text("Monthly")
-                                .font(.system(size: 15, weight: .bold))
-                                .foregroundStyle(.black)
-                            
-                            Spacer()
-                            
-                            Text("3 days free, then $1,49/week")
-                                .foregroundStyle(.labelsSecondary.opacity(0.6))
-                                .font(.system(size: 13, weight: .regular))
-                        }
-                        .padding(.horizontal, 12)
-                    }
-            }
-        }
-            
-    }
+    MainView(viewModel: .init(showType: .paywall))
 }
