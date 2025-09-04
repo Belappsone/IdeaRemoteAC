@@ -1,0 +1,162 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "특별 혜택! 지금 바로 최저가!";
+"Weekly" = "주간";
+"Monthly" = "월간";
+"Yearly" = "연간";
+"Daily" = "일간";
+
+"week" = "주";
+"month" = "월";
+"year" = "년";
+"day" = "일";
+
+"Special Offer!🎁" = "특별 혜택!🎁";
+"Would you like to receive a special condition?" = "특별 혜택을 받으시겠습니까?";
+"Get" = "받기";
+"Cancel" = "취소";
+
+"Terms" = "이용 약관";
+"Restore" = "복원";
+"Privacy" = "개인정보";
+
+"WELCOME\nTO REMOTE AC" = "REMOTE AC에\n오신 것을 환영합니다";
+"Control your air conditioner\neffortlessly from your smartphone" = "스마트폰으로 에어컨을\n손쉽게 제어하세요";
+"Continue" = "계속";
+
+"YOUR FEEDBACK\nMATTERS" = "사용자 피드백이\n중요합니다";
+"Help us improve\nRemote AC for you" = "Remote AC를 개선하는데\n도와주세요";
+
+"UNIVERSAL\nCOMPATIBILITY" = "범용 호환성";
+"Works with 100%\nof AC brands" = "모든 AC 브랜드 100% 지원";
+
+"USER\nREVIEWS" = "사용자 리뷰";
+"See what people love\nabout RemoteAC" = "사람들이 RemoteAC를\n좋아하는 이유를 확인하세요";
+
+"Life-changing!" = "인생이 바뀌는 경험!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "단 일주일 만에 편안함을 되찾았습니다. 이제 소파에서 일어나지 않고도 에어컨을 제어할 수 있어요!";
+
+"Coolness on demand!" = "원하는 순간 시원함!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "첫 사용부터 차이를 느꼈습니다. 집 어디서든 완벽한 온도!";
+
+"Cool" = "냉방";
+"Heat" = "난방";
+
+"Eco" = "에코";
+"Swing" = "스윙";
+"Timer" = "타이머";
+
+"Low" = "낮음";
+"Mid" = "중간";
+"High" = "높음";
+
+"Contact Us" = "문의하기";
+"Privacy Policy" = "개인정보 처리방침";
+"Terms of Use" = "이용 약관";
+"Restore Purchase" = "구매 복원";
+
+"3 FREE Days" = "3일 무료";
+"50% OFF" = "50% 할인";
+"limited offer!" = "한정 혜택!";
+"Try it now!" = "지금 체험하기";
+
+"Premium activated!" = "프리미엄 활성화!";
+"Thank you for your trust!" = "신뢰해 주셔서 감사합니다!";
+
+"Other" = "기타";
+"Settings" = "설정";
+"Connect" = "연결";
+"Celsius" = "섭씨";
+"Fan Speed" = "팬 속도";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. 에어컨 켜기";
+"Switch your AC to standby mode using the remote or panel." = "리모컨이나 패널을 사용하여 에어컨을 대기 모드로 전환하세요.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. 에어컨에서 Wi-Fi 켜기";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "에어컨의 Wi-Fi 설정으로 이동하여 페어링을 시작하세요(깜빡이는 Wi-Fi 아이콘 확인).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. 휴대폰의 Wi-Fi 선택";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "에어컨에서 휴대폰이 연결된 동일한 Wi-Fi 네트워크를 선택하세요.";
+"🔍 4. Connect via the app" = "🔍 4. 앱을 통해 연결";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "앱을 열고 '기기 추가'를 눌러 에어컨 연결 단계를 진행하세요.";
+
+"Affordable air conditioners" = "합리적인 가격의 에어컨";
+"Connected" = "연결됨";
+"Found devices" = "검색된 기기";
+"Repeat search" = "검색 다시 실행";
+"Device Search..." = "기기 검색 중...";
+
+"Retry" = "다시 시도";
+"We couldn’t find any compatible devices." = "호환되는 기기를 찾을 수 없습니다.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "에어컨이 켜져 있고 휴대폰과 동일한 Wi-Fi에 연결되어 있는지 확인하세요.";
+"Couldn’t connect to the device" = "기기 연결 실패";
+"Check your Wi-Fi signal and try again." = "Wi-Fi 신호를 확인하고 다시 시도하세요.";
+"No Wi-Fi connection found." = "Wi-Fi 연결을 찾을 수 없습니다.";
+"Please connect your phone to a Wi-Fi network before continuing." = "계속하려면 휴대폰을 Wi-Fi 네트워크에 연결하세요.";
+"Can’t connect to the network." = "네트워크 연결 불가";
+"Double-check your Wi-Fi password and try again." = "Wi-Fi 비밀번호를 다시 확인하고 시도하세요.";
+"The device is currently offline." = "기기가 현재 오프라인 상태입니다.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "전원이 연결되어 있고 Wi-Fi에 연결되어 있는지 확인하세요.";
+"Permissions needed." = "권한 필요";
+"Allow location and local network access in Settings to find devices nearby." = "설정에서 위치 및 로컬 네트워크 접근을 허용하여 주변 기기를 찾으세요.";
+"Something went wrong." = "문제가 발생했습니다.";
+"Please try again later or check your internet connection." = "나중에 다시 시도하거나 인터넷 연결을 확인하세요.";
+"You're offline." = "오프라인 상태입니다.";
+"Please connect to the internet and try again." = "인터넷에 연결하고 다시 시도하세요.";
+
+"SMART\nCLIMATE CONTROL" = "스마트\n기후 제어";
+"Start using the app with no limits or" = "제한 없이 앱 사용 시작";
+"use limited version." = "제한 버전 사용";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3일 무료 체험 후 %price%/%period%. 자동 갱신";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. 자동 갱신";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "제한 없는\n에어컨 원격 제어";
+
+"Cancel anytime with no charges." = "언제든지 취소 가능, 추가 요금 없음";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "광고와 제한 없이 앱의 모든 기능을 즐기세요! 3일 무료 체험 후 모든 기능 완전 사용 가능, 이후 %price%/%period%";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "광고와 제한 없이 앱의 모든 기능을 즐기세요! 모든 기능 완전 사용 가능, %price%/%period%";
+"AC REMOTE\nWITH NO LIMITATIONS" = "제한 없는\n에어컨 원격 제어";
+
+"Intuitive interface" = "직관적인 인터페이스";
+"Remote control" = "리모컨 제어";
+"Energy efficiency" = "에너지 효율";
+"Updates and improvements" = "업데이트 및 개선";
+"Three days free" = "3일 무료";
+"Premium Comfort" = "프리미엄 편안함";
+"Control your AC in just 2 taps - simple as texting!" = "단 2번의 터치로 에어컨 제어 - 문자 보내듯 간편!";
+"Adjust temperature from anywhere." = "어디서든 온도 조절 가능";
+"Smart energy savings" = "스마트 에너지 절약";
+"We make the app better every 2 weeks" = "2주마다 앱을 개선합니다";
+"Try all premium features risk-free" = "프리미엄 기능 모두 무료 체험";
+"Only %price%/%period%. Cancel anytime." = "단 %price%/%period%. 언제든지 취소 가능";
+"Three days free trial" = "3일 무료 체험";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "제한 없는\n에어컨 원격 제어";
+
+"Most popular" = "가장 인기 있는";
+"3 days free, then" = "3일 무료 체험 후";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "광고와 제한 없이 앱의 모든 기능을 즐기세요! 3일 무료 체험 후 %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "광고와 제한 없이 앱의 모든 기능을 즐기세요! 단 %price%/%period%!";
+
+"Offer expires in:" = "제안 만료까지:";
+"✔️ Cancel anytime" = "✔️ 언제든지 취소 가능";
+"✔️ Full access to all features" = "✔️ 모든 기능 완전 사용 가능";
+"Turn your smartphone into a powerful climate control system!" = "스마트폰을 강력한 에어컨 제어 시스템으로 바꾸세요!";
+
+"3-DAY" = "3일";
+"LIMITED TIME!" = "한정 시간!";
+
+"OFF" = "끄기";
+"Don’t miss your chance!" = "기회를 놓치지 마세요!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "최대 90% 할인 기회! 혜택을 놓치지 마세요!";
+"I want to!" =  "원해요!";
+
+"Set Timer" = "타이머 설정";
+"Automatically power off the air conditioner after the selected time." = "선택한 시간 후 에어컨 자동 종료";
+"Turn-off timer range: 5 minutes – 12 hours" = "타이머 범위: 5분 – 12시간";
+"Apply" = "적용";
+"TURN ON" = "켜기";
+"TURN OFF" = "끄기";
+

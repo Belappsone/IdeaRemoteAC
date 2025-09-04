@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Offerta speciale per te! Miglior prezzo! Solo adesso!";
+
+"Weekly" = "Settimanale";
+"Monthly" = "Mensile";
+"Yearly" = "Annuale";
+"Daily" = "Giornaliero";
+
+"week" = "settimana";
+"month" = "mese";
+"year" = "anno";
+"day" = "giorno";
+
+"Special Offer!🎁" = "Offerta speciale!🎁";
+"Would you like to receive a special condition?" = "Vuoi ricevere una condizione speciale?";
+"Get" = "Ottieni";
+"Cancel" = "Annulla";
+
+"Terms" = "Termini";
+"Restore" = "Ripristina";
+"Privacy" = "Privacy";
+
+"WELCOME\nTO REMOTE AC" = "BENVENUTO\nIN REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Controlla il tuo condizionatore\ndal tuo smartphone senza sforzo";
+"Continue" = "Continua";
+
+"YOUR FEEDBACK\nMATTERS" = "IL TUO FEEDBACK\nCONTA";
+"Help us improve\nRemote AC for you" = "Aiutaci a migliorare\nRemote AC per te";
+
+"UNIVERSAL\nCOMPATIBILITY" = "COMPATIBILITÀ\nUNIVERSALE";
+"Works with 100%\nof AC brands" = "Funziona con il 100%\ndelle marche di condizionatori";
+
+"USER\nREVIEWS" = "RECENSIONI\nDEGLI UTENTI";
+"See what people love\nabout RemoteAC" = "Scopri cosa piace agli utenti\ndi RemoteAC";
+
+"Life-changing!" = "Ha cambiato la vita!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Ho ritrovato il comfort in solo una settimana. Ora controllo il mio condizionatore senza nemmeno alzarmi dal divano!";
+
+"Coolness on demand!" = "Freschezza a richiesta!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "Dal primo utilizzo ho sentito la differenza. Temperatura perfetta in ogni parte della casa!";
+
+"Cool" = "Freddo";
+"Heat" = "Caldo";
+
+"Eco" = "Eco";
+"Swing" = "Oscillazione";
+"Timer" = "Timer";
+
+"Low" = "Basso";
+"Mid" = "Medio";
+"High" = "Alto";
+
+"Contact Us" = "Contattaci";
+"Privacy Policy" = "Informativa sulla privacy";
+"Terms of Use" = "Termini di utilizzo";
+"Restore Purchase" = "Ripristina acquisto";
+
+"3 FREE Days" = "3 Giorni Gratuiti";
+"50% OFF" = "50% DI SCONTO";
+"limited offer!" = "offerta limitata!";
+"Try it now!" = "Provalo ora!";
+
+"Premium activated!" = "Premium attivato!";
+"Thank you for your trust!" = "Grazie per la tua fiducia!";
+
+"Other" = "Altro";
+"Settings" = "Impostazioni";
+"Connect" = "Connetti";
+"Celsius" = "Celsius";
+"Fan Speed" = "Velocità ventola";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Accendi il condizionatore";
+"Switch your AC to standby mode using the remote or panel." = "Metti il condizionatore in modalità standby usando il telecomando o il pannello.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Attiva il Wi-Fi sul condizionatore";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Vai alle impostazioni Wi-Fi del condizionatore e avvia il processo di abbinamento (cerca l’icona Wi-Fi lampeggiante).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Seleziona il Wi-Fi del tuo telefono";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "Sul condizionatore, scegli la stessa rete Wi-Fi a cui è collegato il tuo telefono.";
+"🔍 4. Connect via the app" = "🔍 4. Connetti tramite l’app";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Apri l’app, tocca “Aggiungi dispositivo” e segui i passaggi per collegare il tuo condizionatore.";
+
+"Affordable air conditioners" = "Condizionatori convenienti";
+"Connected" = "Connesso";
+"Found devices" = "Dispositivi trovati";
+"Repeat search" = "Ripeti ricerca";
+"Device Search..." = "Ricerca dispositivi...";
+
+"Retry" = "Riprova";
+"We couldn’t find any compatible devices." = "Non siamo riusciti a trovare dispositivi compatibili.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Assicurati che il condizionatore sia acceso e connesso alla stessa rete Wi-Fi del tuo telefono.";
+"Couldn’t connect to the device" = "Impossibile connettersi al dispositivo";
+"Check your Wi-Fi signal and try again." = "Controlla il segnale Wi-Fi e riprova.";
+"No Wi-Fi connection found." = "Nessuna connessione Wi-Fi trovata.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Collega il tuo telefono a una rete Wi-Fi prima di continuare.";
+"Can’t connect to the network." = "Impossibile connettersi alla rete.";
+"Double-check your Wi-Fi password and try again." = "Ricontrolla la password Wi-Fi e riprova.";
+"The device is currently offline." = "Il dispositivo è attualmente offline.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Assicurati che sia collegato alla corrente e connesso al Wi-Fi.";
+"Permissions needed." = "Autorizzazioni necessarie.";
+"Allow location and local network access in Settings to find devices nearby." = "Consenti l’accesso alla posizione e alla rete locale nelle Impostazioni per trovare i dispositivi vicini.";
+"Something went wrong." = "Qualcosa è andato storto.";
+"Please try again later or check your internet connection." = "Riprova più tardi o controlla la tua connessione a internet.";
+"You're offline." = "Sei offline.";
+"Please connect to the internet and try again." = "Connettiti a internet e riprova.";
+
+"SMART\nCLIMATE CONTROL" = "CONTROLLO\nCLIMATICO SMART";
+"Start using the app with no limits or" = "Inizia a usare l’app senza limiti oppure";
+"use limited version." = "usa la versione limitata.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 giorni gratis e poi %price%/%period%. Rinnovo automatico.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Rinnovo automatico.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "TELECOMANDO AC\n SENZA\n LIMITI";
+
+"Cancel anytime with no charges." = "Annulla in qualsiasi momento senza costi.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Goditi tutti i vantaggi dell’app senza restrizioni né pubblicità! Prova gratuita di 3 giorni con accesso completo a tutte le funzionalità, poi %price%/%period% app oppure";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Goditi tutti i vantaggi dell’app senza restrizioni né pubblicità! Accesso completo a tutte le funzionalità, %price%/%period% app oppure";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "TELECOMANDO AC\nSENZA LIMITI";
+
+"Intuitive interface" = "Interfaccia intuitiva";
+"Remote control" = "Controllo remoto";
+"Energy efficiency" = "Efficienza energetica";
+"Updates and improvements" = "Aggiornamenti e miglioramenti";
+"Three days free" = "Tre giorni gratuiti";
+"Premium Comfort" = "Comfort Premium";
+"Control your AC in just 2 taps - simple as texting!" = "Controlla il tuo condizionatore in soli 2 tocchi - semplice come mandare un messaggio!";
+"Adjust temperature from anywhere." = "Regola la temperatura ovunque tu sia.";
+"Smart energy savings" = "Risparmio energetico intelligente";
+"We make the app better every 2 weeks" = "Miglioriamo l’app ogni 2 settimane";
+"Try all premium features risk-free" = "Prova tutte le funzionalità premium senza rischi";
+"Only %price%/%period%. Cancel anytime." = "Solo %price%/%period%. Annulla in qualsiasi momento.";
+"Three days free trial" = "Prova gratuita di tre giorni";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "TELECOMANDO AC\nSENZA\nLIMITI";
+
+"Most popular" = "Più popolare";
+"3 days free, then" = "3 giorni gratis, poi";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Goditi tutti i vantaggi dell’app senza restrizioni né pubblicità! Usa la versione di prova di 3 giorni e poi %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Goditi tutti i vantaggi dell’app senza restrizioni né pubblicità! Solo %price%/%period%!";
+
+"Offer expires in:" = "L’offerta scade tra:";
+"✔️ Cancel anytime" = "✔️ Annulla in qualsiasi momento";
+"✔️ Full access to all features" = "✔️ Accesso completo a tutte le funzionalità";
+"Turn your smartphone into a powerful climate control system!" = "Trasforma il tuo smartphone in un potente sistema di controllo climatico!";
+
+"3-DAY" = "3 GIORNI";
+"LIMITED TIME!" = "TEMPO LIMITATO!";
+
+"OFF" = "SCONTO";
+"Don’t miss your chance!" = "Non perdere la tua occasione!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Ottieni fino al 90% di sconto finché è disponibile. Affrettati a sfruttare tutti i vantaggi!";
+"I want to!" =  "Lo voglio!";
+
+"Set Timer" = "Imposta timer";
+"Automatically power off the air conditioner after the selected time." = "Spegni automaticamente il condizionatore dopo il tempo selezionato.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Intervallo timer spegnimento: 5 minuti – 12 ore";
+"Apply" = "Applica";
+"TURN ON" = "ACCENDI";
+"TURN OFF" = "SPEGNI";
+

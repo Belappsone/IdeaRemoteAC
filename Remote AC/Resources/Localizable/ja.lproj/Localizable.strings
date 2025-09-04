@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "特別オファー！最安値！今だけ！";
+
+"Weekly" = "毎週";
+"Monthly" = "毎月";
+"Yearly" = "毎年";
+"Daily" = "毎日";
+
+"week" = "週";
+"month" = "月";
+"year" = "年";
+"day" = "日";
+
+"Special Offer!🎁" = "特別オファー！🎁";
+"Would you like to receive a special condition?" = "特別な条件を受け取りませんか？";
+"Get" = "入手";
+"Cancel" = "キャンセル";
+
+"Terms" = "利用規約";
+"Restore" = "復元";
+"Privacy" = "プライバシー";
+
+"WELCOME\nTO REMOTE AC" = "リモートACへ\nようこそ";
+"Control your air conditioner\neffortlessly from your smartphone" = "スマートフォンから簡単に\nエアコンを操作";
+"Continue" = "続行";
+
+"YOUR FEEDBACK\nMATTERS" = "あなたのフィードバックが\n重要です";
+"Help us improve\nRemote AC for you" = "Remote ACを改善するために\nご協力ください";
+
+"UNIVERSAL\nCOMPATIBILITY" = "ユニバーサル\n互換性";
+"Works with 100%\nof AC brands" = "100％のACブランドで\n利用可能";
+
+"USER\nREVIEWS" = "ユーザー\nレビュー";
+"See what people love\nabout RemoteAC" = "RemoteACが人気の理由を\nチェック";
+
+"Life-changing!" = "人生が変わる！";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "たった1週間で快適さを取り戻しました。今ではソファから立ち上がらずにエアコンを操作できます！";
+
+"Coolness on demand!" = "涼しさをいつでも！";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "最初の使用から違いを実感。家中どこでも快適な温度に！";
+
+"Cool" = "冷房";
+"Heat" = "暖房";
+
+"Eco" = "エコ";
+"Swing" = "スイング";
+"Timer" = "タイマー";
+
+"Low" = "低";
+"Mid" = "中";
+"High" = "高";
+
+"Contact Us" = "お問い合わせ";
+"Privacy Policy" = "プライバシーポリシー";
+"Terms of Use" = "利用規約";
+"Restore Purchase" = "購入を復元";
+
+"3 FREE Days" = "3日間無料";
+"50% OFF" = "50％割引";
+"limited offer!" = "期間限定！";
+"Try it now!" = "今すぐ試す！";
+
+"Premium activated!" = "プレミアムが有効化されました！";
+"Thank you for your trust!" = "ご利用ありがとうございます！";
+
+"Other" = "その他";
+"Settings" = "設定";
+"Connect" = "接続";
+"Celsius" = "摂氏";
+"Fan Speed" = "風量";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. エアコンをオンにする";
+"Switch your AC to standby mode using the remote or panel." = "リモコンまたはパネルでエアコンを待機モードに切り替えてください。";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. エアコンのWi-Fiを有効にする";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "エアコンのWi-Fi設定に入り、ペアリングを開始してください（点滅するWi-Fiアイコンを探してください）。";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. スマホのWi-Fiを選択";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "エアコンでスマホと同じWi-Fiネットワークを選択してください。";
+"🔍 4. Connect via the app" = "🔍 4. アプリで接続";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "アプリを開き、「デバイスを追加」をタップし、手順に従ってエアコンを接続してください。";
+
+"Affordable air conditioners" = "お手頃なエアコン";
+"Connected" = "接続済み";
+"Found devices" = "デバイスを検出";
+"Repeat search" = "再検索";
+"Device Search..." = "デバイスを検索中...";
+
+"Retry" = "再試行";
+"We couldn’t find any compatible devices." = "互換性のあるデバイスが見つかりませんでした。";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "エアコンの電源が入っており、スマホと同じWi-Fiネットワークに接続されていることを確認してください。";
+"Couldn’t connect to the device" = "デバイスに接続できませんでした";
+"Check your Wi-Fi signal and try again." = "Wi-Fiの信号を確認して、もう一度お試しください。";
+"No Wi-Fi connection found." = "Wi-Fi接続が見つかりません。";
+"Please connect your phone to a Wi-Fi network before continuing." = "続行する前にスマホをWi-Fiネットワークに接続してください。";
+"Can’t connect to the network." = "ネットワークに接続できません。";
+"Double-check your Wi-Fi password and try again." = "Wi-Fiのパスワードを再確認してもう一度お試しください。";
+"The device is currently offline." = "デバイスがオフラインです。";
+"Make sure it’s plugged in and connected to Wi-Fi." = "電源が入っていてWi-Fiに接続されていることを確認してください。";
+"Permissions needed." = "権限が必要です。";
+"Allow location and local network access in Settings to find devices nearby." = "設定で位置情報とローカルネットワークアクセスを許可して、近くのデバイスを検出してください。";
+"Something went wrong." = "問題が発生しました。";
+"Please try again later or check your internet connection." = "後でもう一度試すか、インターネット接続を確認してください。";
+"You're offline." = "オフラインです。";
+"Please connect to the internet and try again." = "インターネットに接続してからもう一度お試しください。";
+
+"SMART\nCLIMATE CONTROL" = "スマート\n気候コントロール";
+"Start using the app with no limits or" = "制限なしでアプリを使い始めるか、";
+"use limited version." = "制限付きバージョンを使用する。";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3日間無料、その後 %price%/%period%。自動更新。";
+"%price%/%period%. Automatic renewal." = "%price%/%period%。自動更新。";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "制限なしの\nACリモコン";
+
+"Cancel anytime with no charges." = "いつでも無料で解約可能。";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "制限や広告なしでアプリのすべての機能をお楽しみください！3日間の無料トライアル後は%price%/%period%で継続利用可能";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "制限や広告なしでアプリのすべての機能をお楽しみください！すべての機能を利用して%price%/%period%";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "制限なしの\nACリモコン";
+
+"Intuitive interface" = "直感的なインターフェース";
+"Remote control" = "リモコン操作";
+"Energy efficiency" = "省エネ";
+"Updates and improvements" = "更新と改善";
+"Three days free" = "3日間無料";
+"Premium Comfort" = "プレミアム快適";
+"Control your AC in just 2 taps - simple as texting!" = "たった2回タップでエアコンを操作 - メッセージ感覚で簡単！";
+"Adjust temperature from anywhere." = "どこからでも温度を調整";
+"Smart energy savings" = "スマート省エネ";
+"We make the app better every 2 weeks" = "2週間ごとにアプリを改善";
+"Try all premium features risk-free" = "プレミアム機能をリスクなしで試す";
+"Only %price%/%period%. Cancel anytime." = "月額%price%で、いつでもキャンセル可能";
+"Three days free trial" = "3日間無料トライアル";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "制限なしの\nACリモコン";
+
+"Most popular" = "最も人気";
+"3 days free, then" = "3日間無料、その後";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "広告なしでアプリの全機能を利用！3日間無料トライアル後は%price%/%period%で継続";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "広告なしでアプリの全機能を利用！月額%price%/%period%のみ";
+
+"Offer expires in:" = "オファー終了まで：";
+"✔️ Cancel anytime" = "✔️ いつでもキャンセル可能";
+"✔️ Full access to all features" = "✔️ 全機能にフルアクセス";
+"Turn your smartphone into a powerful climate control system!" = "スマホで強力な空調コントロールを実現！";
+
+"3-DAY" = "3日間";
+"LIMITED TIME!" = "期間限定！";
+
+"OFF" = "オフ";
+"Don’t miss your chance!" = "チャンスをお見逃しなく！";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "最大90％オフ！今すぐお得な特典を利用しよう！";
+"I want to!" = "欲しい！";
+
+"Set Timer" = "タイマー設定";
+"Automatically power off the air conditioner after the selected time." = "設定時間後に自動でエアコンをオフ";
+"Turn-off timer range: 5 minutes – 12 hours" = "タイマー範囲：5分～12時間";
+"Apply" = "適用";
+"TURN ON" = "オン";
+"TURN OFF" = "オフ";
+

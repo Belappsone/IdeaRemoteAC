@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Penawaran spesial untuk Anda! Harga terbaik! Hanya sekarang!";
+
+"Weekly" = "Mingguan";
+"Monthly" = "Bulanan";
+"Yearly" = "Tahunan";
+"Daily" = "Harian";
+
+"week" = "minggu";
+"month" = "bulan";
+"year" = "tahun";
+"day" = "hari";
+
+"Special Offer!🎁" = "Penawaran Spesial!🎁";
+"Would you like to receive a special condition?" = "Apakah Anda ingin menerima kondisi spesial?";
+"Get" = "Dapatkan";
+"Cancel" = "Batal";
+
+"Terms" = "Syarat";
+"Restore" = "Pulihkan";
+"Privacy" = "Privasi";
+
+"WELCOME\nTO REMOTE AC" = "SELAMAT DATANG\nDI REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Kendalikan pendingin udara Anda\ndan mudah dari smartphone Anda";
+"Continue" = "Lanjutkan";
+
+"YOUR FEEDBACK\nMATTERS" = "MASUKAN ANDA\nPENTING";
+"Help us improve\nRemote AC for you" = "Bantu kami meningkatkan\nRemote AC untuk Anda";
+
+"UNIVERSAL\nCOMPATIBILITY" = "KOMPATIBILITAS\nUNIVERSAL";
+"Works with 100%\nof AC brands" = "Bekerja dengan 100%\nmerk AC";
+
+"USER\nREVIEWS" = "ULASAN\nPENGGUNA";
+"See what people love\nabout RemoteAC" = "Lihat apa yang orang sukai\ntentang RemoteAC";
+
+"Life-changing!" = "Mengubah hidup!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Saya mendapatkan kenyamanan kembali hanya dalam satu minggu. Sekarang saya mengendalikan AC tanpa harus bangun dari sofa!";
+
+"Coolness on demand!" = "Dingin sesuai permintaan!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "Sejak penggunaan pertama, saya merasakan perbedaannya. Suhu sempurna di mana saja di rumah saya!";
+
+"Cool" = "Dingin";
+"Heat" = "Panas";
+
+"Eco" = "Eco";
+"Swing" = "Ayun";
+"Timer" = "Timer";
+
+"Low" = "Rendah";
+"Mid" = "Sedang";
+"High" = "Tinggi";
+
+"Contact Us" = "Hubungi Kami";
+"Privacy Policy" = "Kebijakan Privasi";
+"Terms of Use" = "Syarat Penggunaan";
+"Restore Purchase" = "Pulihkan Pembelian";
+
+"3 FREE Days" = "3 Hari GRATIS";
+"50% OFF" = "Diskon 50%";
+"limited offer!" = "penawaran terbatas!";
+"Try it now!" = "Coba sekarang!";
+
+"Premium activated!" = "Premium diaktifkan!";
+"Thank you for your trust!" = "Terima kasih atas kepercayaan Anda!";
+
+"Other" = "Lainnya";
+"Settings" = "Pengaturan";
+"Connect" = "Hubungkan";
+"Celsius" = "Celsius";
+"Fan Speed" = "Kecepatan Kipas";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Nyalakan pendingin udara";
+"Switch your AC to standby mode using the remote or panel." = "Alihkan AC ke mode siaga menggunakan remote atau panel.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Aktifkan Wi-Fi pada AC";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Buka pengaturan Wi-Fi AC Anda dan mulai proses pemasangan (lihat ikon Wi-Fi berkedip).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Pilih Wi-Fi ponsel Anda";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "Di AC, pilih jaringan Wi-Fi yang sama dengan yang terhubung ke ponsel Anda.";
+"🔍 4. Connect via the app" = "🔍 4. Hubungkan melalui aplikasi";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Buka aplikasi, ketuk 'Tambahkan perangkat', dan ikuti langkah-langkah untuk menghubungkan AC Anda.";
+
+"Affordable air conditioners" = "AC terjangkau";
+"Connected" = "Terhubung";
+"Found devices" = "Perangkat ditemukan";
+"Repeat search" = "Ulangi pencarian";
+"Device Search..." = "Mencari perangkat...";
+
+"Retry" = "Coba lagi";
+"We couldn’t find any compatible devices." = "Kami tidak menemukan perangkat yang kompatibel.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Pastikan AC menyala dan terhubung ke jaringan Wi-Fi yang sama dengan ponsel Anda.";
+"Couldn’t connect to the device" = "Tidak dapat terhubung ke perangkat";
+"Check your Wi-Fi signal and try again." = "Periksa sinyal Wi-Fi Anda dan coba lagi.";
+"No Wi-Fi connection found." = "Tidak ada koneksi Wi-Fi ditemukan.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Silakan hubungkan ponsel ke jaringan Wi-Fi sebelum melanjutkan.";
+"Can’t connect to the network." = "Tidak dapat terhubung ke jaringan.";
+"Double-check your Wi-Fi password and try again." = "Periksa kembali kata sandi Wi-Fi Anda dan coba lagi.";
+"The device is currently offline." = "Perangkat saat ini offline.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Pastikan perangkat terpasang dan terhubung ke Wi-Fi.";
+"Permissions needed." = "Diperlukan izin.";
+"Allow location and local network access in Settings to find devices nearby." = "Izinkan akses lokasi dan jaringan lokal di Pengaturan untuk menemukan perangkat di sekitar.";
+"Something went wrong." = "Terjadi kesalahan.";
+"Please try again later or check your internet connection." = "Silakan coba lagi nanti atau periksa koneksi internet Anda.";
+"You're offline." = "Anda sedang offline.";
+"Please connect to the internet and try again." = "Silakan hubungkan ke internet dan coba lagi.";
+
+"SMART\nCLIMATE CONTROL" = "SMART\nPENGATURAN IKLIM";
+"Start using the app with no limits or" = "Mulai gunakan aplikasi tanpa batas atau";
+"use limited version." = "gunakan versi terbatas.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 hari gratis, lalu %price%/%period%. Perpanjangan otomatis.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Perpanjangan otomatis.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "REMOTE AC\nTANPA\nBATASAN";
+
+"Cancel anytime with no charges." = "Batalkan kapan saja tanpa biaya.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Nikmati semua manfaat aplikasi tanpa batasan dan iklan! Nikmati uji coba gratis 3 hari dengan akses penuh ke semua fitur, lalu %price%/%period% aplikasi atau";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Nikmati semua manfaat aplikasi tanpa batasan dan iklan! Gunakan dengan akses penuh ke semua fitur, %price%/%period% aplikasi atau";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "REMOTE AC\nTANPA BATASAN";
+
+"Intuitive interface" = "Antarmuka intuitif";
+"Remote control" = "Kontrol jarak jauh";
+"Energy efficiency" = "Efisiensi energi";
+"Updates and improvements" = "Pembaruan dan peningkatan";
+"Three days free" = "Tiga hari gratis";
+"Premium Comfort" = "Kenyamanan Premium";
+"Control your AC in just 2 taps - simple as texting!" = "Kendalikan AC Anda hanya dengan 2 ketukan – semudah mengirim pesan!";
+"Adjust temperature from anywhere." = "Sesuaikan suhu dari mana saja.";
+"Smart energy savings" = "Penghematan energi cerdas";
+"We make the app better every 2 weeks" = "Kami meningkatkan aplikasi setiap 2 minggu";
+"Try all premium features risk-free" = "Coba semua fitur premium tanpa risiko";
+"Only %price%/%period%. Cancel anytime." = "Hanya %price%/%period%. Batalkan kapan saja.";
+"Three days free trial" = "Uji coba gratis 3 hari";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "REMOTE AC\nTANPA BATASAN";
+
+"Most popular" = "Paling populer";
+"3 days free, then" = "3 hari gratis, lalu";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Nikmati semua manfaat aplikasi tanpa batasan dan iklan! Gunakan versi uji coba 3 hari, lalu %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Nikmati semua manfaat aplikasi tanpa batasan dan iklan! Hanya %price%/%period%!";
+
+"Offer expires in:" = "Penawaran berakhir dalam:";
+"✔️ Cancel anytime" = "✔️ Batalkan kapan saja";
+"✔️ Full access to all features" = "✔️ Akses penuh ke semua fitur";
+"Turn your smartphone into a powerful climate control system!" = "Ubah smartphone Anda menjadi sistem kontrol iklim yang canggih!";
+
+"3-DAY" = "3-HARI";
+"LIMITED TIME!" = "WAKTU TERBATAS!";
+
+"OFF" = "MATI";
+"Don’t miss your chance!" = "Jangan lewatkan kesempatan Anda!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Dapatkan diskon hingga 90% selama masih tersedia. Cepat manfaatkan semua keuntungannya!";
+"I want to!" = "Saya mau!";
+
+"Set Timer" = "Atur Timer";
+"Automatically power off the air conditioner after the selected time." = "Matikan AC secara otomatis setelah waktu yang dipilih.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Jangkauan timer mati: 5 menit – 12 jam";
+"Apply" = "Terapkan";
+"TURN ON" = "NYALAKAN";
+"TURN OFF" = "MATIKAN";
+

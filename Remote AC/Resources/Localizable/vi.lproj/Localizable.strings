@@ -1,0 +1,163 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Ưu đãi đặc biệt cho bạn! Giá tốt nhất! Chỉ ngay bây giờ!";
+"Weekly" = "Hàng tuần";
+"Monthly" = "Hàng tháng";
+"Yearly" = "Hàng năm";
+"Daily" = "Hàng ngày";
+
+"week" = "tuần";
+"month" = "tháng";
+"year" = "năm";
+"day" = "ngày";
+
+"Special Offer!🎁" = "Ưu đãi đặc biệt!🎁";
+"Would you like to receive a special condition?" = "Bạn có muốn nhận điều kiện đặc biệt không?";
+"Get" = "Nhận";
+"Cancel" = "Hủy";
+
+"Terms" = "Điều khoản";
+"Restore" = "Khôi phục";
+"Privacy" = "Quyền riêng tư";
+
+"WELCOME\nTO REMOTE AC" = "CHÀO MỪNG\nĐẾN REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Điều khiển điều hòa của bạn\nmột cách dễ dàng từ điện thoại thông minh";
+"Continue" = "Tiếp tục";
+
+"YOUR FEEDBACK\nMATTERS" = "PHẢN HỒI CỦA BẠN\nRẤT QUAN TRỌNG";
+"Help us improve\nRemote AC for you" = "Giúp chúng tôi cải thiện\nRemote AC cho bạn";
+
+"UNIVERSAL\nCOMPATIBILITY" = "TƯƠNG THÍCH\nTOÀN DIỆN";
+"Works with 100%\nof AC brands" = "Hoạt động với 100%\ncác thương hiệu AC";
+
+"USER\nREVIEWS" = "ĐÁNH GIÁ\nNGƯỜI DÙNG";
+"See what people love\nabout RemoteAC" = "Xem mọi người yêu thích gì\nvề RemoteAC";
+
+"Life-changing!" = "Thay đổi cuộc sống!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Tôi lấy lại sự thoải mái chỉ trong một tuần. Bây giờ tôi điều khiển AC mà không cần rời khỏi ghế sofa!";
+
+"Coolness on demand!" = "Làm mát theo yêu cầu!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "Ngay từ lần sử dụng đầu tiên, tôi đã cảm nhận được sự khác biệt. Nhiệt độ hoàn hảo ở bất cứ đâu trong nhà tôi!";
+
+"Cool" = "Lạnh";
+"Heat" = "Nóng";
+
+"Eco" = "Tiết kiệm";
+"Swing" = "Đảo gió";
+"Timer" = "Hẹn giờ";
+
+"Low" = "Thấp";
+"Mid" = "Trung bình";
+"High" = "Cao";
+
+"Contact Us" = "Liên hệ chúng tôi";
+"Privacy Policy" = "Chính sách bảo mật";
+"Terms of Use" = "Điều khoản sử dụng";
+"Restore Purchase" = "Khôi phục mua hàng";
+
+"3 FREE Days" = "3 NGÀY MIỄN PHÍ";
+"50% OFF" = "GIẢM 50%";
+"limited offer!" = "ưu đãi giới hạn!";
+"Try it now!" = "Thử ngay!";
+
+"Premium activated!" = "Kích hoạt Premium!";
+"Thank you for your trust!" = "Cảm ơn bạn đã tin tưởng!";
+
+"Other" = "Khác";
+"Settings" = "Cài đặt";
+"Connect" = "Kết nối";
+"Celsius" = "Celsius";
+"Fan Speed" = "Tốc độ quạt";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Bật điều hòa";
+"Switch your AC to standby mode using the remote or panel." = "Chuyển AC của bạn sang chế độ chờ bằng điều khiển từ xa hoặc bảng điều khiển.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Bật Wi-Fi trên AC";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Vào cài đặt Wi-Fi của AC và bắt đầu quá trình ghép đôi (tìm biểu tượng Wi-Fi nhấp nháy).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Chọn Wi-Fi của điện thoại bạn";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "Trên AC, chọn cùng mạng Wi-Fi mà điện thoại bạn đang kết nối.";
+"🔍 4. Connect via the app" = "🔍 4. Kết nối qua ứng dụng";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Mở ứng dụng, nhấn 'Thêm thiết bị', và làm theo các bước để kết nối AC của bạn.";
+
+"Affordable air conditioners" = "Điều hòa giá hợp lý";
+"Connected" = "Đã kết nối";
+"Found devices" = "Đã tìm thấy thiết bị";
+"Repeat search" = "Tìm lại";
+"Device Search..." = "Đang tìm thiết bị...";
+
+"Retry" = "Thử lại";
+"We couldn’t find any compatible devices." = "Chúng tôi không tìm thấy thiết bị tương thích nào.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Đảm bảo AC của bạn đang bật và kết nối cùng mạng Wi-Fi với điện thoại.";
+"Couldn’t connect to the device" = "Không thể kết nối với thiết bị";
+"Check your Wi-Fi signal and try again." = "Kiểm tra tín hiệu Wi-Fi và thử lại.";
+"No Wi-Fi connection found." = "Không tìm thấy kết nối Wi-Fi.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Vui lòng kết nối điện thoại với mạng Wi-Fi trước khi tiếp tục.";
+"Can’t connect to the network." = "Không thể kết nối mạng.";
+"Double-check your Wi-Fi password and try again." = "Kiểm tra lại mật khẩu Wi-Fi và thử lại.";
+"The device is currently offline." = "Thiết bị hiện đang ngoại tuyến.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Đảm bảo thiết bị đã cắm điện và kết nối Wi-Fi.";
+"Permissions needed." = "Cần quyền truy cập.";
+"Allow location and local network access in Settings to find devices nearby." = "Cho phép truy cập vị trí và mạng cục bộ trong Cài đặt để tìm thiết bị gần đó.";
+"Something went wrong." = "Đã xảy ra lỗi.";
+"Please try again later or check your internet connection." = "Vui lòng thử lại sau hoặc kiểm tra kết nối internet.";
+"You're offline." = "Bạn đang ngoại tuyến.";
+"Please connect to the internet and try again." = "Vui lòng kết nối internet và thử lại.";
+
+"SMART\nCLIMATE CONTROL" = "KIỂM SOÁT\nKHÍ HẬU THÔNG MINH";
+"Start using the app with no limits or" = "Bắt đầu sử dụng ứng dụng không giới hạn hoặc";
+"use limited version." = "sử dụng phiên bản giới hạn.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 ngày miễn phí và sau đó %price%/%period%. Tự động gia hạn.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Tự động gia hạn.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "Điều khiển AC\nkhông giới hạn";
+
+"Cancel anytime with no charges." = "Hủy bất cứ lúc nào mà không mất phí.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Tận hưởng tất cả lợi ích của ứng dụng mà không giới hạn và không quảng cáo! Dùng thử 3 ngày miễn phí với quyền truy cập đầy đủ tất cả tính năng, sau đó %price%/%period% ứng dụng hoặc";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Tận hưởng tất cả lợi ích của ứng dụng mà không giới hạn và không quảng cáo! Sử dụng với quyền truy cập đầy đủ tất cả tính năng, %price%/%period% ứng dụng hoặc";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "Điều khiển AC\nkhông giới hạn";
+
+"Intuitive interface" = "Giao diện trực quan";
+"Remote control" = "Điều khiển từ xa";
+"Energy efficiency" = "Tiết kiệm năng lượng";
+"Updates and improvements" = "Cập nhật và cải tiến";
+"Three days free" = "Miễn phí ba ngày";
+"Premium Comfort" = "Tiện nghi cao cấp";
+"Control your AC in just 2 taps - simple as texting!" = "Điều khiển AC chỉ với 2 lần nhấn – đơn giản như nhắn tin!";
+"Adjust temperature from anywhere." = "Điều chỉnh nhiệt độ từ bất cứ đâu.";
+"Smart energy savings" = "Tiết kiệm năng lượng thông minh";
+"We make the app better every 2 weeks" = "Chúng tôi cải thiện ứng dụng mỗi 2 tuần";
+"Try all premium features risk-free" = "Dùng thử tất cả tính năng cao cấp không rủi ro";
+"Only %price%/%period%. Cancel anytime." = "Chỉ %price%/%period%. Hủy bất cứ lúc nào.";
+"Three days free trial" = "Thử nghiệm miễn phí ba ngày";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "Điều khiển AC\nkhông giới hạn";
+
+"Most popular" = "Phổ biến nhất";
+"3 days free, then" = "Miễn phí 3 ngày, sau đó";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Tận hưởng tất cả lợi ích của ứng dụng mà không giới hạn và không quảng cáo! Dùng thử 3 ngày miễn phí và sau đó %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Tận hưởng tất cả lợi ích của ứng dụng mà không giới hạn và không quảng cáo! Chỉ %price%/%period%!";
+
+"Offer expires in:" = "Ưu đãi hết hạn sau:";
+"✔️ Cancel anytime" = "✔️ Hủy bất cứ lúc nào";
+"✔️ Full access to all features" = "✔️ Truy cập đầy đủ tất cả tính năng";
+"Turn your smartphone into a powerful climate control system!" = "Biến điện thoại thông minh của bạn thành hệ thống điều khiển khí hậu mạnh mẽ!";
+
+"3-DAY" = "3 NGÀY";
+"LIMITED TIME!" = "THỜI GIAN GIỚI HẠN!";
+
+"OFF" = "TẮT";
+"Don’t miss your chance!" = "Đừng bỏ lỡ cơ hội!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Nhận tới 90% giảm giá khi còn sẵn. Nhanh tay tận hưởng tất cả lợi ích!";
+"I want to!" = "Tôi muốn!";
+
+"Set Timer" = "Đặt hẹn giờ";
+"Automatically power off the air conditioner after the selected time." = "Tự động tắt điều hòa sau thời gian đã chọn.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Phạm vi hẹn giờ tắt: 5 phút – 12 giờ";
+"Apply" = "Áp dụng";
+"TURN ON" = "BẬT";
+"TURN OFF" = "TẮT";
+

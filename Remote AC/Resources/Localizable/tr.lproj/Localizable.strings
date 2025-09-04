@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Sana özel fırsat! En iyi fiyat! Sadece şimdi!";
+
+"Weekly" = "Haftalık";
+"Monthly" = "Aylık";
+"Yearly" = "Yıllık";
+"Daily" = "Günlük";
+
+"week" = "hafta";
+"month" = "ay";
+"year" = "yıl";
+"day" = "gün";
+
+"Special Offer!🎁" = "Özel Teklif!🎁";
+"Would you like to receive a special condition?" = "Özel bir teklif almak ister misiniz?";
+"Get" = "Al";
+"Cancel" = "İptal";
+
+"Terms" = "Şartlar";
+"Restore" = "Geri Yükle";
+"Privacy" = "Gizlilik";
+
+"WELCOME\nTO REMOTE AC" = "REMOTE AC'YE\nHOŞGELDİNİZ";
+"Control your air conditioner\neffortlessly from your smartphone" = "Klimanızı akıllı telefonunuzdan\nkolayca kontrol edin";
+"Continue" = "Devam";
+
+"YOUR FEEDBACK\nMATTERS" = "GÖRÜŞLERİNİZ\nÖNEMLİ";
+"Help us improve\nRemote AC for you" = "Remote AC'yi sizin için geliştirmemize yardımcı olun";
+
+"UNIVERSAL\nCOMPATIBILITY" = "EVRENSEL\nUYUMLULUK";
+"Works with 100%\nof AC brands" = "%100 klimanın markası ile uyumlu";
+
+"USER\nREVIEWS" = "KULLANICI\nYORUMLARI";
+"See what people love\nabout RemoteAC" = "İnsanların RemoteAC hakkında\nneleri sevdiğini görün";
+
+"Life-changing!" = "Hayat değiştirici!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Konforumu sadece bir haftada geri kazandım. Artık kanepeden bile kalkmadan klimamı kontrol edebiliyorum!";
+
+"Coolness on demand!" = "İstediğiniz anda serinlik!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "İlk kullanımdan itibaren farkı hissettim. Evimin her yerinde mükemmel sıcaklık!";
+
+"Cool" = "Soğutma";
+"Heat" = "Isıtma";
+
+"Eco" = "Eko";
+"Swing" = "Salınım";
+"Timer" = "Zamanlayıcı";
+
+"Low" = "Düşük";
+"Mid" = "Orta";
+"High" = "Yüksek";
+
+"Contact Us" = "Bize Ulaşın";
+"Privacy Policy" = "Gizlilik Politikası";
+"Terms of Use" = "Kullanım Şartları";
+"Restore Purchase" = "Satın Almayı Geri Yükle";
+
+"3 FREE Days" = "3 ÜCRETSİZ Gün";
+"50% OFF" = "%50 İndirim";
+"limited offer!" = "sınırlı süreli teklif!";
+"Try it now!" = "Hemen Deneyin!";
+
+"Premium activated!" = "Premium etkinleştirildi!";
+"Thank you for your trust!" = "Güveniniz için teşekkürler!";
+
+"Other" = "Diğer";
+"Settings" = "Ayarlar";
+"Connect" = "Bağlan";
+"Celsius" = "Santigrat";
+"Fan Speed" = "Fan Hızı";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Klimayı açın";
+"Switch your AC to standby mode using the remote or panel." = "Klimanızı uzaktan kumanda veya panel ile bekleme moduna alın.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Klimada Wi-Fi'yi etkinleştirin";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Klimanızın Wi-Fi ayarlarına gidin ve eşleştirme işlemini başlatın (yanıp sönen Wi-Fi simgesini arayın).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Telefonunuzun Wi-Fi'sini seçin";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "Klimada, telefonunuzun bağlı olduğu aynı Wi-Fi ağına bağlanın.";
+"🔍 4. Connect via the app" = "🔍 4. Uygulama üzerinden bağlanın";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Uygulamayı açın, “Cihaz ekle”ye dokunun ve klimayı bağlamak için adımları izleyin.";
+
+"Affordable air conditioners" = "Uygun fiyatlı klimalar";
+"Connected" = "Bağlı";
+"Found devices" = "Bulunan cihazlar";
+"Repeat search" = "Aramayı tekrar et";
+"Device Search..." = "Cihaz aranıyor...";
+
+"Retry" = "Tekrar dene";
+"We couldn’t find any compatible devices." = "Uyumlu cihaz bulunamadı.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Klimanın açık olduğundan ve telefonunuzla aynı Wi-Fi ağına bağlı olduğundan emin olun.";
+"Couldn’t connect to the device" = "Cihaza bağlanılamadı";
+"Check your Wi-Fi signal and try again." = "Wi-Fi sinyalinizi kontrol edin ve tekrar deneyin.";
+"No Wi-Fi connection found." = "Wi-Fi bağlantısı bulunamadı.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Devam etmeden önce telefonunuzu Wi-Fi ağına bağlayın.";
+"Can’t connect to the network." = "Ağa bağlanılamıyor.";
+"Double-check your Wi-Fi password and try again." = "Wi-Fi şifrenizi tekrar kontrol edin ve tekrar deneyin.";
+"The device is currently offline." = "Cihaz şu anda çevrimdışı.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Fişe takılı ve Wi-Fi'ye bağlı olduğundan emin olun.";
+"Permissions needed." = "İzin gerekli.";
+"Allow location and local network access in Settings to find devices nearby." = "Yakındaki cihazları bulmak için Ayarlar’dan konum ve yerel ağ erişimine izin verin.";
+"Something went wrong." = "Bir şeyler yanlış gitti.";
+"Please try again later or check your internet connection." = "Lütfen daha sonra tekrar deneyin veya internet bağlantınızı kontrol edin.";
+"You're offline." = "Çevrimdışısınız.";
+"Please connect to the internet and try again." = "Lütfen internete bağlanın ve tekrar deneyin.";
+
+"SMART\nCLIMATE CONTROL" = "AKILLI\nKLİMA KONTROLÜ";
+"Start using the app with no limits or" = "Uygulamayı sınırsız kullanmaya başla veya";
+"use limited version." = "sınırlı sürümü kullan.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 gün ücretsiz, ardından %price%/%period%. Otomatik yenileme.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Otomatik yenileme.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "SINIRSIZ\nKLİMA KUMANDASI";
+
+"Cancel anytime with no charges." = "Her zaman iptal edilebilir, ücret alınmaz.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Uygulamayı kısıtlama ve reklam olmadan kullanın! Tüm özelliklere tam erişim ile 3 günlük ücretsiz deneme yapın, ardından %price%/%period% uygulama veya";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Uygulamayı kısıtlama ve reklam olmadan kullanın! Tüm özelliklere tam erişim ile %price%/%period% uygulama veya";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "SINIRSIZ\nKLİMA KUMANDASI";
+
+"Intuitive interface" = "Sezgisel arayüz";
+"Remote control" = "Uzaktan kumanda";
+"Energy efficiency" = "Enerji verimliliği";
+"Updates and improvements" = "Güncellemeler ve iyileştirmeler";
+"Three days free" = "Üç gün ücretsiz";
+"Premium Comfort" = "Premium Konfor";
+"Control your AC in just 2 taps - simple as texting!" = "Klimanızı sadece 2 dokunuşla kontrol edin - mesajlaşmak kadar kolay!";
+"Adjust temperature from anywhere." = "Sıcaklığı her yerden ayarlayın.";
+"Smart energy savings" = "Akıllı enerji tasarrufu";
+"We make the app better every 2 weeks" = "Uygulamayı her 2 haftada bir daha iyi hale getiriyoruz";
+"Try all premium features risk-free" = "Tüm premium özellikleri risksiz deneyin";
+"Only %price%/%period%. Cancel anytime." = "Sadece %price%/%period%. Her zaman iptal edilebilir.";
+"Three days free trial" = "Üç günlük ücretsiz deneme";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "SINIRSIZ\nKLİMA KUMANDASI";
+
+"Most popular" = "En popüler";
+"3 days free, then" = "3 gün ücretsiz, ardından";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Uygulamayı kısıtlamasız ve reklamsız kullanın! 3 günlük deneme sürümünü kullanın, ardından %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Uygulamayı kısıtlamasız ve reklamsız kullanın! Sadece %price%/%period%!";
+
+"Offer expires in:" = "Teklifin süresi doluyor:";
+"✔️ Cancel anytime" = "✔️ Her zaman iptal edilebilir";
+"✔️ Full access to all features" = "✔️ Tüm özelliklere tam erişim";
+"Turn your smartphone into a powerful climate control system!" = "Akıllı telefonunuzu güçlü bir iklim kontrol sistemine dönüştürün!";
+
+"3-DAY" = "3 GÜNLÜK";
+"LIMITED TIME!" = "SINIRLI SÜRE!";
+
+"OFF" = "KAPALI";
+"Don’t miss your chance!" = "Fırsatı kaçırmayın!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Mevcutken %90’a varan indirim kazanın. Tüm avantajlardan yararlanmak için acele edin!";
+"I want to!" =  "İstiyorum!";
+
+"Set Timer" = "Zamanlayıcıyı Ayarla";
+"Automatically power off the air conditioner after the selected time." = "Seçilen süreden sonra klimayı otomatik olarak kapatır.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Kapanma zamanlayıcı aralığı: 5 dakika – 12 saat";
+"Apply" = "Uygula";
+"TURN ON" = "AÇ";
+"TURN OFF" = "KAPAT";
+

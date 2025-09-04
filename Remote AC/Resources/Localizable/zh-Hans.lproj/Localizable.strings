@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "为您提供特别优惠！最低价格！仅限现在！";
+
+"Weekly" = "每周";
+"Monthly" = "每月";
+"Yearly" = "每年";
+"Daily" = "每日";
+
+"week" = "周";
+"month" = "月";
+"year" = "年";
+"day" = "天";
+
+"Special Offer!🎁" = "特别优惠!🎁";
+"Would you like to receive a special condition?" = "您想收到特别优惠吗？";
+"Get" = "获取";
+"Cancel" = "取消";
+
+"Terms" = "条款";
+"Restore" = "恢复";
+"Privacy" = "隐私";
+
+"WELCOME\nTO REMOTE AC" = "欢迎\n使用远程空调";
+"Control your air conditioner\neffortlessly from your smartphone" = "通过手机轻松控制您的空调";
+"Continue" = "继续";
+
+"YOUR FEEDBACK\nMATTERS" = "您的反馈\n很重要";
+"Help us improve\nRemote AC for you" = "帮助我们改善\nRemote AC 为您服务";
+
+"UNIVERSAL\nCOMPATIBILITY" = "通用兼容性";
+"Works with 100%\nof AC brands" = "适用于 100% 的空调品牌";
+
+"USER\nREVIEWS" = "用户\n评价";
+"See what people love\nabout RemoteAC" = "看看大家对 RemoteAC 的喜爱";
+
+"Life-changing!" = "改变生活！";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "仅一周我就恢复了舒适，现在我甚至不用起身就能控制空调！";
+
+"Coolness on demand!" = "随需制冷！";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "第一次使用就能感受到差异，家中各处温度完美！";
+
+"Cool" = "制冷";
+"Heat" = "制热";
+
+"Eco" = "节能";
+"Swing" = "摆风";
+"Timer" = "定时";
+
+"Low" = "低档";
+"Mid" = "中档";
+"High" = "高档";
+
+"Contact Us" = "联系我们";
+"Privacy Policy" = "隐私政策";
+"Terms of Use" = "使用条款";
+"Restore Purchase" = "恢复购买";
+
+"3 FREE Days" = "免费三天";
+"50% OFF" = "五折优惠";
+"limited offer!" = "限时优惠！";
+"Try it now!" = "立即试用！";
+
+"Premium activated!" = "高级版已激活！";
+"Thank you for your trust!" = "感谢您的信任！";
+
+"Other" = "其他";
+"Settings" = "设置";
+"Connect" = "连接";
+"Celsius" = "摄氏度";
+"Fan Speed" = "风速";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. 打开空调";
+"Switch your AC to standby mode using the remote or panel." = "使用遥控器或面板将空调切换到待机模式。";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. 启用空调 Wi-Fi";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "进入空调的 Wi-Fi 设置并开始配对（查找闪烁的 Wi-Fi 图标）。";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. 选择手机的 Wi-Fi";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "在空调上选择与手机连接的相同 Wi-Fi 网络。";
+"🔍 4. Connect via the app" = "🔍 4. 通过应用连接";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "打开应用，点击“添加设备”，然后按照步骤连接空调。";
+
+"Affordable air conditioners" = "经济型空调";
+"Connected" = "已连接";
+"Found devices" = "找到设备";
+"Repeat search" = "重新搜索";
+"Device Search..." = "正在搜索设备...";
+
+"Retry" = "重试";
+"We couldn’t find any compatible devices." = "未找到兼容设备。";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "确保空调已开机并连接到与手机相同的 Wi-Fi 网络。";
+"Couldn’t connect to the device" = "无法连接设备";
+"Check your Wi-Fi signal and try again." = "检查 Wi-Fi 信号并重试。";
+"No Wi-Fi connection found." = "未找到 Wi-Fi 连接。";
+"Please connect your phone to a Wi-Fi network before continuing." = "请先将手机连接到 Wi-Fi 网络再继续。";
+"Can’t connect to the network." = "无法连接网络。";
+"Double-check your Wi-Fi password and try again." = "请再次检查 Wi-Fi 密码并重试。";
+"The device is currently offline." = "设备当前离线。";
+"Make sure it’s plugged in and connected to Wi-Fi." = "确保设备已插电并连接到 Wi-Fi。";
+"Permissions needed." = "需要权限。";
+"Allow location and local network access in Settings to find devices nearby." = "在设置中允许位置和局域网访问以查找附近设备。";
+"Something went wrong." = "出现问题。";
+"Please try again later or check your internet connection." = "请稍后再试或检查网络连接。";
+"You're offline." = "您已离线。";
+"Please connect to the internet and try again." = "请连接互联网后重试。";
+
+"SMART\nCLIMATE CONTROL" = "智能\n气候控制";
+"Start using the app with no limits or" = "开始无限制使用应用，或";
+"use limited version." = "使用有限版本。";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "免费试用 3 天，之后 %price%/%period%，自动续订。";
+"%price%/%period%. Automatic renewal." = "%price%/%period%，自动续订。";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "空调遥控器\n无限制使用";
+
+"Cancel anytime with no charges." = "随时取消，无费用。";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "享受应用的所有功能，无限制且无广告！免费试用 3 天，完整访问所有功能，之后 %price%/%period%";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "享受应用的所有功能，无限制且无广告！完整访问所有功能，%price%/%period%";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "空调遥控器\n无限制";
+
+"Intuitive interface" = "直观界面";
+"Remote control" = "远程控制";
+"Energy efficiency" = "节能";
+"Updates and improvements" = "更新与改进";
+"Three days free" = "免费三天";
+"Premium Comfort" = "高级舒适";
+"Control your AC in just 2 taps - simple as texting!" = "两步即可控制空调，就像发信息一样简单！";
+"Adjust temperature from anywhere." = "随时随地调节温度。";
+"Smart energy savings" = "智能节能";
+"We make the app better every 2 weeks" = "每两周优化应用";
+"Try all premium features risk-free" = "免费体验所有高级功能";
+"Only %price%/%period%. Cancel anytime." = "仅需 %price%/%period%，随时取消。";
+"Three days free trial" = "免费试用三天";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "空调遥控器\n无限制使用";
+
+"Most popular" = "最受欢迎";
+"3 days free, then" = "免费 3 天，之后";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "享受应用的所有功能，无限制且无广告！免费试用 3 天，之后 %price%/%period%！";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "享受应用的所有功能，无限制且无广告！仅需 %price%/%period%！";
+
+"Offer expires in:" = "优惠截止时间：";
+"✔️ Cancel anytime" = "✔️ 随时取消";
+"✔️ Full access to all features" = "✔️ 完整访问所有功能";
+"Turn your smartphone into a powerful climate control system!" = "将您的智能手机变成强大的气候控制系统！";
+
+"3-DAY" = "3 天";
+"LIMITED TIME!" = "限时优惠！";
+
+"OFF" = "关闭";
+"Don’t miss your chance!" = "不要错过机会！";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "可享最高 90% 折扣，机会有限，抓紧享受所有优惠！";
+"I want to!" = "我要！";
+
+"Set Timer" = "设置定时";
+"Automatically power off the air conditioner after the selected time." = "在设定时间后自动关闭空调。";
+"Turn-off timer range: 5 minutes – 12 hours" = "定时范围：5 分钟 – 12 小时";
+"Apply" = "应用";
+"TURN ON" = "开启";
+"TURN OFF" = "关闭";
+

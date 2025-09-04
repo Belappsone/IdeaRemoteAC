@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Specialerbjudande till dig! Bästa pris! Endast just nu!";
+
+"Weekly" = "Veckovis";
+"Monthly" = "Månatlig";
+"Yearly" = "Årlig";
+"Daily" = "Daglig";
+
+"week" = "vecka";
+"month" = "månad";
+"year" = "år";
+"day" = "dag";
+
+"Special Offer!🎁" = "Specialerbjudande!🎁";
+"Would you like to receive a special condition?" = "Vill du ta emot ett specialvillkor?";
+"Get" = "Få";
+"Cancel" = "Avbryt";
+
+"Terms" = "Villkor";
+"Restore" = "Återställ";
+"Privacy" = "Integritet";
+
+"WELCOME\nTO REMOTE AC" = "VÄLKOMMEN\nTILL REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Styr din luftkonditionering\nenkelt från din smartphone";
+"Continue" = "Fortsätt";
+
+"YOUR FEEDBACK\nMATTERS" = "DIN ÅTERKOPPLING\nÄR VIKTIG";
+"Help us improve\nRemote AC for you" = "Hjälp oss att förbättra\nRemote AC för dig";
+
+"UNIVERSAL\nCOMPATIBILITY" = "UNIVERSAL\nKOMPATIBILITET";
+"Works with 100%\nof AC brands" = "Fungerar med 100%\nav AC-märken";
+
+"USER\nREVIEWS" = "ANVÄNDAR\nRECENSIONER";
+"See what people love\nabout RemoteAC" = "Se vad folk älskar\nmed RemoteAC";
+
+"Life-changing!" = "Livsförändrande!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Jag fick tillbaka min komfort på bara en vecka. Nu styr jag min AC utan att ens resa mig från soffan!";
+
+"Coolness on demand!" = "Kyla på begäran!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "Från första användningen kände jag skillnaden. Perfekt temperatur var som helst i mitt hem!";
+
+"Cool" = "Kyl";
+"Heat" = "Värme";
+
+"Eco" = "Eko";
+"Swing" = "Sväng";
+"Timer" = "Timer";
+
+"Low" = "Låg";
+"Mid" = "Medel";
+"High" = "Hög";
+
+"Contact Us" = "Kontakta oss";
+"Privacy Policy" = "Integritetspolicy";
+"Terms of Use" = "Användarvillkor";
+"Restore Purchase" = "Återställ köp";
+
+"3 FREE Days" = "3 GRATIS Dagar";
+"50% OFF" = "50% RABATT";
+"limited offer!" = "begränsat erbjudande!";
+"Try it now!" = "Prova nu!";
+
+"Premium activated!" = "Premium aktiverat!";
+"Thank you for your trust!" = "Tack för ditt förtroende!";
+
+"Other" = "Annat";
+"Settings" = "Inställningar";
+"Connect" = "Anslut";
+"Celsius" = "Celsius";
+"Fan Speed" = "Fläkthastighet";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Sätt på luftkonditioneringen";
+"Switch your AC to standby mode using the remote or panel." = "Ställ AC:n i viloläge med fjärrkontrollen eller panelen.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Aktivera Wi-Fi på AC:n";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Gå till AC:ns Wi-Fi-inställningar och starta parkopplingsprocessen (titta efter en blinkande Wi-Fi-ikon).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Välj din telefons Wi-Fi";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "På AC:n, välj samma Wi-Fi-nätverk som din telefon är ansluten till.";
+"🔍 4. Connect via the app" = "🔍 4. Anslut via appen";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Öppna appen, tryck på 'Lägg till enhet' och följ stegen för att ansluta din AC.";
+
+"Affordable air conditioners" = "Prisvärda luftkonditioneringar";
+"Connected" = "Ansluten";
+"Found devices" = "Hittade enheter";
+"Repeat search" = "Upprepa sökning";
+"Device Search..." = "Söker enheter...";
+
+"Retry" = "Försök igen";
+"We couldn’t find any compatible devices." = "Vi kunde inte hitta några kompatibla enheter.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Se till att AC:n är påslagen och ansluten till samma Wi-Fi-nätverk som din telefon.";
+"Couldn’t connect to the device" = "Kunde inte ansluta till enheten";
+"Check your Wi-Fi signal and try again." = "Kontrollera din Wi-Fi-signal och försök igen.";
+"No Wi-Fi connection found." = "Ingen Wi-Fi-anslutning hittades.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Anslut din telefon till ett Wi-Fi-nätverk innan du fortsätter.";
+"Can’t connect to the network." = "Kan inte ansluta till nätverket.";
+"Double-check your Wi-Fi password and try again." = "Dubbelkolla ditt Wi-Fi-lösenord och försök igen.";
+"The device is currently offline." = "Enheten är för närvarande offline.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Se till att den är inkopplad och ansluten till Wi-Fi.";
+"Permissions needed." = "Behörigheter krävs.";
+"Allow location and local network access in Settings to find devices nearby." = "Tillåt plats och åtkomst till lokalt nätverk i Inställningar för att hitta enheter i närheten.";
+"Something went wrong." = "Något gick fel.";
+"Please try again later or check your internet connection." = "Försök igen senare eller kontrollera din internetanslutning.";
+"You're offline." = "Du är offline.";
+"Please connect to the internet and try again." = "Anslut till internet och försök igen.";
+
+"SMART\nCLIMATE CONTROL" = "SMART\nKLIMATKONTROLL";
+"Start using the app with no limits or" = "Börja använda appen utan begränsningar eller";
+"use limited version." = "använd begränsad version.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 dagar gratis och sedan %price%/%period%. Automatisk förnyelse.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Automatisk förnyelse.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "AC FJÄRRKONTROLL\nUTAN\nBEGRÄNSNINGAR";
+
+"Cancel anytime with no charges." = "Avbryt när som helst utan kostnad.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Njut av alla fördelar med appen utan begränsningar och annonser! Njut av en 3-dagars gratis provperiod med full tillgång till alla funktioner, sedan %price%/%period% app eller";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Njut av alla fördelar med appen utan begränsningar och annonser! Njut av full tillgång till alla funktioner, %price%/%period% app eller";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "AC FJÄRRKONTROLL\nUTAN BEGRÄNSNINGAR";
+
+"Intuitive interface" = "Intuitivt gränssnitt";
+"Remote control" = "Fjärrkontroll";
+"Energy efficiency" = "Energieffektivitet";
+"Updates and improvements" = "Uppdateringar och förbättringar";
+"Three days free" = "Tre dagar gratis";
+"Premium Comfort" = "Premiumkomfort";
+"Control your AC in just 2 taps - simple as texting!" = "Kontrollera din AC med bara 2 tryck – lika enkelt som att skicka meddelanden!";
+"Adjust temperature from anywhere." = "Justera temperaturen var som helst.";
+"Smart energy savings" = "Smart energibesparing";
+"We make the app better every 2 weeks" = "Vi förbättrar appen varannan vecka";
+"Try all premium features risk-free" = "Prova alla premiumfunktioner utan risk";
+"Only %price%/%period%. Cancel anytime." = "Endast %price%/%period%. Avbryt när som helst.";
+"Three days free trial" = "Tre dagars gratis provperiod";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "AC FJÄRRKONTROLL\nUTAN\nBEGRÄNSNINGAR";
+
+"Most popular" = "Mest populär";
+"3 days free, then" = "3 dagar gratis, sedan";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Njut av alla fördelar med appen utan begränsningar och annonser! Använd 3 dagars provversion och efter %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Njut av alla fördelar med appen utan begränsningar och annonser! Endast %price%/%period%!";
+
+"Offer expires in:" = "Erbjudandet upphör om:";
+"✔️ Cancel anytime" = "✔️ Avbryt när som helst";
+"✔️ Full access to all features" = "✔️ Full tillgång till alla funktioner";
+"Turn your smartphone into a powerful climate control system!" = "Förvandla din smartphone till ett kraftfullt klimatsystem!";
+
+"3-DAY" = "3-DAGARS";
+"LIMITED TIME!" = "BEGRÄNSAD TID!";
+
+"OFF" = "AV";
+"Don’t miss your chance!" = "Missa inte din chans!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Få upp till 90 % rabatt medan det fortfarande är tillgängligt. Skynda dig att ta del av alla fördelar!";
+"I want to!" =  "Jag vill!";
+
+"Set Timer" = "Ställ in timer";
+"Automatically power off the air conditioner after the selected time." = "Stäng automatiskt av luftkonditioneringen efter vald tid.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Timerintervall för avstängning: 5 minuter – 12 timmar";
+"Apply" = "Verkställ";
+"TURN ON" = "SLÅ PÅ";
+"TURN OFF" = "STÄNG AV";
+

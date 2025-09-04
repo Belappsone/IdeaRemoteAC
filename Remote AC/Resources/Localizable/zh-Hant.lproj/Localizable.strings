@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "為您提供特別優惠！最優惠價格！僅此刻！";
+
+"Weekly" = "每週";
+"Monthly" = "每月";
+"Yearly" = "每年";
+"Daily" = "每日";
+
+"week" = "週";
+"month" = "月";
+"year" = "年";
+"day" = "日";
+
+"Special Offer!🎁" = "特別優惠！🎁";
+"Would you like to receive a special condition?" = "您想要收到特別條件嗎？";
+"Get" = "獲取";
+"Cancel" = "取消";
+
+"Terms" = "條款";
+"Restore" = "恢復";
+"Privacy" = "隱私";
+
+"WELCOME\nTO REMOTE AC" = "歡迎\n使用遙控空調";
+"Control your air conditioner\neffortlessly from your smartphone" = "輕鬆從智慧型手機\n控制您的空調";
+"Continue" = "繼續";
+
+"YOUR FEEDBACK\nMATTERS" = "您的回饋\n非常重要";
+"Help us improve\nRemote AC for you" = "幫助我們改進\n為您提供更好的遙控空調體驗";
+
+"UNIVERSAL\nCOMPATIBILITY" = "通用\n相容性";
+"Works with 100%\nof AC brands" = "適用於 100%\n空調品牌";
+
+"USER\nREVIEWS" = "使用者\n評論";
+"See what people love\nabout RemoteAC" = "看看大家喜愛\nRemoteAC 的原因";
+
+"Life-changing!" = "改變生活！";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "僅一週，我就恢復了舒適。現在我甚至不必起身，就能控制空調！";
+
+"Coolness on demand!" = "隨需制冷！";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "從第一次使用就感受到不同。家中任何地方都有完美溫度！";
+
+"Cool" = "制冷";
+"Heat" = "加熱";
+
+"Eco" = "節能";
+"Swing" = "擺動";
+"Timer" = "定時";
+
+"Low" = "低";
+"Mid" = "中";
+"High" = "高";
+
+"Contact Us" = "聯絡我們";
+"Privacy Policy" = "隱私政策";
+"Terms of Use" = "使用條款";
+"Restore Purchase" = "恢復購買";
+
+"3 FREE Days" = "三天免費";
+"50% OFF" = "五折優惠";
+"limited offer!" = "限時優惠！";
+"Try it now!" = "立即試用！";
+
+"Premium activated!" = "已啟用 Premium！";
+"Thank you for your trust!" = "感謝您的信任！";
+
+"Other" = "其他";
+"Settings" = "設定";
+"Connect" = "連接";
+"Celsius" = "攝氏";
+"Fan Speed" = "風速";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. 開啟空調";
+"Switch your AC to standby mode using the remote or panel." = "使用遙控器或面板將空調切換至待機模式。";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. 啟用空調的 Wi-Fi";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "前往空調的 Wi-Fi 設定並開始配對（尋找閃爍的 Wi-Fi 圖示）。";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. 選擇手機的 Wi-Fi";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "在空調上選擇與手機連接相同的 Wi-Fi 網路。";
+"🔍 4. Connect via the app" = "🔍 4. 透過應用程式連接";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "打開應用程式，點選「新增裝置」，並依照步驟連接空調。";
+
+"Affordable air conditioners" = "實惠的空調";
+"Connected" = "已連接";
+"Found devices" = "找到裝置";
+"Repeat search" = "重新搜尋";
+"Device Search..." = "搜尋裝置中...";
+
+"Retry" = "重試";
+"We couldn’t find any compatible devices." = "找不到相容的裝置。";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "請確保空調已開啟，並連接與手機相同的 Wi-Fi 網路。";
+"Couldn’t connect to the device" = "無法連接裝置";
+"Check your Wi-Fi signal and try again." = "檢查 Wi-Fi 訊號並重試。";
+"No Wi-Fi connection found." = "未找到 Wi-Fi 連線。";
+"Please connect your phone to a Wi-Fi network before continuing." = "請先將手機連接至 Wi-Fi 網路再繼續。";
+"Can’t connect to the network." = "無法連接網路。";
+"Double-check your Wi-Fi password and try again." = "請再次確認 Wi-Fi 密碼並重試。";
+"The device is currently offline." = "裝置目前離線。";
+"Make sure it’s plugged in and connected to Wi-Fi." = "請確保已插電並連接至 Wi-Fi。";
+"Permissions needed." = "需要權限。";
+"Allow location and local network access in Settings to find devices nearby." = "請在設定中允許位置和本地網路存取以搜尋附近裝置。";
+"Something went wrong." = "發生錯誤。";
+"Please try again later or check your internet connection." = "請稍後再試或檢查網路連線。";
+"You're offline." = "您目前離線。";
+"Please connect to the internet and try again." = "請連接網路後再試。";
+
+"SMART\nCLIMATE CONTROL" = "智慧\n氣候控制";
+"Start using the app with no limits or" = "開始無限制使用應用程式，或";
+"use limited version." = "使用限制版本。";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "免費三天，之後 %price%/%period%。自動續訂。";
+"%price%/%period%. Automatic renewal." = "%price%/%period%。自動續訂。";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "空調遙控器\n無任何限制";
+
+"Cancel anytime with no charges." = "隨時取消，不收費。";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "享受應用程式所有功能而無限制與廣告！享受三天免費試用，完整功能開放，之後 %price%/%period%。";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "享受應用程式所有功能而無限制與廣告！完整功能開放，%price%/%period%。";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "空調遙控器\n無限制";
+
+"Intuitive interface" = "直覺化介面";
+"Remote control" = "遙控操作";
+"Energy efficiency" = "節能效率";
+"Updates and improvements" = "更新與改進";
+"Three days free" = "免費三天";
+"Premium Comfort" = "高級舒適";
+"Control your AC in just 2 taps - simple as texting!" = "只需兩次點擊即可控制空調—像傳訊一樣簡單！";
+"Adjust temperature from anywhere." = "隨時隨地調整溫度。";
+"Smart energy savings" = "智慧節能";
+"We make the app better every 2 weeks" = "我們每兩週優化一次應用程式";
+"Try all premium features risk-free" = "無風險試用所有高級功能";
+"Only %price%/%period%. Cancel anytime." = "僅 %price%/%period%。隨時取消。";
+"Three days free trial" = "三天免費試用";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "空調遙控器\n無限制";
+
+"Most popular" = "最受歡迎";
+"3 days free, then" = "免費三天，之後";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "享受應用程式所有功能而無限制與廣告！先使用三天試用版，之後 %price%/%period%！";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "享受應用程式所有功能而無限制與廣告！僅需 %price%/%period%！";
+
+"Offer expires in:" = "優惠截止於：";
+"✔️ Cancel anytime" = "✔️ 隨時取消";
+"✔️ Full access to all features" = "✔️ 完全開放所有功能";
+"Turn your smartphone into a powerful climate control system!" = "將你的智慧型手機變成強大的空調控制系統！";
+
+"3-DAY" = "三天";
+"LIMITED TIME!" = "限時優惠！";
+
+"OFF" = "關閉";
+"Don’t miss your chance!" = "別錯過機會！";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "立即享受最高 90% 折扣，趕快把握所有優惠！";
+"I want to!" =  "我想要！";
+
+"Set Timer" = "設定定時";
+"Automatically power off the air conditioner after the selected time." = "於設定時間後自動關閉空調。";
+"Turn-off timer range: 5 minutes – 12 hours" = "關機定時範圍：5 分鐘 – 12 小時";
+"Apply" = "套用";
+"TURN ON" = "開啟";
+"TURN OFF" = "關閉";
+

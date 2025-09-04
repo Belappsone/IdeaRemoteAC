@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "Ofertă specială pentru tine! Cel mai bun preț! Doar acum!";
+
+"Weekly" = "Săptămânal";
+"Monthly" = "Lunar";
+"Yearly" = "Anual";
+"Daily" = "Zilnic";
+
+"week" = "săptămână";
+"month" = "lună";
+"year" = "an";
+"day" = "zi";
+
+"Special Offer!🎁" = "Ofertă Specială!🎁";
+"Would you like to receive a special condition?" = "Doriți să primiți o condiție specială?";
+"Get" = "Obține";
+"Cancel" = "Anulează";
+
+"Terms" = "Termeni";
+"Restore" = "Restabilește";
+"Privacy" = "Confidențialitate";
+
+"WELCOME\nTO REMOTE AC" = "BINE AI VENIT\nLA REMOTE AC";
+"Control your air conditioner\neffortlessly from your smartphone" = "Controlează aerul condiționat\nfără efort de pe smartphone-ul tău";
+"Continue" = "Continuă";
+
+"YOUR FEEDBACK\nMATTERS" = "FEEDBACK-UL TĂU\nCONTEAZĂ";
+"Help us improve\nRemote AC for you" = "Ajută-ne să îmbunătățim\nRemote AC pentru tine";
+
+"UNIVERSAL\nCOMPATIBILITY" = "COMPATIBILITATE\nUNIVERSALĂ";
+"Works with 100%\nof AC brands" = "Funcționează cu 100%\ndin brandurile de AC";
+
+"USER\nREVIEWS" = "RECENZII\nUTILIZATORI";
+"See what people love\nabout RemoteAC" = "Vezi ce le place oamenilor\ndespre RemoteAC";
+
+"Life-changing!" = "Schimbă viața!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "Mi-am recăpătat confortul în doar o săptămână. Acum îmi controlez AC-ul fără să mă ridic de pe canapea!";
+
+"Coolness on demand!" = "Răcoare la cerere!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "De la prima utilizare, am simțit diferența. Temperatura perfectă oriunde în casa mea!";
+
+"Cool" = "Răcire";
+"Heat" = "Încălzire";
+
+"Eco" = "Eco";
+"Swing" = "Swing";
+"Timer" = "Temporizator";
+
+"Low" = "Scăzut";
+"Mid" = "Mediu";
+"High" = "Ridicat";
+
+"Contact Us" = "Contactează-ne";
+"Privacy Policy" = "Politica de confidențialitate";
+"Terms of Use" = "Termeni de utilizare";
+"Restore Purchase" = "Restaurează achiziția";
+
+"3 FREE Days" = "3 ZILE GRATUITE";
+"50% OFF" = "50% REDUCERE";
+"limited offer!" = "ofertă limitată!";
+"Try it now!" = "Încearcă acum!";
+
+"Premium activated!" = "Premium activat!";
+"Thank you for your trust!" = "Îți mulțumim pentru încredere!";
+
+"Other" = "Altele";
+"Settings" = "Setări";
+"Connect" = "Conectează";
+"Celsius" = "Celsius";
+"Fan Speed" = "Viteza ventilatorului";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. Porniți aparatul de aer condiționat";
+"Switch your AC to standby mode using the remote or panel." = "Comutați AC-ul în modul standby folosind telecomanda sau panoul.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. Activați Wi-Fi-ul pe AC";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "Accesați setările Wi-Fi ale AC-ului și începeți procesul de împerechere (căutați pictograma Wi-Fi clipind).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. Selectați Wi-Fi-ul telefonului";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "Pe AC, alegeți aceeași rețea Wi-Fi la care este conectat telefonul.";
+"🔍 4. Connect via the app" = "🔍 4. Conectați prin aplicație";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "Deschideți aplicația, apăsați „Adaugă dispozitiv” și urmați pașii pentru a conecta AC-ul.";
+
+"Affordable air conditioners" = "Aparate de aer condiționat accesibile";
+"Connected" = "Conectat";
+"Found devices" = "Dispozitive găsite";
+"Repeat search" = "Repetă căutarea";
+"Device Search..." = "Căutare dispozitiv...";
+
+"Retry" = "Reîncearcă";
+"We couldn’t find any compatible devices." = "Nu am găsit dispozitive compatibile.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "Asigurați-vă că AC-ul este pornit și conectat la aceeași rețea Wi-Fi ca telefonul.";
+"Couldn’t connect to the device" = "Nu s-a putut conecta la dispozitiv";
+"Check your Wi-Fi signal and try again." = "Verificați semnalul Wi-Fi și încercați din nou.";
+"No Wi-Fi connection found." = "Nu s-a găsit conexiune Wi-Fi.";
+"Please connect your phone to a Wi-Fi network before continuing." = "Conectați telefonul la o rețea Wi-Fi înainte de a continua.";
+"Can’t connect to the network." = "Nu se poate conecta la rețea.";
+"Double-check your Wi-Fi password and try again." = "Verificați parola Wi-Fi și încercați din nou.";
+"The device is currently offline." = "Dispozitivul este offline.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "Asigurați-vă că este conectat la priză și la Wi-Fi.";
+"Permissions needed." = "Sunt necesare permisiuni.";
+"Allow location and local network access in Settings to find devices nearby." = "Permiteți accesul la locație și rețeaua locală în Setări pentru a găsi dispozitive în apropiere.";
+"Something went wrong." = "Ceva nu a mers bine.";
+"Please try again later or check your internet connection." = "Vă rugăm să încercați mai târziu sau să verificați conexiunea la internet.";
+"You're offline." = "Sunteți offline.";
+"Please connect to the internet and try again." = "Conectați-vă la internet și încercați din nou.";
+
+"SMART\nCLIMATE CONTROL" = "CONTROL\nCLIMATIC INTELIGENT";
+"Start using the app with no limits or" = "Începeți să folosiți aplicația fără limite sau";
+"use limited version." = "folosiți versiunea limitată.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 zile gratuite, apoi %price%/%period%. Reînnoire automată.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. Reînnoire automată.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "REMOTE AC\nFĂRĂ\nLIMITĂRI";
+
+"Cancel anytime with no charges." = "Anulați oricând fără costuri.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "Bucurați-vă de toate beneficiile aplicației fără restricții și reclame! Testați gratuit 3 zile cu acces complet la toate funcțiile, apoi %price%/%period% sau";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "Bucurați-vă de toate beneficiile aplicației fără restricții și reclame! Bucurați-vă de acces complet la toate funcțiile, %price%/%period% sau";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "REMOTE AC\nFĂRĂ LIMITĂRI";
+
+"Intuitive interface" = "Interfață intuitivă";
+"Remote control" = "Telecomandă";
+"Energy efficiency" = "Eficiență energetică";
+"Updates and improvements" = "Actualizări și îmbunătățiri";
+"Three days free" = "Trei zile gratuit";
+"Premium Comfort" = "Confort premium";
+"Control your AC in just 2 taps - simple as texting!" = "Controlează AC-ul în doar 2 atingeri - la fel de simplu ca un mesaj!";
+"Adjust temperature from anywhere." = "Reglează temperatura de oriunde.";
+"Smart energy savings" = "Economii inteligente de energie";
+"We make the app better every 2 weeks" = "Îmbunătățim aplicația la fiecare 2 săptămâni";
+"Try all premium features risk-free" = "Testează toate funcțiile premium fără risc";
+"Only %price%/%period%. Cancel anytime." = "Doar %price%/%period%. Anulează oricând.";
+"Three days free trial" = "Perioadă de probă gratuită de 3 zile";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "TELECOMANDĂ AC\nFĂRĂ\nLIMITĂRI";
+
+"Most popular" = "Cel mai popular";
+"3 days free, then" = "3 zile gratuit, apoi";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "Bucură-te de toate beneficiile aplicației fără restricții și reclame! Folosește versiunea de probă de 3 zile, apoi %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "Bucură-te de toate beneficiile aplicației fără restricții și reclame! Doar %price%/%period%!";
+
+"Offer expires in:" = "Oferta expiră în:";
+"✔️ Cancel anytime" = "✔️ Anulează oricând";
+"✔️ Full access to all features" = "✔️ Acces complet la toate funcțiile";
+"Turn your smartphone into a powerful climate control system!" = "Transformă smartphone-ul într-un sistem puternic de control al climatizării!";
+
+"3-DAY" = "3 ZILE";
+"LIMITED TIME!" = "OFERTĂ LIMITATĂ!";
+
+"OFF" = "OPRIT";
+"Don’t miss your chance!" = "Nu rata șansa!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "Obține până la 90% reducere cât timp mai este disponibilă. Grăbește-te să profiți de toate beneficiile!";
+"I want to!" = "Vreau!";
+
+"Set Timer" = "Setează temporizator";
+"Automatically power off the air conditioner after the selected time." = "Oprește automat aparatul de aer condiționat după timpul selectat.";
+"Turn-off timer range: 5 minutes – 12 hours" = "Interval temporizator oprire: 5 minute – 12 ore";
+"Apply" = "Aplică";
+"TURN ON" = "PORNEȘTE";
+"TURN OFF" = "OPREȘTE";
+

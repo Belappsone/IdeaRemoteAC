@@ -1,0 +1,164 @@
+/* 
+  Localizable.strings
+  Remote AC
+*/
+
+"Special offer for you! Best price! Only right now!" = "عرض خاص لك! أفضل سعر! فقط الآن!";
+
+"Weekly" = "أسبوعيًا";
+"Monthly" = "شهريًا";
+"Yearly" = "سنويًا";
+"Daily" = "يوميًا";
+
+"week" = "أسبوع";
+"month" = "شهر";
+"year" = "سنة";
+"day" = "يوم";
+
+"Special Offer!🎁" = "عرض خاص!🎁";
+"Would you like to receive a special condition?" = "هل ترغب في الحصول على عرض خاص؟";
+"Get" = "احصل عليه";
+"Cancel" = "إلغاء";
+
+"Terms" = "الشروط";
+"Restore" = "استعادة";
+"Privacy" = "الخصوصية";
+
+"WELCOME\nTO REMOTE AC" = "مرحبًا بك\nفي ريموت المكيف";
+"Control your air conditioner\neffortlessly from your smartphone" = "تحكم في مكيف الهواء بسهولة من هاتفك الذكي";
+"Continue" = "متابعة";
+
+"YOUR FEEDBACK\nMATTERS" = "رأيك\nيهمنا";
+"Help us improve\nRemote AC for you" = "ساعدنا على تحسين\nريموت المكيف من أجلك";
+
+"UNIVERSAL\nCOMPATIBILITY" = "توافق\nشامل";
+"Works with 100%\nof AC brands" = "يعمل مع 100%\nمن علامات المكيفات";
+
+"USER\nREVIEWS" = "تقييمات\nالمستخدمين";
+"See what people love\nabout RemoteAC" = "شاهد ما يحبه الناس\nفي ريموت المكيف";
+
+"Life-changing!" = "غيّر حياتي!";
+"I got my comfort back in just one week. Now I control my AC without even getting up from the couch!" = "استعدت راحتي في أسبوع واحد فقط. الآن أتحكم في المكيف دون أن أنهض من الأريكة!";
+
+"Coolness on demand!" = "انتعاش عند الطلب!";
+"From the first use, I felt the difference. Perfect temperature anywhere in my home!" = "منذ أول استخدام شعرت بالفرق. درجة حرارة مثالية في أي مكان في المنزل!";
+
+"Cool" = "تبريد";
+"Heat" = "تدفئة";
+
+"Eco" = "موفر للطاقة";
+"Swing" = "تأرجح";
+"Timer" = "مؤقت";
+
+"Low" = "منخفض";
+"Mid" = "متوسط";
+"High" = "عالٍ";
+
+"Contact Us" = "اتصل بنا";
+"Privacy Policy" = "سياسة الخصوصية";
+"Terms of Use" = "شروط الاستخدام";
+"Restore Purchase" = "استعادة عملية الشراء";
+
+"3 FREE Days" = "3 أيام مجانية";
+"50% OFF" = "خصم 50%";
+"limited offer!" = "عرض محدود!";
+"Try it now!" = "جرّبه الآن!";
+
+"Premium activated!" = "تم تفعيل بريميوم!";
+"Thank you for your trust!" = "شكرًا لثقتك!";
+
+"Other" = "أخرى";
+"Settings" = "الإعدادات";
+"Connect" = "اتصال";
+"Celsius" = "درجة مئوية";
+"Fan Speed" = "سرعة المروحة";
+
+"🔌 1. Turn on the air conditioner" = "🔌 1. قم بتشغيل المكيف";
+"Switch your AC to standby mode using the remote or panel." = "قم بضبط المكيف على وضع الاستعداد باستخدام جهاز التحكم أو لوحة التحكم.";
+"📶 2. Enable Wi-Fi on the AC" = "📶 2. فعّل الواي فاي على المكيف";
+"Go to your AC's Wi-Fi settings and start the pairing process (look for a blinking Wi-Fi icon)." = "انتقل إلى إعدادات الواي فاي في المكيف وابدأ عملية الاقتران (ابحث عن أيقونة الواي فاي اللامعة).";
+"📱 3. Select your phone’s Wi-Fi" = "📱 3. اختر شبكة الواي فاي لهاتفك";
+"On the AC, choose the same Wi-Fi network your phone is connected to." = "في المكيف، اختر نفس شبكة الواي فاي المتصل بها هاتفك.";
+"🔍 4. Connect via the app" = "🔍 4. اتصل عبر التطبيق";
+"Open the app, tap “Add device”, and follow the steps to connect your AC." = "افتح التطبيق، اضغط على \"إضافة جهاز\"، واتبع الخطوات لتوصيل المكيف.";
+
+"Affordable air conditioners" = "مكيفات هواء بأسعار معقولة";
+"Connected" = "متصل";
+"Found devices" = "الأجهزة التي تم العثور عليها";
+"Repeat search" = "إعادة البحث";
+"Device Search..." = "جاري البحث عن الأجهزة...";
+
+"Retry" = "إعادة المحاولة";
+"We couldn’t find any compatible devices." = "لم نتمكن من العثور على أي أجهزة متوافقة.";
+"Make sure your AC is powered on and connected to the same Wi-Fi network as your phone." = "تأكد من أن المكيف قيد التشغيل ومتصّل بنفس شبكة الواي فاي التي يتصل بها هاتفك.";
+"Couldn’t connect to the device" = "تعذّر الاتصال بالجهاز";
+"Check your Wi-Fi signal and try again." = "تحقق من إشارة الواي فاي وحاول مرة أخرى.";
+"No Wi-Fi connection found." = "لم يتم العثور على اتصال واي فاي.";
+"Please connect your phone to a Wi-Fi network before continuing." = "يرجى توصيل هاتفك بشبكة واي فاي قبل المتابعة.";
+"Can’t connect to the network." = "لا يمكن الاتصال بالشبكة.";
+"Double-check your Wi-Fi password and try again." = "تحقق من كلمة مرور الواي فاي وأعد المحاولة.";
+"The device is currently offline." = "الجهاز غير متصل حاليًا.";
+"Make sure it’s plugged in and connected to Wi-Fi." = "تأكد من توصيله بالكهرباء والاتصال بالواي فاي.";
+"Permissions needed." = "الأذونات مطلوبة.";
+"Allow location and local network access in Settings to find devices nearby." = "اسمح بالوصول إلى الموقع والشبكة المحلية من الإعدادات للعثور على الأجهزة القريبة.";
+"Something went wrong." = "حدث خطأ ما.";
+"Please try again later or check your internet connection." = "يرجى المحاولة لاحقًا أو التحقق من اتصال الإنترنت.";
+"You're offline." = "أنت غير متصل بالإنترنت.";
+"Please connect to the internet and try again." = "يرجى الاتصال بالإنترنت والمحاولة مرة أخرى.";
+
+"SMART\nCLIMATE CONTROL" = "التحكم الذكي\nبالمناخ";
+"Start using the app with no limits or" = "ابدأ باستخدام التطبيق بدون قيود أو";
+"use limited version." = "استخدم النسخة المحدودة.";
+
+"3-days free and then %price%/%period%. Automatic renewal." = "3 أيام مجانًا ثم %price%/%period%. تجديد تلقائي.";
+"%price%/%period%. Automatic renewal." = "%price%/%period%. تجديد تلقائي.";
+"AC REMOTE\n WITH NO\n LIMITATIONS" = "ريموت المكيف\n بدون أي\n قيود";
+
+"Cancel anytime with no charges." = "يمكنك الإلغاء في أي وقت بدون رسوم.";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy a 3-day free trial with full access to all features, then %price%/%period% app or" = "استمتع بجميع مزايا التطبيق بدون قيود أو إعلانات! جرب 3 أيام مجانًا مع وصول كامل لجميع الميزات، ثم %price%/%period% للتطبيق أو";
+"Enjoy all the benefits of the app without restrictions and ads! Enjoy with full access to all features, %price%/%period% app or" = "استمتع بجميع مزايا التطبيق بدون قيود أو إعلانات! وصول كامل لجميع الميزات مقابل %price%/%period% للتطبيق أو";
+
+"AC REMOTE\nWITH NO LIMITATIONS" = "ريموت المكيف\nبدون قيود";
+
+"Intuitive interface" = "واجهة سهلة الاستخدام";
+"Remote control" = "تحكم عن بعد";
+"Energy efficiency" = "كفاءة الطاقة";
+"Updates and improvements" = "تحديثات وتحسينات";
+"Three days free" = "ثلاثة أيام مجانية";
+"Premium Comfort" = "راحة مميزة";
+"Control your AC in just 2 taps - simple as texting!" = "تحكم في المكيف بنقرتين فقط - ببساطة مثل إرسال رسالة!";
+"Adjust temperature from anywhere." = "اضبط درجة الحرارة من أي مكان.";
+"Smart energy savings" = "توفير ذكي للطاقة";
+"We make the app better every 2 weeks" = "نحسّن التطبيق كل أسبوعين";
+"Try all premium features risk-free" = "جرّب جميع الميزات المميزة بدون مخاطرة";
+"Only %price%/%period%. Cancel anytime." = "فقط %price%/%period%. يمكنك الإلغاء في أي وقت.";
+"Three days free trial" = "تجربة مجانية لمدة 3 أيام";
+
+"AC REMOTE\nWITH NO\nLIMITATIONS" = "ريموت المكيف\nبدون أي\nقيود";
+
+"Most popular" = "الأكثر شيوعًا";
+"3 days free, then" = "3 أيام مجانية، ثم";
+
+"Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after %price%/%period%!" = "استمتع بجميع مزايا التطبيق بدون قيود أو إعلانات! استخدم النسخة التجريبية 3 أيام وبعدها %price%/%period%!";
+"Enjoy all the benefits of the app without restrictions and ads! Only %price%/%period%!" = "استمتع بجميع مزايا التطبيق بدون قيود أو إعلانات! فقط %price%/%period%!";
+
+"Offer expires in:" = "العرض ينتهي خلال:";
+"✔️ Cancel anytime" = "✔️ يمكنك الإلغاء في أي وقت";
+"✔️ Full access to all features" = "✔️ وصول كامل لجميع الميزات";
+"Turn your smartphone into a powerful climate control system!" = "حوّل هاتفك الذكي إلى نظام قوي للتحكم في المناخ!";
+
+"3-DAY" = "3 أيام";
+"LIMITED TIME!" = "لفترة محدودة!";
+
+"OFF" = "خصم";
+"Don’t miss your chance!" = "لا تفوّت الفرصة!";
+"Get up to 90% discount while it’s still available. Hurry up to take advantage of all the benefits!" = "احصل على خصم يصل إلى 90% طالما العرض ما زال متاحًا. أسرع للاستفادة من جميع المزايا!";
+"I want to!" = "أريد ذلك!";
+
+"Set Timer" = "ضبط المؤقت";
+"Automatically power off the air conditioner after the selected time." = "إيقاف تشغيل المكيف تلقائيًا بعد الوقت المحدد.";
+"Turn-off timer range: 5 minutes – 12 hours" = "مدى مؤقت الإيقاف: 5 دقائق – 12 ساعة";
+"Apply" = "تطبيق";
+"TURN ON" = "تشغيل";
+"TURN OFF" = "إيقاف التشغيل";
+
