@@ -2,13 +2,16 @@ import SwiftUI
 
 struct OtherButtonItemView: View {
     
+    @Binding var isConnect: Bool
     var type: OtherButtonType
     var action: () -> Void
     
     var body: some View {
         Button {
             haptic()
-            action()
+            if isConnect {
+                action()
+            }
         } label: {
             RoundedRectangle(cornerRadius: 20)
                 .fill(
@@ -23,15 +26,15 @@ struct OtherButtonItemView: View {
                     switch type {
                     case .eco:
                         Text("Eco".localizable)
-                            .foregroundStyle(.green)
+                            .foregroundStyle(isConnect ? .green : .black.opacity(0.2))
                             .font(.system(size: 17, weight: .semibold))
                     case .swing:
                         Text("Swing".localizable)
-                            .foregroundStyle(.black)
+                            .foregroundStyle(.black.opacity(isConnect ? 1 : 0.2))
                             .font(.system(size: 17, weight: .semibold))
                     case .timer:
                         Text("Timer".localizable)
-                            .foregroundStyle(.black)
+                            .foregroundStyle(.black.opacity(isConnect ? 1 : 0.2))
                             .font(.system(size: 17, weight: .semibold))
                     }
                    

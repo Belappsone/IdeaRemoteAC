@@ -32,11 +32,11 @@ struct MainView: View {
                         .padding(.top, -8)
                     
                     VStack(spacing: 4) {
-                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 0, isPopular: true, product: viewModel.product[0]) {
+                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 0, isPopular: true, product: viewModel.product[0], size: viewModel.priceSize, alpha: viewModel.priceAlpha) {
                             viewModel.selectedProduct = 0
                         }
                         
-                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 1, isPopular: false, product: viewModel.product[1]) {
+                        MainPriceItemView(selectedProduct: $viewModel.selectedProduct, id: 1, isPopular: false, product: viewModel.product[1], size: viewModel.priceSize, alpha: viewModel.priceAlpha) {
                             viewModel.selectedProduct = 1
                         }
                     }

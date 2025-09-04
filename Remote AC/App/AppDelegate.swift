@@ -19,6 +19,8 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
             NotificationManager.shared.setupNotifications()
             
             AppCache.countLaunch += 1
+            AppCache.selectedItem = nil
+            AppCache.selectedItems = []
             
 //            FirebaseApp.configure()
             SkarbSDK.initialize(clientId: "Belappsone", isObservable: true)

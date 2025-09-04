@@ -18,7 +18,7 @@ final class AdaptyReviewingState {
         if appVersion == reviewVersion {
             AdaptyReviewingState.updatePaywall(placement: .main, newPlacement: .mainReviewPlacement)
             AdaptyReviewingState.updatePaywall(placement: .offer, newPlacement: .offerReviewPlacement)
-            AdaptyReviewingState.updatePaywall(placement: .promotion, newPlacement: .offerReviewPlacement)
+            AdaptyReviewingState.updatePaywall(placement: .superoffer, newPlacement: .offerReviewPlacement)
             
             if let reviewSettings = AdaptyManager.shared.generalPaywall?.reviewSettings {
                 AdaptyManager.shared.generalPaywall?.globalSettings = reviewSettings

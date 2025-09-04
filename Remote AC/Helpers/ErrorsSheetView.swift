@@ -44,7 +44,7 @@ struct ErrorsSheetView: View {
                     
                 }
                 .padding(.top)
-                .padding(.bottom)
+                .padding(.bottom, 24)
             }
             .padding(.horizontal)
         }

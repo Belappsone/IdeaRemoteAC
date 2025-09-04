@@ -53,6 +53,10 @@
 		A95B459A2E5A01E70086E21A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B45992E5A01E70086E21A /* HomeViewModel.swift */; };
 		A95B459C2E5A022A0086E21A /* FanSpeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */; };
 		A95B459E2E5A04AE0086E21A /* TemperatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */; };
+		A96C4B412E69F78800738843 /* SupperOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B402E69F78800738843 /* SupperOfferView.swift */; };
+		A96C4B432E6A27D400738843 /* TurnButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B422E6A27D400738843 /* TurnButtonView.swift */; };
+		A96C4B452E6A406800738843 /* UIViewLifeCycleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B442E6A406800738843 /* UIViewLifeCycleHandler.swift */; };
+		A96C4B472E6A438500738843 /* SetupTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B462E6A438500738843 /* SetupTimerView.swift */; };
 		A97868042E6759E900BBA0F4 /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = A97868032E6759E900BBA0F4 /* Adapty */; };
 		A97868072E681C4300BBA0F4 /* AdMobInterstitialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97868062E681C4300BBA0F4 /* AdMobInterstitialManager.swift */; };
 		A97868092E681C5100BBA0F4 /* AdMobOpenAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97868082E681C5100BBA0F4 /* AdMobOpenAppManager.swift */; };
@@ -85,6 +89,13 @@
 		A989F4432E4BD0650015C072 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989F4422E4BD0650015C072 /* HomeView.swift */; };
 		A989F4472E4BD12E0015C072 /* ButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989F4462E4BD12E0015C072 /* ButtonImage.swift */; };
 		A989F4492E4BD1B30015C072 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989F4482E4BD1B30015C072 /* View+Extension.swift */; };
+		A99285442E68E2EE00BD919A /* ContactSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99285432E68E2EE00BD919A /* ContactSupport.swift */; };
+		A99285532E68E68C00BD919A /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A992854B2E68E68C00BD919A /* data.plist */; };
+		A99285542E68E68C00BD919A /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A992854F2E68E68C00BD919A /* PingOperation.m */; };
+		A99285552E68E68C00BD919A /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A99285512E68E68C00BD919A /* SimplePing.m */; };
+		A99285562E68E68C00BD919A /* ScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99285502E68E68C00BD919A /* ScannerManager.swift */; };
+		A99285572E68E68C00BD919A /* LanScan.m in Sources */ = {isa = PBXBuildFile; fileRef = A992854D2E68E68C00BD919A /* LanScan.m */; };
+		A99285582E68E68C00BD919A /* LanScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992854E2E68E68C00BD919A /* LanScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +146,10 @@
 		A95B45992E5A01E70086E21A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSpeedItemView.swift; sourceTree = "<group>"; };
 		A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureItemView.swift; sourceTree = "<group>"; };
+		A96C4B402E69F78800738843 /* SupperOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupperOfferView.swift; sourceTree = "<group>"; };
+		A96C4B422E6A27D400738843 /* TurnButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnButtonView.swift; sourceTree = "<group>"; };
+		A96C4B442E6A406800738843 /* UIViewLifeCycleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewLifeCycleHandler.swift; sourceTree = "<group>"; };
+		A96C4B462E6A438500738843 /* SetupTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTimerView.swift; sourceTree = "<group>"; };
 		A97868062E681C4300BBA0F4 /* AdMobInterstitialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobInterstitialManager.swift; sourceTree = "<group>"; };
 		A97868082E681C5100BBA0F4 /* AdMobOpenAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobOpenAppManager.swift; sourceTree = "<group>"; };
 		A986529D2E560C0600A061DE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -167,6 +182,19 @@
 		A989F4462E4BD12E0015C072 /* ButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonImage.swift; sourceTree = "<group>"; };
 		A989F4482E4BD1B30015C072 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		A989F45D2E520AE00015C072 /* Remote-AC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Remote-AC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A99285432E68E2EE00BD919A /* ContactSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupport.swift; sourceTree = "<group>"; };
+		A99285452E68E68C00BD919A /* if_arp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		A99285462E68E68C00BD919A /* if_ether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		A99285472E68E68C00BD919A /* PingOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		A99285482E68E68C00BD919A /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		A99285492E68E68C00BD919A /* SimplePing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		A992854B2E68E68C00BD919A /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		A992854C2E68E68C00BD919A /* LanScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanScan.h; sourceTree = "<group>"; };
+		A992854D2E68E68C00BD919A /* LanScan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanScan.m; sourceTree = "<group>"; };
+		A992854E2E68E68C00BD919A /* LanScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanScanner.swift; sourceTree = "<group>"; };
+		A992854F2E68E68C00BD919A /* PingOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		A99285502E68E68C00BD919A /* ScannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerManager.swift; sourceTree = "<group>"; };
+		A99285512E68E68C00BD919A /* SimplePing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +510,9 @@
 				A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */,
 				A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */,
 				A958D4B52E5F837B0069F3E5 /* ButtonTemperatureView.swift */,
+				A96C4B402E69F78800738843 /* SupperOfferView.swift */,
+				A96C4B422E6A27D400738843 /* TurnButtonView.swift */,
+				A96C4B462E6A438500738843 /* SetupTimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -730,6 +761,7 @@
 		A989F43F2E4BD0350015C072 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A99285522E68E68C00BD919A /* Scanner */,
 				A97868052E681C3900BBA0F4 /* AdPart */,
 				A958D57B2E66C0A50069F3E5 /* AppCache */,
 				A958D5692E66B1360069F3E5 /* AttManager */,
@@ -782,6 +814,8 @@
 				A98652D42E58D4B500A061DE /* Blur.swift */,
 				A98652D62E58D5C000A061DE /* ContainerInfoView.swift */,
 				A958D5282E6436AE0069F3E5 /* ErrorsSheetView.swift */,
+				A99285432E68E2EE00BD919A /* ContactSupport.swift */,
+				A96C4B442E6A406800738843 /* UIViewLifeCycleHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -794,6 +828,33 @@
 				A958D5432E662E670069F3E5 /* String+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A992854A2E68E68C00BD919A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A99285452E68E68C00BD919A /* if_arp.h */,
+				A99285462E68E68C00BD919A /* if_ether.h */,
+				A99285472E68E68C00BD919A /* PingOperation.h */,
+				A99285482E68E68C00BD919A /* route.h */,
+				A99285492E68E68C00BD919A /* SimplePing.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A99285522E68E68C00BD919A /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				A992854A2E68E68C00BD919A /* include */,
+				A992854B2E68E68C00BD919A /* data.plist */,
+				A992854C2E68E68C00BD919A /* LanScan.h */,
+				A992854D2E68E68C00BD919A /* LanScan.m */,
+				A992854E2E68E68C00BD919A /* LanScanner.swift */,
+				A992854F2E68E68C00BD919A /* PingOperation.m */,
+				A99285502E68E68C00BD919A /* ScannerManager.swift */,
+				A99285512E68E68C00BD919A /* SimplePing.m */,
+			);
+			path = Scanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -868,6 +929,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99285532E68E68C00BD919A /* data.plist in Resources */,
 				A958D5722E66B21C0069F3E5 /* Localizable.strings in Resources */,
 				A98652B02E5610E000A061DE /* SF-Pro.ttf in Resources */,
 				A989F43B2E4BCF660015C072 /* Assets.xcassets in Resources */,
@@ -885,6 +947,7 @@
 			files = (
 				A958D4BA2E5FA3AE0069F3E5 /* SimpleView.swift in Sources */,
 				A98652CD2E58BCAE00A061DE /* OnboardingFeedbackPage.swift in Sources */,
+				A99285442E68E2EE00BD919A /* ContactSupport.swift in Sources */,
 				A958D54A2E662EFE0069F3E5 /* OfferViewModel.swift in Sources */,
 				A989F4432E4BD0650015C072 /* HomeView.swift in Sources */,
 				A958D5572E663CC10069F3E5 /* SettingsOfferBannerViewModel.swift in Sources */,
@@ -902,11 +965,14 @@
 				A958D4B62E5F837B0069F3E5 /* ButtonTemperatureView.swift in Sources */,
 				A958D5252E6436130069F3E5 /* InstructionItemView.swift in Sources */,
 				A958D5502E6636A40069F3E5 /* SwitcherViewModel.swift in Sources */,
+				A96C4B412E69F78800738843 /* SupperOfferView.swift in Sources */,
 				A98652A82E560CBD00A061DE /* OfferView.swift in Sources */,
 				A958D54E2E6635560069F3E5 /* MainViewModel.swift in Sources */,
+				A96C4B472E6A438500738843 /* SetupTimerView.swift in Sources */,
 				A958D55F2E66AF420069F3E5 /* AdaptyPaywallKeys.swift in Sources */,
 				A98652C52E58BAA600A061DE /* SnowflakeLoader.swift in Sources */,
 				A97868072E681C4300BBA0F4 /* AdMobInterstitialManager.swift in Sources */,
+				A96C4B452E6A406800738843 /* UIViewLifeCycleHandler.swift in Sources */,
 				A958D5652E66B0F70069F3E5 /* AppDelegate.swift in Sources */,
 				A98652AC2E56107300A061DE /* Font+Extension.swift in Sources */,
 				A98652A52E560CA100A061DE /* SettingsView.swift in Sources */,
@@ -951,6 +1017,12 @@
 				A958D5542E6639910069F3E5 /* CheckBoxViewModel.swift in Sources */,
 				A98652A12E560C2B00A061DE /* OnboardingView.swift in Sources */,
 				A958D55A2E66AEBF0069F3E5 /* AdaptyManager.swift in Sources */,
+				A99285542E68E68C00BD919A /* PingOperation.m in Sources */,
+				A96C4B432E6A27D400738843 /* TurnButtonView.swift in Sources */,
+				A99285552E68E68C00BD919A /* SimplePing.m in Sources */,
+				A99285562E68E68C00BD919A /* ScannerManager.swift in Sources */,
+				A99285572E68E68C00BD919A /* LanScan.m in Sources */,
+				A99285582E68E68C00BD919A /* LanScanner.swift in Sources */,
 				A98652E32E59B72D00A061DE /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1123,6 +1195,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Remote AC/Managers/Scanner/LanScan.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1158,6 +1231,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Remote AC/Managers/Scanner/LanScan.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -6,7 +6,7 @@ struct OfferTrialView: View {
     
     var body: some View {
         VStack {
-            Text(isTrial ? "3-DAY" : "50% OFF")
+            Text(isTrial ? "3-DAY".localizable : "50% OFF".localizable)
                 .foregroundStyle(.white)
                 .font(.sfProDisplay(weight: .heavy, size: 49))
                 .minimumScaleFactor(0.5)
@@ -20,7 +20,7 @@ struct OfferTrialView: View {
                 .zIndex(1)
             
             
-            Text("LIMITED TIME!")
+            Text("LIMITED TIME!".localizable)
                 .font(.sfProDisplay(weight: .heavy, size: 36))
                 .minimumScaleFactor(0.5)
                 .foregroundStyle(

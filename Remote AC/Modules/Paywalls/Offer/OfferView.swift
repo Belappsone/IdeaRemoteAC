@@ -16,9 +16,9 @@ struct OfferView: View {
             VStack {
                 Spacer()
                 
-                OfferTrialView(isTrial: false)
+                OfferTrialView(isTrial: viewModel.isTrial)
                 
-                Text("Turn your smartphone into a powerful climate control system!")
+                Text("Turn your smartphone into a powerful climate control system!".localizable)
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.black)
                     .font(.system(size: 20, weight: .semibold))
@@ -29,7 +29,7 @@ struct OfferView: View {
                 Text("🔥")
                     .font(.system(size: 45, weight: .bold))
                 
-                Text("Offer expires in:")
+                Text("Offer expires in:".localizable)
                     .foregroundStyle(.black)
                     .font(.system(size: 22, weight: .bold))
                     .minimumScaleFactor(0.5)
@@ -38,7 +38,7 @@ struct OfferView: View {
                 OfferTimeView(sec: viewModel.sec, min: viewModel.min)
                     .padding(.bottom)
                 
-                Text("✔️ Cancel anytime" + "\n" + "✔️ Full access to all features")
+                Text("✔️ Cancel anytime".localizable + "\n" + "✔️ Full access to all features".localizable)
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.labelsSecondary.opacity(0.6))
                     .font(.system(size: 15, weight: .semibold))
@@ -46,20 +46,34 @@ struct OfferView: View {
                     .padding(.bottom)
                 
                 
-                GradientButton(text: "Start Trial", size: 50) {
+                GradientButton(text: viewModel.continueText, sizeFont: viewModel.continueSize, size: 50) {
                     viewModel.showLoading = true
+                    Task {
+                        let result = await AdaptyManager.shared.purchases(product: viewModel.product[0])
+                        viewModel.showLoading = false
+                        
+                        if result == .success {
+                            closePaywall()
+                        }
+                    }
                 }
                 .padding(.bottom)
                 
-                Text("Enjoy all the benefits of the app without restrictions and ads! Use 3 days trial version and after $4.99/week!")
+                Text(viewModel.priceText)
                     .multilineTextAlignment(.center)
-                    .font(.system(size: 12, weight: .regular))
-                    .foregroundStyle(.labelsSecondary.opacity(0.6))
+                    .font(.system(size: viewModel.priceSize, weight: .regular))
+                    .foregroundStyle(.labelsSecondary.opacity(viewModel.priceAlpha))
                     .padding(.bottom)
                 
                 InfoView(alpha: 1) {
                     viewModel.showLoading = true
-                    
+                    Task {
+                        let result = await AdaptyManager.shared.restore()
+                        viewModel.showLoading = false
+                        if result == .success {
+                            closePaywall()
+                        }
+                    }
                 }
             }
             .padding(.horizontal)
@@ -67,16 +81,19 @@ struct OfferView: View {
             VStack {
                 
                 HStack {
-                    Button {
-                        closePaywall()
-                    } label: {
-                        Image(.closeIcon)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 16, height: 16)
+                    if viewModel.showCloseButton {
+                        Button {
+                            closeWithPaywall()
+                        } label: {
+                            Image(.closeIcon)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: viewModel.closeSize, height: viewModel.closeSize)
+                        }
+                        .opacity(viewModel.closeAlpha)
+                        .padding(.leading)
+                        .padding(.top)
                     }
-                    .padding(.leading)
-                    .padding(.top)
                     
                     
                     Spacer()
@@ -84,17 +101,48 @@ struct OfferView: View {
                 
                 Spacer()
             }
+            
+            if viewModel.showLoading {
+                showLoading()
+            }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + viewModel.closeDelay) {
+                withAnimation {
+                    viewModel.showCloseButton = true
+                }
+            }
         }
         .navigationBarBackButtonHidden()
     }
+        
+    private func closeWithPaywall() {
+        if viewModel.showAds {
+            AdMobInterstitialManager.shared.showInterstitial {
+                switch viewModel.showType {
+                case .cancel:
+                    router.pop()
+                case .push:
+                    router.showMain()
+                case .paywall:
+                    router.pop()
+                }
+            }
+        } else {
+            switch viewModel.showType {
+            case .cancel:
+                router.pop()
+            case .push:
+                router.showMain()
+            case .paywall:
+                router.pop()
+            }
+        }
+    }
     
-    // MARK: Properties
-    
-    func closePaywall() {
+    private func closePaywall() {
         switch viewModel.showType {
-        case .cancel:
-            router.pop()
-        case .push:
+        case .cancel, .push:
             router.showMain()
         case .paywall:
             router.pop()

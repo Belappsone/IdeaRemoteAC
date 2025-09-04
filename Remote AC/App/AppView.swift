@@ -44,8 +44,12 @@ struct AppView: View {
                         HomeView()
                     case .offer(let type):
                         OfferView(viewModel: .init(showType: type))
+                    case .superOffer:
+                        OfferView(viewModel: .init(showType: .paywall, placement: .superoffer))
                     case .settings:
                         SettingsView()
+                    case .search:
+                        SearchView()
                     case .paywall(let type):
                         switch AdaptyPlacment.mainPlacementIs {
                         case .simplecomment:

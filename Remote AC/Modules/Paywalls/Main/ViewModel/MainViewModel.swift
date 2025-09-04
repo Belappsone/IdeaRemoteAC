@@ -33,4 +33,9 @@ final class MainViewModel: ObservableObject {
     }
     var continueText: String = AdaptyManager.getRemoteValue(for: .main, key: .continueText)
     
+    var priceSize: CGFloat {
+        let size: Int = AdaptyManager.getRemoteValue(for: .main, key: .priceSize)
+        return CGFloat(size)
+    }
+    var priceAlpha: Double = AdaptyManager.getRemoteValue(for: .main, key: .priceAlpha)
 }

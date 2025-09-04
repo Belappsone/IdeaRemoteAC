@@ -19,12 +19,20 @@ final class AppRouter: ObservableObject {
         path.append(.offer(type: type))
     }
     
+    func showSuperOffer() {
+        path.append(.superOffer)
+    }
+    
     func showSettings() {
         path.append(.settings)
     }
     
     func showPaywall(type: PaywallShow) {
         path.append(.paywall(type: type))
+    }
+    
+    func showSearch() {
+        path.append(.search)
     }
     
     func pop() {
@@ -37,8 +45,10 @@ enum Screen: Hashable {
     case onboarding
     case home
     case offer(type: OfferType)
+    case superOffer
     case settings
     case paywall(type: PaywallShow)
+    case search
 }
 
 enum PaywallShow {

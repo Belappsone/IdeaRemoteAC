@@ -1,4 +1,5 @@
 import SwiftUI
+import PopupView
 
 struct HomeView: View {
     // MARK: Properties
@@ -15,22 +16,77 @@ struct HomeView: View {
                 navigationTitleView()
                     .padding(.bottom)
                 
-                mainConditionerView()
-                    .padding(.bottom, 20)
-                
-                temperatureView()
-                    .padding(.bottom, 20)
-                
-                fanSpeed()
-                    .padding(.bottom, 20)
-                
-                otherView()
+                ScrollView {
+                    
+                    mainConditionerView()
+                        .padding(.bottom, 20)
+                    
+                    temperatureView()
+                        .padding(.bottom, 20)
+                    
+                    fanSpeed()
+                        .padding(.bottom, 20)
+                    
+                    otherView()
+                    
+                }
+                    
+                TurnButtonView(type: viewModel.statusButton) {
+                    viewModel.statusButton = viewModel.statusButton == .turnOn ? .turnOff : .turnOn
+                    
+                    if viewModel.statusButton == .turnOn {
+                        viewModel.isConnectedConditioner = false
+                    } else if viewModel.statusButton == .turnOff {
+                        viewModel.isConnectedConditioner = true
+                    }
+                    
+                }
+                .padding(.horizontal)
                 
                 Spacer()
-                  
+            }
+            
+            if viewModel.showSuperOffer || viewModel.showTimer {
+                Color.bgSheet.opacity(0.3)
+                    .ignoresSafeArea()
             }
         }
+        .onAppear {
+            AttManager.shared.config()
+            ScannerManager.shared.startBrowsing()
+            viewModel.showPaywall = {
+                router.showPaywall(type: .paywall)
+            }
+        }
+        .onWillAppear {
+            viewModel.checkState()
+        }
         .navigationBarBackButtonHidden()
+        .popup(isPresented: $viewModel.showSuperOffer) {
+            SupperOfferView {
+                viewModel.showSuperOffer = false
+            } openAction: {
+                router.showSuperOffer()
+            }
+
+        } customize: {
+            $0
+                .type(.toast)
+                .displayMode(.sheet)
+        }
+        .popup(isPresented: $viewModel.showTimer) {
+            SetupTimerView {
+                viewModel.setupTimer = true
+                viewModel.showTimer = false
+            } closeAction: {
+                viewModel.showTimer = false
+            }
+        } customize: {
+            $0
+                .type(.toast)
+                .displayMode(.sheet)
+                .closeOnTap(false)
+        }
     }
     
     func navigationTitleView() -> some View {
@@ -42,24 +98,46 @@ struct HomeView: View {
             
             Spacer()
             
-            Button {
-                
-            } label: {
-                HStack {
-                    Image(.connectIcon)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 20)
-                    
-                    Text("Connect".localizable)
-                        .foregroundStyle(.white)
+            if viewModel.selectedName == "" {
+                Button {
+                    router.showSearch()
+                } label: {
+                    HStack {
+                        Image(.connectIcon)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 20)
+                        
+                        Text("Connect".localizable)
+                            .foregroundStyle(.white)
+                    }
+                    .padding(.horizontal)
+                    .padding(.vertical, 10)
+                    .background(
+                        LinearGradient(colors: [.gradientBlueFirst, .gradientBlueSecond], startPoint: .leading, endPoint: .trailing)
+                    )
+                    .clipShape(Capsule())
                 }
-                .padding(.horizontal)
-                .padding(.vertical, 10)
-                .background(
-                    LinearGradient(colors: [.gradientBlueFirst, .gradientBlueSecond], startPoint: .leading, endPoint: .trailing)
-                )
-                .clipShape(Capsule())
+            } else {
+                Button {
+                    router.showSearch()
+                } label: {
+                    HStack {
+                        Text(viewModel.selectedName)
+                            .foregroundStyle(.black)
+                            .font(.system(size: 17, weight: .semibold))
+                    }
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 40)
+                    .background(
+                        LinearGradient(colors: [.white, .gradientWhite], startPoint: .top, endPoint: .bottom)
+                    )
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(.border.opacity(0.15), lineWidth: 1)
+                    }
+                    .clipShape(Capsule())
+                }
             }
         }
         .padding(.horizontal, 12)
@@ -80,27 +158,34 @@ struct HomeView: View {
                         HStack(alignment: .top) {
                             Spacer()
                             
-                            ButtonTemperatureView(type: .minus) {
-                                
+                            ButtonTemperatureView(isConnect: $viewModel.isConnectedConditioner, type: .minus) {
+                                viewModel.countTapped += 1
+                                if viewModel.currentCelsium != 16 && viewModel.isConnectedConditioner {
+                                    viewModel.currentCelsium -= 1
+                                }
                             }
                             
                             Spacer()
                             
                             VStack {
-                                Text("22")
-                                    .foregroundStyle(.black)
+                                Text(viewModel.isConnectedConditioner ? "\(viewModel.currentCelsium)" : "- -")
+                                    .foregroundStyle(.black.opacity(viewModel.isConnectedConditioner ? 1 : 0.2))
                                     .font(.system(size: 67, weight: .bold))
                                     .padding(.top, -10)
                                 
                                 Text("Celsius".localizable)
                                     .font(.system(size: 15, weight: .semibold))
-                                    .foregroundStyle(.labelsSecondary.opacity(0.6))
+                                    .foregroundStyle(viewModel.isConnectedConditioner ? .labelsSecondary.opacity(0.6) : .black.opacity(0.2))
                                     .padding(.top, -34)
                             }
                             
                             Spacer()
                             
-                            ButtonTemperatureView(type: .plus) {
+                            ButtonTemperatureView(isConnect: $viewModel.isConnectedConditioner, type: .plus) {
+                                viewModel.countTapped += 1
+                                if viewModel.currentCelsium != 30 && viewModel.isConnectedConditioner {
+                                    viewModel.currentCelsium += 1
+                                }
                                 
                             }
                             
@@ -114,18 +199,22 @@ struct HomeView: View {
                             Spacer()
                             
                             Image(.ecoSelectedIcon)
+                                .opacity(!viewModel.isConnectedConditioner ? 0.2 : viewModel.ecoMode == .on ? 1 : 0.2)
                             
                             Spacer()
                             
                             Image(.swingHorizontalSelectedIcon)
+                                .opacity(!viewModel.isConnectedConditioner ? 0.2 : viewModel.swingType == .horizontal ? 1 : 0.2)
                             
                             Spacer()
                             
                             Image(.swingVerticalSelectedIcon)
+                                .opacity(!viewModel.isConnectedConditioner ? 0.2 : viewModel.swingType == .vertical ? 1 : 0.2)
                             
                             Spacer()
                             
                             Image(.timerSelectedIcon)
+                                .opacity(!viewModel.isConnectedConditioner ? 0.2 : viewModel.setupTimer ? 1 : 0.2)
                             
                             Spacer()
                         }
@@ -139,12 +228,14 @@ struct HomeView: View {
     
     func temperatureView() -> some View {
         HStack {
-            TemperatureItemView(type: .cool, selected: viewModel.temperatureIndexSelected == 0 ? true : false) {
+            TemperatureItemView(isConnect: $viewModel.isConnectedConditioner, type: .cool, selected: viewModel.temperatureIndexSelected == 0 ? true : false) {
                 viewModel.temperatureIndexSelected = 0
+                viewModel.countTapped += 1
             }
             
-            TemperatureItemView(type: .heat, selected: viewModel.temperatureIndexSelected == 1 ? true : false) {
+            TemperatureItemView(isConnect: $viewModel.isConnectedConditioner, type: .heat, selected: viewModel.temperatureIndexSelected == 1 ? true : false) {
                 viewModel.temperatureIndexSelected = 1
+                viewModel.countTapped += 1
             }
         }
         .padding(.horizontal)
@@ -153,20 +244,23 @@ struct HomeView: View {
     func fanSpeed() -> some View {
         VStack(spacing: 8) {
             Text("Fan Speed".localizable)
-                .foregroundStyle(.labelsSecondary.opacity(0.3))
+                .foregroundStyle(.labelsSecondary.opacity(viewModel.isConnectedConditioner ? 0.3 : 0.2))
                 .font(.system(size: 20, weight: .semibold))
             
             HStack {
-                FanSpeedItemView(type: .low, selected: viewModel.fanSpeedIndexSelected == 0 ? true : false) {
+                FanSpeedItemView(isConnect: $viewModel.isConnectedConditioner, type: .low, selected: viewModel.fanSpeedIndexSelected == 0 ? true : false) {
                     viewModel.fanSpeedIndexSelected = 0
+                    viewModel.countTapped += 1
                 }
                 
-                FanSpeedItemView(type: .medium, selected: viewModel.fanSpeedIndexSelected == 1 ? true : false) {
+                FanSpeedItemView(isConnect: $viewModel.isConnectedConditioner, type: .medium, selected: viewModel.fanSpeedIndexSelected == 1 ? true : false) {
                     viewModel.fanSpeedIndexSelected = 1
+                    viewModel.countTapped += 1
                 }
                 
-                FanSpeedItemView(type: .high, selected: viewModel.fanSpeedIndexSelected == 2 ? true : false) {
+                FanSpeedItemView(isConnect: $viewModel.isConnectedConditioner, type: .high, selected: viewModel.fanSpeedIndexSelected == 2 ? true : false) {
                     viewModel.fanSpeedIndexSelected = 2
+                    viewModel.countTapped += 1
                 }
             }
             
@@ -177,21 +271,24 @@ struct HomeView: View {
     func otherView() -> some View {
         VStack(spacing: 8) {
             Text("Other".localizable)
-                .foregroundStyle(.labelsSecondary.opacity(0.3))
+                .foregroundStyle(.labelsSecondary.opacity(viewModel.isConnectedConditioner ? 0.3 : 0.2))
                 .font(.system(size: 20, weight: .semibold))
                 .padding(.bottom, 8)
             
             HStack {
-                OtherButtonItemView(type: .eco) {
-                    
+                OtherButtonItemView(isConnect: $viewModel.isConnectedConditioner, type: .eco) {
+                    viewModel.countTapped += 1
+                    viewModel.ecoMode = viewModel.ecoMode == .on ? .off : .on
                 }
                 
-                OtherButtonItemView(type: .swing) {
-                    
+                OtherButtonItemView(isConnect: $viewModel.isConnectedConditioner, type: .swing) {
+                    viewModel.countTapped += 1
+                    viewModel.swingType = viewModel.swingType == .horizontal ? .vertical : .horizontal
                 }
                 
-                OtherButtonItemView(type: .timer) {
-                    
+                OtherButtonItemView(isConnect: $viewModel.isConnectedConditioner, type: .timer) {
+                    viewModel.countTapped += 1
+                    viewModel.showTimer.toggle()
                 }
             }
         }

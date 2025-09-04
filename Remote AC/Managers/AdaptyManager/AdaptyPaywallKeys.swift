@@ -25,12 +25,16 @@ enum PaywallKeys: String {
     case checkBoxTitleSize
     case checkBoxSubTitleSize
     case checkBoxAlpha
+    
+    case closeSize
+    case closeAlpha
+    case closeDelay
 }
 
 enum AdaptyPlacment: String {
     case main = "main_placement"
     case offer = "offer_placement"
-    case promotion = "promotion_offer_placement"
+    case superoffer = "superoffer_placement"
 }
 
 enum AdaptyPaywallType: String {
@@ -59,8 +63,8 @@ extension AdaptyPlacment {
         }
     }
     
-    static var promotionPlacementIs: AdaptyPaywallType {
-        if let type = AdaptyPaywallType(rawValue: AdaptyManager.getCurrentPaywall(for: .promotion)) {
+    static var superofferPlacementIs: AdaptyPaywallType {
+        if let type = AdaptyPaywallType(rawValue: AdaptyManager.getCurrentPaywall(for: .superoffer)) {
             return type
         } else {
             return AdaptyPaywallType.offer

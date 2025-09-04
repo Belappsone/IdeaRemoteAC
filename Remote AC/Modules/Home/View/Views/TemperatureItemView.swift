@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TemperatureItemView: View {
     
+    @Binding var isConnect: Bool
     var type: TemperatureItemType
     var selected: Bool
     var action: () -> Void
@@ -9,7 +10,9 @@ struct TemperatureItemView: View {
     var body: some View {
         Button {
             haptic()
-            action()
+            if isConnect {
+                action()
+            }
         } label: {
             RoundedRectangle(cornerRadius: 20)
                 .fill(
@@ -28,7 +31,7 @@ struct TemperatureItemView: View {
                             Spacer()
                             
                             Capsule()
-                                .fill(selected ? .colorGreen : .fillsQuaternary.opacity(0.12))
+                                .fill(!isConnect ? .fillsQuaternary.opacity(0.12) :  selected ? .colorGreen : .fillsQuaternary.opacity(0.12))
                                 .frame(width: 16, height: 16)
                                 .padding(.top, 10)
                                 .padding(.trailing, 10)
@@ -39,16 +42,22 @@ struct TemperatureItemView: View {
                 }
                 .overlay {
                     VStack(spacing: 8) {
-                        Image(type.icon)
+                        Image(isConnect ? type.icon : type.iconDeselected)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 34, height: 34)
                         
                         Text(type.title)
-                            .foregroundStyle(.black)
+                            .foregroundStyle(.black.opacity(isConnect ? 1 : 0.2))
                             .font(.system(size: 17, weight: .semibold))
                     }
                 }
         }
+    }
+}
+
+#Preview {
+    TemperatureItemView(isConnect: .constant(false), type: .cool, selected: true) {
+        
     }
 }

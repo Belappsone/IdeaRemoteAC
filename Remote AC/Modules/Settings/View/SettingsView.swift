@@ -47,19 +47,19 @@ struct SettingsView: View {
                     
                     VStack(spacing: 8) {
                         SettingsItemView(type: .contact) {
-                            
+                            ContactSupport.shared.openMailToContactUs()
                         }
                         
                         SettingsItemView(type: .privacy) {
-                            
+                            viewModel.openPrivacy()
                         }
                         
                         SettingsItemView(type: .terms) {
-                            
+                            viewModel.openTerms()
                         }
                         
                         SettingsItemView(type: .restore) {
-                            viewModel.showLoading = true
+                            viewModel.restore()
                         }
                     }
                 }

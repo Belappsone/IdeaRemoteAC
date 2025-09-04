@@ -3,6 +3,7 @@ import PopupView
 
 struct SearchView: View {
     
+    @EnvironmentObject var router: AppRouter
     @ObservedObject private var viewModel = SearchViewModel()
    
     var body: some View {
@@ -14,7 +15,7 @@ struct SearchView: View {
                 
                 HStack {
                     ButtonImage(image: .settingsBackIcon, size: 40) {
-                        
+                        router.pop()
                     }
                     
                     Spacer()
@@ -53,9 +54,13 @@ struct SearchView: View {
                             VStack {
                                 ForEach(viewModel.editingModel) { model in
                                     SearchItemView(item: model) {
-                                        var selectedModel = model
-                                        selectedModel.selected = true
-                                        viewModel.selectedItem = selectedModel
+                                        if model.name == viewModel.wifiName {
+                                            var selectedModel = model
+                                            selectedModel.selected = true
+                                            viewModel.selectedItem = selectedModel
+                                        } else {
+                                            viewModel.showError = true
+                                        }
                                     }
                                 }
                             }
@@ -68,9 +73,14 @@ struct SearchView: View {
                             VStack {
                                 ForEach(viewModel.model) { model in
                                     SearchItemView(item: model) {
-                                        var selectedModel = model
-                                        selectedModel.selected = true
-                                        viewModel.selectedItem = selectedModel
+                                        if model.name == viewModel.wifiName {
+                                            var selectedModel = model
+                                            selectedModel.selected = true
+                                            viewModel.selectedItem = selectedModel
+                                        } else {
+                                            viewModel.errorModelIndex = Int.random(in: 0..<ErrorsSheetModel.defaultModel.count)
+                                            viewModel.showError = true
+                                        }
                                     }
                                 }
                             }
@@ -82,7 +92,7 @@ struct SearchView: View {
                     Spacer()
                     
                     GradientButton(text: "Repeat search".localizable, size: 50) {
-                        viewModel.showLoading = true
+                        viewModel.retrySearch()
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
@@ -91,12 +101,14 @@ struct SearchView: View {
                     
                     Spacer()
                     
-                    RoundedRectangle(cornerRadius: 0)
+                    Image(.splashIcon)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
                         .frame(width: 163, height: 163)
                     
                     Spacer()
                     
-                    Text("50%")
+                    Text("\(viewModel.currentTime)%")
                         .foregroundStyle(.black)
                         .font(.system(size: 28, weight: .bold))
                     
@@ -108,16 +120,27 @@ struct SearchView: View {
                 }
             }
             
-            if viewModel.showInfo {
+            if viewModel.showInfo || viewModel.showError {
                 Color.bgSheet.opacity(0.3)
                     .ignoresSafeArea()
             }
         }
+        .navigationBarBackButtonHidden()
         .onAppear {
             viewModel.searchItems()
+            viewModel.closeSearch = {
+                router.pop()
+            }
         }
         .popup(isPresented: $viewModel.showInfo) {
             InstructionView()
+        } customize: {
+            $0
+                .type(.toast)
+                .displayMode(.sheet)
+        }
+        .popup(isPresented: $viewModel.showError) {
+            ErrorsSheetView(model: viewModel.errorModel)
         } customize: {
             $0
                 .type(.toast)

@@ -21,6 +21,7 @@ final class SwitcherViewModel: ObservableObject {
         
         if !product.isEmpty {
             isOn = product[0].introductoryDiscount?.paymentMode == .freeTrial ? true : false
+            selectedProduct = 0
         }
     }
     

@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Our app requires your permission to track your usage data for personalized advertising. This data helps us show you more relevant ads and improve your overall app experience. Your data is collected and used in accordance with our privacy policy, and will not be shared with any third parties. Please tap &apos;Allow&apos; to give us permission to track your usage data. Thank you for using our app!</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app uses the local network to discover nearby devices.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

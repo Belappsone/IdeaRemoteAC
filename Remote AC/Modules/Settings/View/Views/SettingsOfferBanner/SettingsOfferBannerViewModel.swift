@@ -3,7 +3,7 @@ import SwiftUI
 final class SettingsOfferBannerViewModel: ObservableObject {
     // MARK: Properties
     
-    @Published var min: String = "03"
+    @Published var min: String = "15"
     @Published var sec: String = "00"
     
     private var timer: Timer?

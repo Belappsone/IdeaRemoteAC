@@ -44,6 +44,15 @@ enum TemperatureItemType {
             return .heatIcon
         }
     }
+    
+    var iconDeselected: ImageResource {
+        switch self {
+        case .cool:
+            return .coolIconDeselected
+        case .heat:
+            return .heatIconDeselected
+        }
+    }
 }
 
 enum ButtonTemperatureType {
@@ -58,4 +67,14 @@ enum ButtonTemperatureType {
             return .minusIcon
         }
     }
+}
+
+enum SwingType {
+    case horizontal
+    case vertical
+}
+
+enum EcoType {
+    case on
+    case off
 }

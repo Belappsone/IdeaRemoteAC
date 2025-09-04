@@ -7,6 +7,8 @@ struct MainPriceItemView: View {
     var id: Int
     var isPopular: Bool
     var product: AdaptyPaywallProduct
+    var size: CGFloat
+    var alpha: Double
     var action: () -> Void
     
     var body: some View {
@@ -39,20 +41,45 @@ struct MainPriceItemView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 24, height: 24)
                             
-                            Text("Monthly")
+                            Text(AdaptyManager.periodWith(for: product))
                                 .font(.system(size: 15, weight: .bold))
                                 .foregroundStyle(.black)
                             
                             Spacer()
                             
-                            Text("3 days free, then $1,49/week")
-                                .foregroundStyle(.labelsSecondary.opacity(0.6))
-                                .font(.system(size: 13, weight: .regular))
+                            Text(setupPrice())
+                                .foregroundStyle(.labelsSecondary.opacity(alpha))
+                                .font(.system(size: size, weight: .regular))
                         }
                         .padding(.horizontal, 12)
                     }
             }
         }
             
+    }
+    
+    private func setupPrice() -> String {
+        if product.introductoryDiscount?.paymentMode == .freeTrial {
+            return "3 days free, then".localizable + " \(AdaptyManager.price(for: product))/\(AdaptyManager.period(for: product))"
+        } else {
+            let period = AdaptyManager.period(for: product)
+            
+            var calculatePeriod = ""
+            var calcultatePrice = ""
+            switch period {
+            case "week".localizable:
+                calcultatePrice = AdaptyManager.priceDay(for: product)
+                calculatePeriod = "day".localizable
+            case "month".localizable:
+                calcultatePrice = AdaptyManager.priceWeek(for: product)
+                calculatePeriod = "week".localizable
+            case "year".localizable:
+                calcultatePrice = AdaptyManager.priceMonth(for: product)
+                calculatePeriod = "month".localizable
+            default: calculatePeriod = period
+            }
+            
+            return "\(AdaptyManager.price(for: product))/\(period) (\(calcultatePrice)/\(calculatePeriod))"
+        }
     }
 }

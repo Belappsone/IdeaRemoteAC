@@ -46,10 +46,12 @@ struct SettingsOfferBanner: View {
                             .foregroundStyle(
                                 LinearGradient(colors: [.gradientPink, .gradientYellow], startPoint: .leading, endPoint: .trailing)
                             )
+                            .minimumScaleFactor(0.5)
                             .font(.system(size: 36, weight: .bold))
                         
                         Text("limited offer!".localizable)
                             .foregroundStyle(.black)
+                            .minimumScaleFactor(0.5)
                             .font(.system(size: 17, weight: .semibold))
                             .padding(.bottom)
                         
@@ -72,6 +74,7 @@ struct SettingsOfferBanner: View {
                             .foregroundStyle(
                                 LinearGradient(colors: [.gradientPink, .gradientYellow], startPoint: .leading, endPoint: .trailing)
                             )
+                            .minimumScaleFactor(0.5)
                             .font(.system(size: 28, weight: .bold))
                         
                         HStack {
@@ -79,6 +82,7 @@ struct SettingsOfferBanner: View {
                             
                             Text("Thank you for your trust!".localizable)
                                 .foregroundStyle(.black)
+                                .minimumScaleFactor(0.5)
                                 .font(.system(size: 13, weight: .regular))
                                 .italic()
                         }
