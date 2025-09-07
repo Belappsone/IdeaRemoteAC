@@ -1,4 +1,4 @@
-import UIKit
+import SwiftUI
 
 enum OtherButtonType {
     case eco
@@ -77,4 +77,27 @@ enum SwingType {
 enum EcoType {
     case on
     case off
+}
+
+enum TurnType {
+    case turnOff
+    case turnOn
+    
+    var title: String {
+        switch self {
+        case .turnOff:
+            return "TURN ON".localizable
+        case .turnOn:
+            return "TURN OFF".localizable
+        }
+    }
+    
+    var gradient: LinearGradient {
+        switch self {
+        case .turnOff:
+            return LinearGradient(colors: [.colorOrange, .colorRedGradient], startPoint: .leading, endPoint: .trailing)
+        case .turnOn:
+            return LinearGradient(colors: [.gradientBlueFirst, .gradientBlueSecond], startPoint: .leading, endPoint: .trailing)
+        }
+    }
 }

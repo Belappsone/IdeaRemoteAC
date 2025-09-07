@@ -89,10 +89,12 @@ struct OfferView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: viewModel.closeSize, height: viewModel.closeSize)
+                                .contentShape(Rectangle())
+                                .padding(20)
                         }
                         .opacity(viewModel.closeAlpha)
-                        .padding(.leading)
-                        .padding(.top)
+                        .padding(.leading, 1)
+                        .padding(.top, 1)
                     }
                     
                     

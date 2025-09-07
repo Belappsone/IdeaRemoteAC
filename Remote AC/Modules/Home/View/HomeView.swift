@@ -28,18 +28,11 @@ struct HomeView: View {
                         .padding(.bottom, 20)
                     
                     otherView()
-                    
                 }
                     
                 TurnButtonView(type: viewModel.statusButton) {
                     viewModel.statusButton = viewModel.statusButton == .turnOn ? .turnOff : .turnOn
-                    
-                    if viewModel.statusButton == .turnOn {
-                        viewModel.isConnectedConditioner = false
-                    } else if viewModel.statusButton == .turnOff {
-                        viewModel.isConnectedConditioner = true
-                    }
-                    
+                    viewModel.isConnectedConditioner = viewModel.statusButton == .turnOn ? false : true
                 }
                 .padding(.horizontal)
                 
@@ -53,7 +46,6 @@ struct HomeView: View {
         }
         .onAppear {
             AttManager.shared.config()
-            ScannerManager.shared.startBrowsing()
             viewModel.showPaywall = {
                 router.showPaywall(type: .paywall)
             }

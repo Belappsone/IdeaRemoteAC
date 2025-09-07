@@ -18,7 +18,7 @@ final class HomeViewModel: ObservableObject {
         }
     }
     
-    @Published var statusButton: TurnType = .none
+    @Published var statusButton: TurnType = .turnOn
     @Published var currentCelsium: Int = 20
     @Published var swingType: SwingType = .horizontal
     @Published var ecoMode: EcoType = .off
@@ -46,14 +46,7 @@ final class HomeViewModel: ObservableObject {
     }
     
     func checkState() {
-        if AppCache.selectedItem == nil {
-            statusButton = .none
-            isConnectedConditioner = false
-        } else {
-            isConnectedConditioner = true
-            if statusButton == .none {
-                statusButton = .turnOff
-            }
-        }
+        statusButton = .turnOn
+        isConnectedConditioner = false
     }
 }

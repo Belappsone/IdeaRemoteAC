@@ -37,6 +37,10 @@ final class SearchViewModel: ObservableObject {
     var closeSearch: (() -> Void)?
     
     // MARK: Init
+    
+    init() {
+        ScannerManager.shared.startBrowsing()
+    }
         
     // MARK: Methods
     

@@ -1,6 +1,7 @@
 import UIKit
 import SkarbSDK
 import SwiftUI
+import FirebaseCore
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
     var launchFromPush: Bool = false
@@ -22,7 +23,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
             AppCache.selectedItem = nil
             AppCache.selectedItems = []
             
-//            FirebaseApp.configure()
+            FirebaseApp.configure()
             SkarbSDK.initialize(clientId: "Belappsone", isObservable: true)
             AdMobInterstitialManager.shared.configureGoogleAdMob()
             return true
