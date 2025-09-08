@@ -32,14 +32,14 @@ struct HomeView: View {
                     
                 TurnButtonView(type: viewModel.statusButton) {
                     viewModel.statusButton = viewModel.statusButton == .turnOn ? .turnOff : .turnOn
-                    viewModel.isConnectedConditioner = viewModel.statusButton == .turnOn ? false : true
+                    viewModel.isConnectedConditioner = viewModel.statusButton == .turnOff ? false : true
                 }
                 .padding(.horizontal)
                 
                 Spacer()
             }
             
-            if viewModel.showSuperOffer || viewModel.showTimer {
+            if viewModel.showSuperOffer || viewModel.showTimer || viewModel.showLimitedOffer {
                 Color.bgSheet.opacity(0.3)
                     .ignoresSafeArea()
             }
@@ -51,13 +51,24 @@ struct HomeView: View {
             }
         }
         .onWillAppear {
+            if AppCache.openPromotionBanner {
+                AppCache.openPromotionBanner = false
+                if !AdaptyManager.isSubscribeAdaptyActive {
+                    viewModel.showLimitedOffer = true
+                }
+            }
+
             viewModel.checkState()
         }
         .navigationBarBackButtonHidden()
         .popup(isPresented: $viewModel.showSuperOffer) {
             SupperOfferView {
                 viewModel.showSuperOffer = false
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                    viewModel.showLimitedOffer = true
+                }
             } openAction: {
+                AppCache.openPromotionBanner = true
                 router.showSuperOffer()
             }
 
@@ -74,6 +85,19 @@ struct HomeView: View {
                 viewModel.showTimer = false
             }
         } customize: {
+            $0
+                .type(.toast)
+                .displayMode(.sheet)
+                .closeOnTap(false)
+        }
+        .popup(isPresented: $viewModel.showLimitedOffer) {
+            LimitedBannerView {
+                viewModel.showLimitedOffer = false
+                router.showSuperOffer()
+            } close: {
+                viewModel.showLimitedOffer = false
+            }
+        }  customize: {
             $0
                 .type(.toast)
                 .displayMode(.sheet)

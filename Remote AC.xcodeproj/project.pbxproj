@@ -57,6 +57,7 @@
 		A9698DEE2E6D6E5D00DADE32 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A9698DED2E6D6E5D00DADE32 /* FirebaseCore */; };
 		A9698DF02E6D6E5D00DADE32 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A9698DEF2E6D6E5D00DADE32 /* FirebaseCrashlytics */; };
 		A9698DF22E6D6E8800DADE32 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9698DF12E6D6E8800DADE32 /* GoogleService-Info.plist */; };
+		A96A464A2E6F3FB100270326 /* LimitedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A46492E6F3FB100270326 /* LimitedBannerView.swift */; };
 		A96C4B412E69F78800738843 /* SupperOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B402E69F78800738843 /* SupperOfferView.swift */; };
 		A96C4B432E6A27D400738843 /* TurnButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B422E6A27D400738843 /* TurnButtonView.swift */; };
 		A96C4B452E6A406800738843 /* UIViewLifeCycleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C4B442E6A406800738843 /* UIViewLifeCycleHandler.swift */; };
@@ -151,6 +152,7 @@
 		A95B459B2E5A022A0086E21A /* FanSpeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSpeedItemView.swift; sourceTree = "<group>"; };
 		A95B459D2E5A04AE0086E21A /* TemperatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureItemView.swift; sourceTree = "<group>"; };
 		A9698DF12E6D6E8800DADE32 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A96A46492E6F3FB100270326 /* LimitedBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedBannerView.swift; sourceTree = "<group>"; };
 		A96C4B402E69F78800738843 /* SupperOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupperOfferView.swift; sourceTree = "<group>"; };
 		A96C4B422E6A27D400738843 /* TurnButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnButtonView.swift; sourceTree = "<group>"; };
 		A96C4B442E6A406800738843 /* UIViewLifeCycleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewLifeCycleHandler.swift; sourceTree = "<group>"; };
@@ -541,6 +543,7 @@
 				A96C4B402E69F78800738843 /* SupperOfferView.swift */,
 				A96C4B422E6A27D400738843 /* TurnButtonView.swift */,
 				A96C4B462E6A438500738843 /* SetupTimerView.swift */,
+				A96A46492E6F3FB100270326 /* LimitedBannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1042,6 +1045,7 @@
 				A95B45942E59E30F0086E21A /* OtherButtonItemView.swift in Sources */,
 				A958D57D2E66C0AD0069F3E5 /* AppCache.swift in Sources */,
 				A98652B62E5614CC00A061DE /* OfferTimeView.swift in Sources */,
+				A96A464A2E6F3FB100270326 /* LimitedBannerView.swift in Sources */,
 				A989F4492E4BD1B30015C072 /* View+Extension.swift in Sources */,
 				A958D5792E66BBA90069F3E5 /* MainPriceItemView.swift in Sources */,
 				A958D5072E620F2F0069F3E5 /* CheckBoxModel.swift in Sources */,
@@ -1247,7 +1251,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Remote AC/Remote AC.entitlements";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1283,7 +1287,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Remote AC/Remote AC.entitlements";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

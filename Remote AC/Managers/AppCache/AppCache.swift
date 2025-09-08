@@ -6,6 +6,7 @@ enum AppCacheKeys: String {
     case showOffer
     case selectedItem
     case selectedItems
+    case openPromotionBanner
 }
 
 struct AppCache {
@@ -16,6 +17,10 @@ struct AppCache {
     static var showPromotionBanner: Bool {
         get { UserDefaults.standard.bool(forKey: AppCacheKeys.showPromotionBanner.rawValue) }
         set { UserDefaults.standard.set(newValue, forKey: AppCacheKeys.showPromotionBanner.rawValue) }
+    }
+    static var openPromotionBanner: Bool {
+        get { UserDefaults.standard.bool(forKey: AppCacheKeys.openPromotionBanner.rawValue) }
+        set { UserDefaults.standard.set(newValue, forKey: AppCacheKeys.openPromotionBanner.rawValue) }
     }
     static var showOffer: Bool {
         get { UserDefaults.standard.bool(forKey: AppCacheKeys.showOffer.rawValue) }

@@ -95,9 +95,9 @@ enum TurnType {
     var gradient: LinearGradient {
         switch self {
         case .turnOff:
-            return LinearGradient(colors: [.colorOrange, .colorRedGradient], startPoint: .leading, endPoint: .trailing)
-        case .turnOn:
             return LinearGradient(colors: [.gradientBlueFirst, .gradientBlueSecond], startPoint: .leading, endPoint: .trailing)
+        case .turnOn:
+            return LinearGradient(colors: [.colorOrange, .colorRedGradient], startPoint: .leading, endPoint: .trailing)
         }
     }
 }

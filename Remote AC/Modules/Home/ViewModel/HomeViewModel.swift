@@ -3,8 +3,8 @@ import SwiftUI
 final class HomeViewModel: ObservableObject {
     // MARK: Properies
     
-    @Published var fanSpeedIndexSelected: Int? = nil
-    @Published var temperatureIndexSelected: Int? = nil
+    @Published var fanSpeedIndexSelected: Int? = 0
+    @Published var temperatureIndexSelected: Int? = 0
     @Published var showSuperOffer = false
     @Published var isConnectedConditioner = false
     @Published var countTapped: Int = .zero {
@@ -18,12 +18,14 @@ final class HomeViewModel: ObservableObject {
         }
     }
     
-    @Published var statusButton: TurnType = .turnOn
+    @Published var statusButton: TurnType = .turnOff
     @Published var currentCelsium: Int = 20
     @Published var swingType: SwingType = .horizontal
     @Published var ecoMode: EcoType = .off
     @Published var setupTimer = false
     @Published var showTimer = false
+    @Published var showLimitedOffer = false
+    
     
     var selectedName: String {
        return AppCache.selectedItem?.name ?? ""
@@ -46,7 +48,7 @@ final class HomeViewModel: ObservableObject {
     }
     
     func checkState() {
-        statusButton = .turnOn
+        statusButton = .turnOff
         isConnectedConditioner = false
     }
 }
